@@ -34,26 +34,27 @@ server.get('/data', (request, response) => {
   names.find({id: '1301'}).toArray((err, items) => {
     console.log(items)
   })
-  fs.readFile('data.txt', 'utf8', function (err, contents) {
-    data = contents;
-    response.send('hiiii' + data);
-
-  });
+  // fs.readFile('data.txt', 'utf8', function (err, contents) {
+  //   data = contents;
+  //   response.send('hiiii' + data);
+  // });
+  
   console.log("called readFile"); 
 });
 
-server.get('/other', (request, response) => {
-  response.sendFile(__dirname + 'othersite.html');  //file path must be absolute.
+server.get('/visitor', (request, response) => {    //example of opening up another file under the same dir.
+  response.sendFile('/visitorPage.html', {root: __dirname});  //file path must be absolute.
   console.log("called sendFile");
 });
 
 server.get('/clearData', (request, response) => {
   names.remove();
-  
+
   console.log("collection 'names' cleared"); 
 });
 
 
+server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
 server.use((request,response)=>{
   response.type('text/plain');
   response.status(505);
