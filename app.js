@@ -22,15 +22,6 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
   names = database.collection('people');
 });
 
-//server config.
-server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
-server.use((request,response)=>{
-  response.type('text/plain');
-  response.status(505);
-  response.send('Error page');
-});
-
-
 
 //routings
 server.get('/', (request, response) => {   //basic routing
@@ -58,9 +49,19 @@ server.get('/visitor', (request, response) => {    //example of opening up anoth
 
 server.get('/clearData', (request, response) => {
   names.remove();
-  console.log("collection 'names' cleared"); 
+  console.log("collection 'names' cleared") ; 
 });
 
+
+
+
+//server config.
+server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
+server.use((request,response)=>{
+  response.type('text/plain');
+  response.status(505);
+  response.send('Error page');
+});
 
 //let the server listen.
 server.listen(port, hostname, () => {

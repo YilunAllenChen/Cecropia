@@ -1,0 +1,4 @@
+install:
+    node.js
+    mongoDB
+    
