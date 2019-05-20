@@ -1,4 +1,9 @@
-    new Chart(document.getElementById("bar-chart"), {
+    // fs.readFile('data.txt', 'utf8', function (err, contents) {
+  //   data = contents;
+  //   response.send('hiiii' + data);
+  // });
+
+new Chart(document.getElementById("bar-chart"), {
         type: 'pie',
         data: {
             labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
