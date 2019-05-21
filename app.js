@@ -4,7 +4,7 @@ const express = require('express');
 
 
 //setting up server
-const hostname = '192.168.137.133';
+const hostname = '127.0.0.1';
 const server = express();
 const port = 80;
 server.set('port', process.env.PORT || port);
@@ -42,6 +42,15 @@ server.get('/data', (request, response) => {
   console.log("called readFile"); 
 });
 
+
+server.post('/dataPost', (request, response) => {
+  var co = response.json(request.body);  //receive the query. http request: in form link/?key=value&key=value&key=value.
+  console.log(co);
+  console.log("POST completed"); 
+  response.end("Got you. " + co);
+});
+
+
 server.get('/visitor', (request, response) => {    //example of opening up another file under the same dir.
   response.sendFile('/visitorPage.html', {root: __dirname});  //file path must be absolute.
   console.log("called sendFile");
@@ -56,6 +65,8 @@ server.get('/clearData', (request, response) => {
 
 
 //server config.
+server.use(express.json()); // for parsing application/json
+server.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
 server.use((request,response)=>{
   response.type('text/plain');
