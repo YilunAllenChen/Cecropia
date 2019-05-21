@@ -1,13 +1,18 @@
 //importing libs.
 const fs = require('fs');
 const express = require('express');
+var bodyParser = require("body-parser");
+var DP = require("./modules/dataPost");  //data point prototype
 
-
-//setting up server
+//setting up server and config.
 const hostname = '127.0.0.1';
 const server = express();
 const port = 80;
 server.set('port', process.env.PORT || port);
+server.use(bodyParser.urlencoded({ extended: false }));
+server.use(bodyParser.json());
+server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
+
 
 //init of variables
 var data;
@@ -15,12 +20,13 @@ var data;
 //setting up mongoDB.
 const MongoClient = require('mongodb').MongoClient;
 var names;
-MongoClient.connect('mongodb://localhost:27017', function(err, client) {
+MongoClient.connect('mongodb://localhost:27017', function (err, client) {
   if (err) throw err;
   console.log("Database created!");
   const database = client.db("mydb");
   names = database.collection('people');
 });
+
 
 
 //routings
@@ -36,39 +42,36 @@ server.get('/data', (request, response) => {
   var co = request.query;  //receive the query. http request: in form link/?key=value&key=value&key=value.
   console.log(co);
   names.insertOne(co);
-  names.find({id: '1301'}).toArray((err, items) => {
+  names.find({ id: '1301' }).toArray((err, items) => {
     console.log(items)
   })
-  console.log("called readFile"); 
+  console.log("called readFile");
 });
 
 
 server.post('/dataPost', (request, response) => {
-  var co = response.json(request.body);  //receive the query. http request: in form link/?key=value&key=value&key=value.
-  console.log(co);
-  console.log("POST completed"); 
-  response.end("Got you. " + co);
+  var newDP = new DP(request.body);
+  console.log(newDP);
+  console.log("POST completed");
+  response.end("Got you. ");
 });
 
 
 server.get('/visitor', (request, response) => {    //example of opening up another file under the same dir.
-  response.sendFile('/visitorPage.html', {root: __dirname});  //file path must be absolute.
+  response.sendFile('/visitorPage.html', { root: __dirname });  //file path must be absolute.
   console.log("called sendFile");
 });
 
 server.get('/clearData', (request, response) => {
   names.remove();
-  console.log("collection 'names' cleared") ; 
+  console.log("collection 'names' cleared");
 });
 
 
 
 
-//server config.
-server.use(express.json()); // for parsing application/json
-server.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
-server.use((request,response)=>{
+//server error config.
+server.use((request, response) => {
   response.type('text/plain');
   response.status(505);
   response.send('Error page');
