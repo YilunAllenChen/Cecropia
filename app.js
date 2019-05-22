@@ -4,14 +4,14 @@ const express = require('express');
 var bodyParser = require("body-parser");
 var DP = require("./modules/dataPost");  //data point prototype
 
-//setting up server and config.
+//setting up app and config.
 const hostname = '127.0.0.1';
-const server = express();
+const app = express();
 const port = 80;
-server.set('port', process.env.PORT || port);
-server.use(bodyParser.urlencoded({ extended: false }));
-server.use(bodyParser.json());
-server.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
+app.set('port', process.env.PORT || port);
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
 
 
 //init of variables
@@ -19,38 +19,37 @@ var data;
 
 //setting up mongoDB.
 const MongoClient = require('mongodb').MongoClient;
-let names;
+let coll;
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
   if (err) throw err;
-  console.log("Database created!");
   const database = client.db("mydb"); 
-  names = database.collection('people');
+  coll = database.collection('people');
 });
 
 
 
 //routings
-server.get('/', (request, response) => {   //basic routing
+app.get('/', (req, res) => {   //basic routing
   fs.readFile('data.txt', 'utf8', function (err, contents) {
     data = contents;
-    response.send('Home page' + data);
+    res.send('Home page' + data);
   });
   console.log("called readFile");
 });
 
-server.get('/data', (request, response) => {
-  var co = request.query;  //receive the query. http request: in form link/?key=value&key=value&key=value.
-  console.log(co);
-  names.insertOne(co);
-  names.find({ id: '1301' }).toArray((err, items) => {
-    console.log(items)
-  })
-  console.log("called readFile");
-});
+// app.get('/data', (req, res) => {
+//   var co = req.query;  //receive the query. http req: in form link/?key=value&key=value&key=value.
+//   console.log(co);
+//   coll.insertOne(co);
+//   coll.find({ id: '1301' }).toArray((err, items) => {
+//     console.log(items)
+//   })
+//   console.log("called readFile");
+// });
 
 
-server.post('/dataPost', (req, res) => {
-  names.insertOne(req.body)
+app.post('/dataPost', (req, res) => {
+  coll.insertOne(req.body)
     .then(result => {
       res.status(200).send({
         isSuccessful: true,
@@ -64,24 +63,24 @@ server.post('/dataPost', (req, res) => {
 });
 
 
-server.get('/visitor', (request, response) => {    //example of opening up another file under the same dir.
-  response.sendFile('/visitorPage.html', { root: __dirname });  //file path must be absolute.
+app.get('/visitor', (req, res) => {    //example of opening up another file under the same dir.
+  res.sendFile('/visitorPage.html', { root: __dirname });  //file path must be absolute.
   console.log("called sendFile");
 });
 
-server.get('/clearData', (request, response) => {
-  names.remove();
-  console.log("collection 'names' cleared");
+app.get('/clearData', (req, res) => {
+  coll.remove();
+  console.log("collection   coll' cleared");
 });
 
-//server error config.
-server.use((request, response) => {
-  response.type('text/plain');
-  response.status(505);
-  response.send('Error page');
+//app error config.
+app.use((req, res) => {
+  res.type('text/plain');
+  res.status(505);
+  res.send('Error page');
 });
 
-//let the server listen.
-server.listen(port, hostname, () => {
+//let the app listen.
+app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
