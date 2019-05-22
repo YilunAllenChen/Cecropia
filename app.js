@@ -19,11 +19,11 @@ var data;
 
 //setting up mongoDB.
 const MongoClient = require('mongodb').MongoClient;
-var names;
+let names;
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
   if (err) throw err;
   console.log("Database created!");
-  const database = client.db("mydb");
+  const database = client.db("mydb"); 
   names = database.collection('people');
 });
 
@@ -49,11 +49,18 @@ server.get('/data', (request, response) => {
 });
 
 
-server.post('/dataPost', (request, response) => {
-  var newDP = new DP(request.body);
-  console.log(newDP);
-  console.log("POST completed");
-  response.end("Got you. ");
+server.post('/dataPost', (req, res) => {
+  names.insertOne(req.body)
+    .then(result => {
+      res.status(200).send({
+        isSuccessful: true,
+        type: 'SAVE',
+        _id: result.ops.map(value => value._id)
+      });
+    })
+    .catch(err => {
+      res.send({ isSuccessful: false, data: err });
+    });
 });
 
 
@@ -66,9 +73,6 @@ server.get('/clearData', (request, response) => {
   names.remove();
   console.log("collection 'names' cleared");
 });
-
-
-
 
 //server error config.
 server.use((request, response) => {
