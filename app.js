@@ -12,27 +12,21 @@ app.set('port', process.env.PORT || port);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
-
-
-//init of variables
-var data;
+var coll;
 
 //setting up mongoDB.
 const MongoClient = require('mongodb').MongoClient;
-let coll;
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
   if (err) throw err;
-  const database = client.db("mydb"); 
-  coll = database.collection('people');
+  coll = client.db("mydb").collection('people'); 
 });
 
 
 
 //routings
 app.get('/', (req, res) => {   //basic routing
-  fs.readFile('data.txt', 'utf8', function (err, contents) {
-    data = contents;
-    res.send('Home page' + data);
+  fs.readFile('randomData.json', 'utf8', function (err, contents) {
+    res.send('Home page' + contents);
   });
   console.log("called readFile");
 });
@@ -65,12 +59,15 @@ app.post('/dataPost', (req, res) => {
 
 app.get('/visitor', (req, res) => {    //example of opening up another file under the same dir.
   res.sendFile('/visitorPage.html', { root: __dirname });  //file path must be absolute.
-  console.log("called sendFile");
+  coll.find({}).toArray(function(err, items) {
+    console.log(items);
+  });
 });
 
 app.get('/clearData', (req, res) => {
   coll.remove();
-  console.log("collection   coll' cleared");
+  console.log("collection cleared");
+  res.send("cleared.")
 });
 
 //app error config.
