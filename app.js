@@ -18,7 +18,7 @@ var coll;
 const MongoClient = require('mongodb').MongoClient;
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
   if (err) throw err;
-  coll = client.db("mydb").collection('people'); 
+  coll = client.db("mydb").collection('people');
 });
 
 
@@ -43,6 +43,23 @@ app.get('/', (req, res) => {   //basic routing
 
 
 app.post('/dataPost', (req, res) => {
+
+  // for (var key in req.body) {
+  //   if (req.body.hasOwnProperty(key)) {
+  //     coll.insertOne(req.body[key])
+  //       .then(result => {
+  //         res.status(200).send({
+  //           isSuccessful: true,
+  //           type: 'SAVE',
+  //           _id: result.ops.map(value => value._id)
+  //         });
+  //       })
+  //       .catch(err => {
+  //         res.send({ isSuccessful: false, data: err });
+  //       });
+  //   }
+  // }
+
   coll.insertOne(req.body)
     .then(result => {
       res.status(200).send({
@@ -59,7 +76,7 @@ app.post('/dataPost', (req, res) => {
 
 app.get('/visitor', (req, res) => {    //example of opening up another file under the same dir.
   res.sendFile('/visitorPage.html', { root: __dirname });  //file path must be absolute.
-  coll.find({}).toArray(function(err, items) {
+  coll.find({}).toArray(function (err, items) {
     console.log(items);
   });
 });
