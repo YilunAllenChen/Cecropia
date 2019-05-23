@@ -9,9 +9,6 @@
   "author": "Allen Chen",
   "license": "ISC",
   "dependencies": {
-    "chart": "^0.1.2",
-    "chart.js": "^2.8.0",
-    "chartjs": "^0.3.24",
     "express": "^4.17.0",
     "http-server": "^0.11.1",
     "mongodb": "^3.2.5"
