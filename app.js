@@ -32,52 +32,61 @@ app.get('/', (req, res) => {   //basic routing
 
 app.post('/dataPost', (req, res) => {
 
-  // for (var key in req.body) {
-  //   if (req.body.hasOwnProperty(key)) {
-  //     coll.insertOne(req.body[key])
-  //       .then(result => {
-  //         res.status(200).send({
-  //           isSuccessful: true,
-  //           type: 'SAVE',
-  //           _id: result.ops.map(value => value._id)
-  //         });
-  //       })
-  //       .catch(err => {
-  //         res.send({ isSuccessful: false, data: err });
-  //       });
-  //   }
-  // }
+  for (var key in req.body) {
+    if (req.body.hasOwnProperty(key)) {
+      coll.insertOne(req.body[key])
+        .then(result => {
+          res.status(200).send({
+            isSuccessful: true,
+            type: 'SAVE',
+            _id: result.ops.map(value => value._id)
+          });
+        })
+        .catch(err => {
+          res.send({ isSuccessful: false, data: err });
+        });
+    }
+  }
 
-  coll.insertOne(req.body)
-    .then(result => {
-      res.status(200).send({
-        isSuccessful: true,
-        type: 'SAVE',
-        _id: result.ops.map(value => value._id)
-      });
-    })
-    .catch(err => {
-      res.send({ isSuccessful: false, data: err });
-    });
+  // coll.insertOne(req.body)
+  //   .then(result => {
+  //     res.status(200).send({
+  //       isSuccessful: true,
+  //       type: 'SAVE',
+  //       _id: result.ops.map(value => value._id)
+  //     });
+  //   })
+  //   .catch(err => {
+  //     res.send({ isSuccessful: false, data: err });
+  //   });
+
+
+
 });
 
 
-app.get('/visitor', (req, res) => {    //example of opening up another file under the same dir.
+app.get('/visitor', (req, res) => {
   //res.sendFile('./modules/chart.html', { root: __dirname });  //file path must be absolute.
-  coll.find({ signature : 1}).toArray(function (err, items) {
-    fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
-      res.writeHead(200, { 'Content-Type': 'text/html' });
-      var chartData = [];
-      items.forEach(element => {
-        chartData.push(element.dataValue);
-        console.log(element);
-      });
-      var result = data.replace('{{chartData1}}', JSON.stringify(chartData));
-      res.write(result);
-      res.end();
-    });
+  let reqQuery = req.query;
 
+  let collQuery = { dataType: reqQuery.dataType };
+  
+  var chartData = [];
+  coll.find(collQuery).toArray(function (err, items) {
+    items.forEach(element => {
+      chartData.push(element.dataValue);
+      //console.log(element);
+    });
   });
+
+  fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    var result = data.replace('{{ chartData1 }}', JSON.stringify(chartData));
+    res.write(result);
+    res.end();
+  });
+
+
 });
 
 

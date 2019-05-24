@@ -1,6 +1,6 @@
 import random
 
-dataTypes = ["\"temp\"", "\"humidity\"", "\"vibration\""]
+dataTypes = ["\"temperature\"", "\"humidity\"", "\"vibration\""]
 
 string = "["
 
