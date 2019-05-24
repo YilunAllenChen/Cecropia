@@ -18,6 +18,7 @@ const MongoClient = require('mongodb').MongoClient;
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
   if (err) throw err;
   coll = client.db("mydb").collection('people');
+  console.log("database connection established.");
 });
 
 
@@ -32,33 +33,33 @@ app.get('/', (req, res) => {   //basic routing
 
 app.post('/dataPost', (req, res) => {
 
-  for (var key in req.body) {
-    if (req.body.hasOwnProperty(key)) {
-      coll.insertOne(req.body[key])
-        .then(result => {
-          res.status(200).send({
-            isSuccessful: true,
-            type: 'SAVE',
-            _id: result.ops.map(value => value._id)
-          });
-        })
-        .catch(err => {
-          res.send({ isSuccessful: false, data: err });
-        });
-    }
-  }
+  // for (var key in req.body) {
+  //   if (req.body.hasOwnProperty(key)) {
+  //     coll.insertOne(req.body[key])
+  //       .then(result => {
+  //         res.status(200).send({
+  //           isSuccessful: true,
+  //           type: 'SAVE',
+  //           _id: result.ops.map(value => value._id)
+  //         });
+  //       })
+  //       .catch(err => {
+  //         res.send({ isSuccessful: false, data: err });
+  //       });
+  //   }
+  // }
 
-  // coll.insertOne(req.body)
-  //   .then(result => {
-  //     res.status(200).send({
-  //       isSuccessful: true,
-  //       type: 'SAVE',
-  //       _id: result.ops.map(value => value._id)
-  //     });
-  //   })
-  //   .catch(err => {
-  //     res.send({ isSuccessful: false, data: err });
-  //   });
+  coll.insertOne(req.body)
+    .then(result => {
+      res.status(200).send({
+        isSuccessful: true,
+        type: 'SAVE',
+        _id: result.ops.map(value => value._id)
+      });
+    })
+    .catch(err => {
+      res.send({ isSuccessful: false, data: err });
+    });
 
 
 

@@ -1,4 +1,8 @@
 install:
-    node.js
-    mongoDB
-    
+    1. node.js
+    2. mongoDB
+    3. under the repo "npm install" to add all dependencies
+
+run:
+    1. under the repo "node app.js"
+    2. go to web browser, "localhost/visitor" to see data in local database.
