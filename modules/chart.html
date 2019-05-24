@@ -3,16 +3,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 
-<div id="wrapper" style="position: relative; height:20vh; width:40vw">
-<form action="" method="GET">
-    <select name="dataType" onchange="this.form.submit()">
-        <option value="default" selected>SELECT</option>
-        <option value="temperature">Temperature</option>
-        <option value="humidity">Humidity</option>
-        <option value="vibration">Vibration</option>
-    </select>
-</form>
-<canvas id="line-chart1" width=100% height=50%></canvas>
+<div id="wrapper" style="position: relative; height:25vh; width:40vw">
+    <form action="" method="GET">
+        <select name="dataType" onchange="this.form.submit()">
+            <option value="temperature" selected>SELECT</option>
+            <option value="temperature">Temperature</option>
+            <option value="humidity">Humidity</option>
+            <option value="vibration">Vibration</option>
+        </select>
+    </form>
+    <canvas id="line-chart1" width=100% height=50%></canvas>
 </div>
 
 
@@ -23,16 +23,58 @@
         data: {
             labels: [1500, 1600, 1700, 1750, 1800, 1850, 1900, 1950, 1999, 2050],
             datasets: [{
-                data: {{ chartData1 }},
-        label: "Africa",
-        borderColor: "#3e95cd",
-        fill: false
-    }, {
-            data: [],
-            label: "Asia",
-            borderColor: "#8e5ea2",
-            fill: false
-        }
+                data: "{{ chartData1 }}",
+                label: "Africa",
+                borderColor: "#3e95cd",
+                fill: false
+            }
+            , {
+                data: [],
+                label: "{{ chartData2 }}",
+                borderColor: "#8e5ea2",
+                fill: false
+            }
+            // , {
+            //     data: [],
+            //     label: "{{ chartData3 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData4 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData5 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData6 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData7 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData8 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData9 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }, {
+            //     data: [],
+            //     label: "{{ chartData10 }}",
+            //     borderColor: "#8e5ea2",
+            //     fill: false
+            // }
             ]
         },
         options: {

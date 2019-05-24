@@ -22,6 +22,8 @@ MongoClient.connect('mongodb://localhost:27017', function (err, client) {
 });
 
 
+let numOfAgents = 10;
+
 
 //routings
 app.get('/', (req, res) => {   //basic routing
@@ -67,29 +69,30 @@ app.post('/dataPost', (req, res) => {
 
 
 app.get('/visitor', (req, res) => {
-  //res.sendFile('./modules/chart.html', { root: __dirname });  //file path must be absolute.
-  let reqQuery = req.query;
+  let chartData;
 
-  let collQuery = { dataType: reqQuery.dataType };
-  
-  var chartData = [];
-  coll.find(collQuery).toArray(function (err, items) {
+  for(let x = 0; x < numOfAgents; x++){
+    
+  }
+
+
+  let collQuery = { dataType: req.query.dataType };
+
+  coll.find(collQuery).toArray((err, items) => {
+    let agentData = [];
     items.forEach(element => {
-      chartData.push(element.dataValue);
-      //console.log(element);
+      agentData.push(element.dataValue);
+    });
+    fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
+      res.writeHead(200, { 'Content-Type': 'text/html' });
+      var result = data.replace('"{{ chartData1 }}"', JSON.stringify(agentData));
+      res.write(result);
+      res.end();
     });
   });
 
-  fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    var result = data.replace('{{ chartData1 }}', JSON.stringify(chartData));
-    res.write(result);
-    res.end();
-  });
-
-
+  
 });
-
 
 app.get('/clearData', (req, res) => {
   coll.remove();
