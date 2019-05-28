@@ -2,6 +2,7 @@
 const fs = require('fs');
 const express = require('express');
 var bodyParser = require("body-parser");
+let dataParser = require('./modules/dataParser');
 
 //setting up app and config.
 const hostname = '127.0.0.1';
@@ -85,8 +86,11 @@ app.get('/visitor', (req, res) => {
       signature = element.signature;
     });
 
-    chartData[0] = JSON.stringify(agentData);
+    let sampleParser = new dataParser(items, numOfAgents);
+    console.log('will it print anything?');
+    console.log(sampleParser.replacement);
 
+    chartData[0] = (JSON.stringify(agentData));
 
     fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });

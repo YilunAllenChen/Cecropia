@@ -1,560 +1,368 @@
 [{
-	"signature": 9,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 55
-},
-{
-	"signature": 1,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 39
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 29
-},
-{
-	"signature": 10,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 41
-},
-{
-	"signature": 1,
-	"timeStamp": 2,
-	"dataType": "vibration",
-	"dataValue": 11
-},
-{
-	"signature": 1,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 32
-},
-{
-	"signature": 8,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 72
-},
-{
-	"signature": 9,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 53
-},
-{
-	"signature": 3,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 66
-},
-{
-	"signature": 8,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 93
-},
-{
 	"signature": 6,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 48
-},
-{
-	"signature": 5,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 80
-},
-{
-	"signature": 9,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 100
-},
-{
-	"signature": 7,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 72
-},
-{
-	"signature": 7,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 40
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 74
-},
-{
-	"signature": 2,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 85
-},
-{
-	"signature": 7,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 38
-},
-{
-	"signature": 5,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 56
-},
-{
-	"signature": 10,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 77
-},
-{
-	"signature": 4,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 75
-},
-{
-	"signature": 8,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 37
-},
-{
-	"signature": 3,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 42
-},
-{
-	"signature": 4,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 63
-},
-{
-	"signature": 8,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 82
-},
-{
-	"signature": 5,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 75
-},
-{
-	"signature": 5,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 88
-},
-{
-	"signature": 7,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 59
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 74
-},
-{
-	"signature": 9,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 79
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 40
-},
-{
-	"signature": 8,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 58
-},
-{
-	"signature": 5,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 100
-},
-{
-	"signature": 4,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 61
-},
-{
-	"signature": 9,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 13
-},
-{
-	"signature": 5,
 	"timeStamp": 3,
 	"dataType": "temperature",
 	"dataValue": 28
 },
 {
-	"signature": 1,
+	"signature": 5,
 	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 90
-},
-{
-	"signature": 6,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 65
-},
-{
-	"signature": 10,
-	"timeStamp": 1,
 	"dataType": "temperature",
-	"dataValue": 14
+	"dataValue": 35
 },
 {
-	"signature": 6,
-	"timeStamp": 2,
+	"signature": 5,
+	"timeStamp": 1,
 	"dataType": "vibration",
-	"dataValue": 70
+	"dataValue": 56
 },
 {
 	"signature": 4,
 	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 65
+},
+{
+	"signature": 5,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 95
+},
+{
+	"signature": 9,
+	"timeStamp": 2,
 	"dataType": "humidity",
-	"dataValue": 49
+	"dataValue": 59
+},
+{
+	"signature": 7,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 58
 },
 {
 	"signature": 2,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 81
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "humidity",
+	"dataValue": 69
+},
+{
+	"signature": 10,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 60
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 43
+},
+{
+	"signature": 5,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 42
+},
+{
+	"signature": 7,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 16
+},
+{
+	"signature": 1,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 60
+},
+{
+	"signature": 8,
 	"timeStamp": 3,
 	"dataType": "vibration",
 	"dataValue": 64
 },
 {
 	"signature": 7,
-	"timeStamp": 3,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 51
+},
+{
+	"signature": 1,
+	"timeStamp": 2,
 	"dataType": "vibration",
-	"dataValue": 32
+	"dataValue": 22
 },
 {
 	"signature": 2,
 	"timeStamp": 2,
-	"dataType": "vibration",
-	"dataValue": 15
-},
-{
-	"signature": 4,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 29
-},
-{
-	"signature": 10,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 95
-},
-{
-	"signature": 4,
-	"timeStamp": 3,
 	"dataType": "humidity",
-	"dataValue": 65
-},
-{
-	"signature": 1,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 65
-},
-{
-	"signature": 5,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 44
-},
-{
-	"signature": 4,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 85
-},
-{
-	"signature": 1,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 82
-},
-{
-	"signature": 4,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 38
-},
-{
-	"signature": 6,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 48
-},
-{
-	"signature": 5,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 95
-},
-{
-	"signature": 5,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 38
-},
-{
-	"signature": 7,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 99
-},
-{
-	"signature": 8,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 27
-},
-{
-	"signature": 8,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 86
+	"dataValue": 59
 },
 {
 	"signature": 9,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 98
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 38
-},
-{
-	"signature": 2,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 18
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 30
 },
 {
 	"signature": 8,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 52
-},
-{
-	"signature": 3,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 62
-},
-{
-	"signature": 5,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 94
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "vibration",
-	"dataValue": 83
-},
-{
-	"signature": 7,
 	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 100
-},
-{
-	"signature": 2,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 25
-},
-{
-	"signature": 1,
-	"timeStamp": 2,
 	"dataType": "vibration",
-	"dataValue": 45
+	"dataValue": 10
 },
 {
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 55
-},
-{
-	"signature": 1,
+	"signature": 6,
 	"timeStamp": 3,
 	"dataType": "vibration",
 	"dataValue": 26
 },
 {
-	"signature": 8,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 41
-},
-{
-	"signature": 2,
-	"timeStamp": 1,
-	"dataType": "vibration",
+	"signature": 9,
+	"timeStamp": 2,
+	"dataType": "humidity",
 	"dataValue": 61
 },
 {
 	"signature": 6,
 	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 71
+	"dataType": "humidity",
+	"dataValue": 79
+},
+{
+	"signature": 3,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 11
 },
 {
 	"signature": 2,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 94
-},
-{
-	"signature": 3,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 69
-},
-{
-	"signature": 8,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 71
-},
-{
-	"signature": 10,
-	"timeStamp": 2,
-	"dataType": "humidity",
-	"dataValue": 76
-},
-{
-	"signature": 7,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 44
-},
-{
-	"signature": 8,
 	"timeStamp": 3,
 	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 9,
-	"timeStamp": 1,
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 6,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 48
-},
-{
-	"signature": 9,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 68
-},
-{
-	"signature": 3,
-	"timeStamp": 2,
-	"dataType": "vibration",
-	"dataValue": 27
-},
-{
-	"signature": 10,
-	"timeStamp": 1,
-	"dataType": "humidity",
-	"dataValue": 67
+	"dataValue": 52
 },
 {
 	"signature": 5,
 	"timeStamp": 1,
 	"dataType": "temperature",
-	"dataValue": 96
+	"dataValue": 31
 },
 {
-	"signature": 4,
-	"timeStamp": 2,
-	"dataType": "temperature",
-	"dataValue": 27
-},
-{
-	"signature": 8,
+	"signature": 9,
 	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 78
-},
-{
-	"signature": 3,
-	"timeStamp": 3,
-	"dataType": "humidity",
-	"dataValue": 92
-},
-{
-	"signature": 6,
-	"timeStamp": 2,
 	"dataType": "temperature",
-	"dataValue": 16
+	"dataValue": 18
 },
 {
 	"signature": 7,
 	"timeStamp": 1,
 	"dataType": "humidity",
-	"dataValue": 75
+	"dataValue": 92
 },
 {
 	"signature": 9,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 82
+},
+{
+	"signature": 5,
 	"timeStamp": 3,
 	"dataType": "humidity",
-	"dataValue": 67
+	"dataValue": 92
+},
+{
+	"signature": 4,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 66
+},
+{
+	"signature": 6,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 26
+},
+{
+	"signature": 6,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 80
+},
+{
+	"signature": 1,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 12
+},
+{
+	"signature": 2,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 22
+},
+{
+	"signature": 8,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 83
+},
+{
+	"signature": 4,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 56
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 63
+},
+{
+	"signature": 3,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 55
+},
+{
+	"signature": 1,
+	"timeStamp": 1,
+	"dataType": "humidity",
+	"dataValue": 26
+},
+{
+	"signature": 8,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 10
+},
+{
+	"signature": 6,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 90
+},
+{
+	"signature": 2,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 24
 },
 {
 	"signature": 10,
 	"timeStamp": 2,
 	"dataType": "humidity",
-	"dataValue": 58
+	"dataValue": 83
+},
+{
+	"signature": 9,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 39
+},
+{
+	"signature": 1,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 32
+},
+{
+	"signature": 4,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 92
+},
+{
+	"signature": 4,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 83
+},
+{
+	"signature": 1,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 50
+},
+{
+	"signature": 6,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 60
+},
+{
+	"signature": 10,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 31
+},
+{
+	"signature": 4,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 95
+},
+{
+	"signature": 10,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 52
+},
+{
+	"signature": 1,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 63
+},
+{
+	"signature": 5,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 18
+},
+{
+	"signature": 3,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 19
+},
+{
+	"signature": 2,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 94
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 22
+},
+{
+	"signature": 4,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 100
+},
+{
+	"signature": 7,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 31
+},
+{
+	"signature": 2,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 56
 },
 {
 	"signature": 5,
@@ -563,38 +371,230 @@
 	"dataValue": 81
 },
 {
+	"signature": 7,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 55
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 85
+},
+{
 	"signature": 2,
 	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 48
-},
-{
-	"signature": 3,
-	"timeStamp": 1,
-	"dataType": "vibration",
-	"dataValue": 28
+	"dataType": "humidity",
+	"dataValue": 42
 },
 {
 	"signature": 10,
-	"timeStamp": 1,
+	"timeStamp": 2,
 	"dataType": "temperature",
-	"dataValue": 98
-},
-{
-	"signature": 5,
-	"timeStamp": 3,
-	"dataType": "vibration",
-	"dataValue": 36
-},
-{
-	"signature": 10,
-	"timeStamp": 3,
-	"dataType": "temperature",
-	"dataValue": 46
+	"dataValue": 84
 },
 {
 	"signature": 6,
 	"timeStamp": 3,
 	"dataType": "humidity",
-	"dataValue": 62
+	"dataValue": 66
+},
+{
+	"signature": 8,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 46
+},
+{
+	"signature": 4,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 35
+},
+{
+	"signature": 4,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 47
+},
+{
+	"signature": 6,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 50
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 78
+},
+{
+	"signature": 2,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 80
+},
+{
+	"signature": 3,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 29
+},
+{
+	"signature": 8,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 48
+},
+{
+	"signature": 7,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 42
+},
+{
+	"signature": 2,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 56
+},
+{
+	"signature": 10,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 7,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 24
+},
+{
+	"signature": 9,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 48
+},
+{
+	"signature": 5,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 76
+},
+{
+	"signature": 6,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 65
+},
+{
+	"signature": 2,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 78
+},
+{
+	"signature": 2,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 14
+},
+{
+	"signature": 2,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 49
+},
+{
+	"signature": 10,
+	"timeStamp": 1,
+	"dataType": "vibration",
+	"dataValue": 73
+},
+{
+	"signature": 10,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 46
+},
+{
+	"signature": 6,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 77
+},
+{
+	"signature": 6,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 40
+},
+{
+	"signature": 8,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 45
+},
+{
+	"signature": 9,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 63
+},
+{
+	"signature": 2,
+	"timeStamp": 1,
+	"dataType": "temperature",
+	"dataValue": 64
+},
+{
+	"signature": 2,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 40
+},
+{
+	"signature": 5,
+	"timeStamp": 2,
+	"dataType": "humidity",
+	"dataValue": 57
+},
+{
+	"signature": 5,
+	"timeStamp": 3,
+	"dataType": "vibration",
+	"dataValue": 26
+},
+{
+	"signature": 6,
+	"timeStamp": 3,
+	"dataType": "humidity",
+	"dataValue": 70
+},
+{
+	"signature": 1,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 56
+},
+{
+	"signature": 1,
+	"timeStamp": 2,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 5,
+	"timeStamp": 2,
+	"dataType": "temperature",
+	"dataValue": 37
+},
+{
+	"signature": 3,
+	"timeStamp": 3,
+	"dataType": "temperature",
+	"dataValue": 96
 }]
