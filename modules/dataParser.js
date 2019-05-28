@@ -20,7 +20,6 @@ function dataParser(items, numOfAgents) {
             replacement = replacement + ',\n';
         }
     }
-    console.log(replacement);
     this.replacement = replacement;
 }
 
