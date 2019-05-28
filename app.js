@@ -77,7 +77,6 @@ app.get('/visitor', (req, res) => {
 
 
   let collectionQuery = { dataType: req.query.dataType };
-
   coll.find(collectionQuery).toArray((err, items) => {
     let agentData = [];
     let signature = '';
@@ -86,9 +85,12 @@ app.get('/visitor', (req, res) => {
       signature = element.signature;
     });
 
+    chartData[0] = JSON.stringify(agentData);
+
+
     fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
-      var result = data.replace('"{{ chartData1 }}"', JSON.stringify(agentData));
+      var result = data.replace('"{{ chartData1 }}"', chartData[0]);
       var result = result.replace('"{{ label1 }}"', signature);
       res.write(result);
       res.end();
