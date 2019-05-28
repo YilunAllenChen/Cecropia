@@ -35,33 +35,33 @@ app.get('/', (req, res) => {   //basic routing
 
 app.post('/dataPost', (req, res) => {
 
-  // for (var key in req.body) {
-  //   if (req.body.hasOwnProperty(key)) {
-  //     coll.insertOne(req.body[key])
-  //       .then(result => {
-  //         res.status(200).send({
-  //           isSuccessful: true,
-  //           type: 'SAVE',
-  //           _id: result.ops.map(value => value._id)
-  //         });
-  //       })
-  //       .catch(err => {
-  //         res.send({ isSuccessful: false, data: err });
-  //       });
-  //   }
-  // }
+  for (var key in req.body) {
+    if (req.body.hasOwnProperty(key)) {
+      coll.insertOne(req.body[key])
+        .then(result => {
+          res.status(200).send({
+            isSuccessful: true,
+            type: 'SAVE',
+            _id: result.ops.map(value => value._id)
+          });
+        })
+        .catch(err => {
+          res.send({ isSuccessful: false, data: err });
+        });
+    }
+  }
 
-  coll.insertOne(req.body)
-    .then(result => {
-      res.status(200).send({
-        isSuccessful: true,
-        type: 'SAVE',
-        _id: result.ops.map(value => value._id)
-      });
-    })
-    .catch(err => {
-      res.send({ isSuccessful: false, data: err });
-    });
+  // coll.insertOne(req.body)
+  //   .then(result => {
+  //     res.status(200).send({
+  //       isSuccessful: true,
+  //       type: 'SAVE',
+  //       _id: result.ops.map(value => value._id)
+  //     });
+  //   })
+  //   .catch(err => {
+  //     res.send({ isSuccessful: false, data: err });
+  //   });
 
 
 
@@ -69,23 +69,27 @@ app.post('/dataPost', (req, res) => {
 
 
 app.get('/visitor', (req, res) => {
-  let chartData;
+  let chartData = Array(numOfAgents);
 
   for(let x = 0; x < numOfAgents; x++){
-    
+    chartData[x] = [];
   }
 
 
-  let collQuery = { dataType: req.query.dataType };
+  let collectionQuery = { dataType: req.query.dataType };
 
-  coll.find(collQuery).toArray((err, items) => {
+  coll.find(collectionQuery).toArray((err, items) => {
     let agentData = [];
+    let signature = '';
     items.forEach(element => {
       agentData.push(element.dataValue);
+      signature = element.signature;
     });
+
     fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       var result = data.replace('"{{ chartData1 }}"', JSON.stringify(agentData));
+      var result = result.replace('"{{ label1 }}"', signature);
       res.write(result);
       res.end();
     });

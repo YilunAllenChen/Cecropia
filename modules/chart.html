@@ -24,37 +24,11 @@
             labels: [1500, 1600, 1700, 1750, 1800, 1850, 1900, 1950, 1999, 2050],
             datasets: [{
                 data: "{{ chartData1 }}",
-                label: "Africa",
+                label: "{{ label1 }}",
                 borderColor: "#3e95cd",
                 fill: false
             }
-            , {
-                data: [],
-                label: "{{ chartData2 }}",
-                borderColor: "#8e5ea2",
-                fill: false
-            }
-            // , {
-            //     data: [],
-            //     label: "{{ chartData3 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
-            //     data: [],
-            //     label: "{{ chartData4 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
-            //     data: [],
-            //     label: "{{ chartData5 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
-            //     data: [],
-            //     label: "{{ chartData6 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
+            //, {   
             //     data: [],
             //     label: "{{ chartData7 }}",
             //     borderColor: "#8e5ea2",
@@ -81,7 +55,7 @@
             responsive: true,
             title: {
                 display: true,
-                text: 'World population per region (in millions)'
+                text: 'Data collected by agent bots.'
             }
         }
     });
