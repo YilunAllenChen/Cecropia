@@ -2,6 +2,7 @@
 const fs = require('fs');
 const express = require('express');
 var bodyParser = require("body-parser");
+let dataParser = require('./modules/dataParser');
 
 //setting up app and config.
 const hostname = '127.0.0.1';
@@ -78,20 +79,11 @@ app.get('/visitor', (req, res) => {
 
   let collectionQuery = { dataType: req.query.dataType };
   coll.find(collectionQuery).toArray((err, items) => {
-    let agentData = [];
-    let signature = '';
-    items.forEach(element => {
-      agentData.push(element.dataValue);
-      signature = element.signature;
-    });
-
-    chartData[0] = JSON.stringify(agentData);
-
-
+    //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
+    let sampleParser = new dataParser(items, numOfAgents);
     fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
-      var result = data.replace('"{{ chartData1 }}"', chartData[0]);
-      var result = result.replace('"{{ label1 }}"', signature);
+      var result = data.replace('"{{ replacement datasets }}""', sampleParser.replacement);
       res.write(result);
       res.end();
     });

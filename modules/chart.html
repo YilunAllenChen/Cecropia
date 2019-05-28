@@ -3,7 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 
-<div id="wrapper" style="position: relative; height:25vh; width:40vw">
+<div id="wrapper" style="position: relative; height:60vh; width:80vw">
     <form action="" method="GET">
         <select name="dataType" onchange="this.form.submit()">
             <option value="temperature" selected>SELECT</option>
@@ -22,33 +22,13 @@
         type: 'line',
         data: {
             labels: [1500, 1600, 1700, 1750, 1800, 1850, 1900, 1950, 1999, 2050],
-            datasets: [{
-                data: "{{ chartData1 }}",
-                label: "{{ label1 }}",
-                borderColor: "#3e95cd",
-                fill: false
-            }
-            //, {   
-            //     data: [],
-            //     label: "{{ chartData7 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
-            //     data: [],
-            //     label: "{{ chartData8 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
-            //     data: [],
-            //     label: "{{ chartData9 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }, {
-            //     data: [],
-            //     label: "{{ chartData10 }}",
-            //     borderColor: "#8e5ea2",
-            //     fill: false
-            // }
+            datasets: ["{{ replacement datasets }}"
+                //{   
+                //     data: [],
+                //     label: "{{ chartData7 }}",
+                //     borderColor: "#8e5ea2",
+                //     fill: false
+                // }
             ]
         },
         options: {
