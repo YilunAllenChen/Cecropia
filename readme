@@ -1,7 +1,11 @@
 install:
+Server computer:
     1. node.js
     2. mongoDB
     3. under the repo "npm install" to add all dependencies
+Agent robots:
+    1. pip install requests
+    
 
 run:
     1. under the repo "node app.js"
