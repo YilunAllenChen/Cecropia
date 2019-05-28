@@ -16,6 +16,9 @@ function dataParser(items, numOfAgents) {
         chartData[ndx] = agentData;
         let someSet = new dataSet(chartData[ndx],'agent ' + ndx,colors[ndx]);
         replacement = replacement + JSON.stringify(someSet);
+        if(ndx != numOfAgents-1){
+            replacement = replacement + ',\n';
+        }
     }
     console.log(replacement);
     this.replacement = replacement;
@@ -24,7 +27,8 @@ function dataParser(items, numOfAgents) {
 function dataSet(data, label, color){
     this.data = data;
     this.label = label;
-    this.color = color;
+    this.borderColor = color;
+    this.fill = false;
     return this;
 }
 
