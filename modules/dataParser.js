@@ -25,8 +25,6 @@ function dataParser(items, numOfAgents) {
 
         agentData.sort((a, b) => new moment(a.x).format('YYYYMMDDHH') - new moment(b.x).format('YYYYMMDDHH'));
 
-        console.log(agentData, '\n');
-
         dataPointsCountByAgents.push(agentData.length);
 
         let someSet = new dataSet(agentData, 'agent ' + ndx, colors[ndx]);

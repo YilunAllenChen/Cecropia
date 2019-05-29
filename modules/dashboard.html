@@ -13,6 +13,7 @@
 
   <!-- Custom fonts for this template-->
   <script src="./modules/moment.js"></script>
+  <script>moment().format();</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link
@@ -182,6 +183,7 @@
                       <a class="dropdown-item" onclick="setAreaTimeToWeek()">Week</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" onclick="setAreaTimeToFiveDays()">5 Days</a>
+                      <a class="dropdown-item" onclick="setAreaTimeToThreeMonths()">3 months</a>
                     </div>
                   </div>
                   <!-- Time selection ends-->
@@ -372,10 +374,6 @@
       scales: {
         xAxes: [{
           type: 'time',
-          ticks: {
-            autoSkip: true,
-            maxTicksLimit: 10
-          },
           time: {
             unit: 'day',
             unitStepSize: 5
@@ -444,31 +442,42 @@
     }
   });
 
+  areaChart.options.scales.xAxes[0].time.max = moment();
 
   function setAreaTimeToWeek() {
-    areaChart.options.scales.xAxes[0].time.unit = 'week';
+    areaChart.options.scales.xAxes[0].time.unit = 'day';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1,'week');
     areaChart.update();
   }
 
   function setAreaTimeToMonth() {
-    areaChart.options.scales.xAxes[0].time.unit = 'month';
+    areaChart.options.scales.xAxes[0].time.unit = 'week';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1,'month');
     areaChart.update();
   }
 
   function setAreaTimeToYear() {
-    areaChart.options.scales.xAxes[0].time.unit = 'year';
+    areaChart.options.scales.xAxes[0].time.unit = 'month';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1,'year');
     areaChart.update();
   }
 
   function setAreaTimeToFiveDays() {
     areaChart.options.scales.xAxes[0].time.unit = 'day';
-    areaChart.options.scales.xAxes[0].time.unitStepSize = 5;
+    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(5,'days');
     areaChart.update();
   }
 
+  function setAreaTimeToThreeMonths() {
+    areaChart.options.scales.xAxes[0].time.unit = 'week';
+    areaChart.options.scales.xAxes[0].time.unitStepSize = 2;
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(3,'months');
+    areaChart.update();
+  }
 
 </script>
 
