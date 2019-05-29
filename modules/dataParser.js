@@ -4,6 +4,7 @@ function dataParser(items, numOfAgents) {
     '#80B300', '#809900', '#E6B3B3'];
     let chartData = []; //all the datas.
     let replacement = ''; //the replacement string to be put in place of datasets.
+    let dataPointsCountByAgents = [];
     for (let ndx = 0; ndx < numOfAgents; ndx++) {
         let agentData = [];
         chartData[ndx] = [];
@@ -14,12 +15,15 @@ function dataParser(items, numOfAgents) {
             }
         })
         chartData[ndx] = agentData;
+        dataPointsCountByAgents.push(agentData.legnth);
         let someSet = new dataSet(chartData[ndx],'agent ' + ndx,colors[ndx]);
         replacement = replacement + JSON.stringify(someSet);
         if(ndx != numOfAgents-1){
             replacement = replacement + ',\n';
         }
     }
+    this.chartData = chartData;
+    this.dataByAgents = dataPointsCountByAgents;
     this.replacement = replacement;
 }
 

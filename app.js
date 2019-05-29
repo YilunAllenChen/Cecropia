@@ -82,6 +82,8 @@ app.get('/visitor', (req, res) => {
       //change the data to be displayed.
       var result = data.replace('"{{ replacement datasets }}"', sampleParser.replacement);
 
+      console.log(sampleParser.dataByAgents);
+
       //change the title of the chart.
       var result = result.replace('{{ dataType }}', req.query.dataType);
       res.write(result);
