@@ -172,16 +172,16 @@
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-server fa-sm fa-fw text-gray-400"></i>
+                      <i class="far fa-clock fa-sm fa-fw text-gray-400"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                       aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Select Data Type:</div>
-                      <a class="dropdown-item" href="/visitor?dataType=temperature">Temperature</a>
-                      <a class="dropdown-item" href="/visitor?dataType=humidity">Humidity</a>
-                      <a class="dropdown-item" href="/visitor?dataType=vibration">Vibration</a>
+                      <div class="dropdown-header">Select Time Scale:</div>
+                      <a class="dropdown-item" onclick="setAreaTimeToYear()">Year</a>
+                      <a class="dropdown-item" onclick="setAreaTimeToMonth()">Month</a>
+                      <a class="dropdown-item" onclick="setAreaTimeToWeek()">Week</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Refresh</a>
+                      <a class="dropdown-item" onclick="setAreaTimeToFiveDays()">5 Days</a>
                     </div>
                   </div>
                   <!-- Time selection ends-->
@@ -358,11 +358,11 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  
+
 </body>
 
 <script>
-  var areaChart = new Chart(document.getElementById("line-chart1"), {
+  let areaChart = new Chart(document.getElementById("line-chart1"), {
     type: 'line',
     data: {
       datasets: ["{{ replacement datasets }}"
@@ -372,8 +372,13 @@
       scales: {
         xAxes: [{
           type: 'time',
+          ticks: {
+            autoSkip: true,
+            maxTicksLimit: 10
+          },
           time: {
-            unit: 'day'
+            unit: 'day',
+            unitStepSize: 5
           }
         }]
       },
@@ -400,15 +405,20 @@
           padding: 12
         }
       },
+      elements: {
+        line: {
+          tension: 0.2 // disables bezier curves
+        }
+      }
     }
   });
 
 
-  new Chart(document.getElementById("myPieChart"), {
+  let pieChart = new Chart(document.getElementById("myPieChart"), {
     type: 'doughnut',
     data: {
       labels: ["Agent 0", "Agent 1", "Agent 2", "Agent 3", "Agent 4", "Agent 5",
-        "Agent 6", "Agent 7", "Agent 8", "Agent 9", "Agent 10"],
+        "Agent 6", "Agent 7", "Agent 8", "Agent 9"],
       datasets: [
         {
           label: "Population (millions)",
@@ -420,10 +430,6 @@
       ]
     },
     options: {
-      title: {
-        display: true,
-        text: 'Predicted world population (millions) in 2050'
-      },
       responsive: true,
       maintainAspectRatio: false,
       legend: {
@@ -437,6 +443,33 @@
       }
     }
   });
+
+
+  function setAreaTimeToWeek() {
+    areaChart.options.scales.xAxes[0].time.unit = 'week';
+    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.update();
+  }
+
+  function setAreaTimeToMonth() {
+    areaChart.options.scales.xAxes[0].time.unit = 'month';
+    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.update();
+  }
+
+  function setAreaTimeToYear() {
+    areaChart.options.scales.xAxes[0].time.unit = 'year';
+    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+    areaChart.update();
+  }
+
+  function setAreaTimeToFiveDays() {
+    areaChart.options.scales.xAxes[0].time.unit = 'day';
+    areaChart.options.scales.xAxes[0].time.unitStepSize = 5;
+    areaChart.update();
+  }
+
+
 </script>
 
 </html>

@@ -8,9 +8,9 @@ acceptables = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10',
 string = "["
 
 for i in range(100):
-    dataPoint = "{\n\t\"signature\": " + str(rd.randint(1, 10)) + ",\n"
+    dataPoint = "{\n\t\"signature\": " + str(1) + ",\n"
 
-    timeStamp = "2019-04-" + acceptables[rd.randint(0, 30)] + \
+    timeStamp = "2019-04-" + acceptables[rd.randint(1, 30)] + \
         " " + acceptables[rd.randint(0, 24)]
 
     dataPoint = dataPoint + "\t\"timeStamp\": \"" + timeStamp + "\",\n"
