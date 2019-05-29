@@ -87,6 +87,10 @@ app.get('/visitor', (req, res) => {
 
       //change the title of the chart.
       var result = result.replace('{{ dataType }}', req.query.dataType);
+
+      //change the data points count.
+      var result = result.replace('{{ Data Point Count }}', sampleParser.dataCount);
+
       res.write(result);
       res.end();
     });
