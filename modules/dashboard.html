@@ -364,21 +364,20 @@
   new Chart(document.getElementById("line-chart1"), {
     type: 'line',
     data: {
-      labels: [1500, 1600, 1700, 1750, 1800, 1850, 1900, 1950, 1999, 2050],
       datasets: ["{{ replacement datasets }}"
-         
       ]
     },
     options: {
-      xAxes: [{
-        type: 'time',
-        distribution: 'series',
-        time: {
-          displayFormats: {
-            hour: 'hA'
+      scales: {
+        xAxes: [{
+          type: 'time',
+          time: {
+            min: '2019-01-01',
+            max: '2019-12-31',
+            unit: 'month'
           }
-        }
-      }],
+        }]
+      },
       responsive: true,
       title: {
         display: true,
