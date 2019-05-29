@@ -30,7 +30,7 @@ MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, func
 
 //routings
 app.get('/', (req, res) => {   //basic routing
-  res.send('home page. under construction.')
+  res.sendFile('./index.html' , { root : __dirname});
 });
 
 app.post('/dataPost', (req, res) => {
@@ -77,9 +77,13 @@ app.get('/visitor', (req, res) => {
     let sampleParser = new dataParser(items, numOfAgents);
 
     //modify the html with the replacement string.
-    fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
+    fs.readFile('./modules/dashboard.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
+      //change the data to be displayed.
       var result = data.replace('"{{ replacement datasets }}"', sampleParser.replacement);
+
+      //change the title of the chart.
+      var result = result.replace('{{ dataType }}', req.query.dataType);
       res.write(result);
       res.end();
     });
