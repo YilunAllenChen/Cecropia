@@ -4,10 +4,7 @@ Server computer:
     2. mongoDB
     3. under the repo "npm install" to add all dependencies
 Agent robots:
-    1. pip install requests (for communication with server)
-    2. pip install numpy (for data analysis)
-    3. pip install serial (for communciation with Teensy)
-    
+    1. pip install requests numpy pyserial
 
 run:
     1. under the repo "node app.js"

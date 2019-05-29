@@ -23,7 +23,7 @@ var coll;
 const MongoClient = require('mongodb').MongoClient;
 MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, function (err, client) {
   if (err) throw err;
-  coll = client.db("mydb").collection('people');
+  coll = client.db("mydb").collection('agentData');
   console.log('database connection established.');
 });
 
@@ -75,6 +75,8 @@ app.get('/visitor', (req, res) => {
   coll.find(collectionQuery).toArray((err, items) => {
     //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
     let sampleParser = new dataParser(items, numOfAgents);
+
+    //modify the html with the replacement string.
     fs.readFile('./modules/chart.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       var result = data.replace('"{{ replacement datasets }}"', sampleParser.replacement);
@@ -92,7 +94,7 @@ app.get('/clearData', (req, res) => {
   res.send("cleared.")
 });
 
-//app error config.
+//app error config - if all routings above don't work then direct the visitor to the error page.
 app.use((req, res) => {
   res.type('text/plain');
   res.send('Error page');

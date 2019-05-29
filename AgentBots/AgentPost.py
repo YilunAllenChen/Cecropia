@@ -1,8 +1,6 @@
 # this script is to be run every 1 hr or something.
 # It sends a POST request to the server's dataPost to let the server store the data.
 
-
-# importing the requests library 
 import requests 
   
 # defining the api-endpoint  
@@ -11,7 +9,7 @@ API_ENDPOINT = "http://localhost/dataPost"
 # your API key here 
 API_KEY = "XXXXXXXXXXXXXXXXX"
   
-# your source code here 
+# your source code here
 source_code = ''' 
 print("Hello, world!") 
 a = 1 
