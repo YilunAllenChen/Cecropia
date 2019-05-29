@@ -7,6 +7,9 @@ const fs = require('fs');
 const express = require('express');
 var bodyParser = require("body-parser");
 let dataParser = require('./modules/dataParser');
+var moment = require('moment');
+moment().format();
+
 
 //setting up app and config.
 const hostname = '127.0.0.1';
@@ -95,8 +98,6 @@ app.get('/visitor', (req, res) => {
       res.end();
     });
   });
-
-  
 });
 
 app.get('/clearData', (req, res) => {

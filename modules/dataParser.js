@@ -1,7 +1,10 @@
+var moment = require('moment');
+moment().format();
+
 function dataParser(items, numOfAgents) {
-    let colors = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 
-    '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
-    '#80B300', '#809900', '#E6B3B3'];
+    let colors = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
+        '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
+        '#80B300', '#809900', '#E6B3B3'];
     let chartData = []; //all the datas.
     let replacement = ''; //the replacement string to be put in place of datasets.
     let dataPointsCountByAgents = [];
@@ -10,15 +13,26 @@ function dataParser(items, numOfAgents) {
         chartData[ndx] = [];
         items.forEach(element => {
             let signature = Object.values(element)[1];
-            if(signature == ndx){
-                agentData.push(element.dataValue);
+            if (signature == ndx) {
+                let timeStamp = Object.values(element)[2];
+                let dataPt = new dataPoint(timeStamp, element.dataValue);
+                agentData.push(dataPt);
             }
-        })
+
+        });
+
         chartData[ndx] = agentData;
+
+        agentData.sort((a, b) => new moment(a.x).format('YYYYMMDDHH') - new moment(b.x).format('YYYYMMDDHH'));
+
+        console.log(agentData, '\n');
+
         dataPointsCountByAgents.push(agentData.length);
-        let someSet = new dataSet(chartData[ndx],'agent ' + ndx,colors[ndx]);
+
+        let someSet = new dataSet(agentData, 'agent ' + ndx, colors[ndx]);
         replacement = replacement + JSON.stringify(someSet);
-        if(ndx != numOfAgents-1){
+
+        if (ndx != numOfAgents - 1) {
             replacement = replacement + ',\n';
         }
     }
@@ -28,7 +42,7 @@ function dataParser(items, numOfAgents) {
     this.dataCount = items.length;
 }
 
-function dataSet(data, label, color){
+function dataSet(data, label, color) {
     this.data = data;
     this.label = label;
     this.borderColor = color;
@@ -36,5 +50,10 @@ function dataSet(data, label, color){
     return this;
 }
 
+function dataPoint(x, y) {
+    this.x = x;
+    this.y = y;
+    return this;
+}
 
 module.exports = dataParser;
