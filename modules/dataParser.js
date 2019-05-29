@@ -25,6 +25,7 @@ function dataParser(items, numOfAgents) {
     this.chartData = chartData;
     this.dataByAgents = '[' + dataPointsCountByAgents.toString() + ']';
     this.replacement = replacement;
+    this.dataCount = items.length;
 }
 
 function dataSet(data, label, color){

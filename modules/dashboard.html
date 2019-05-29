@@ -236,6 +236,7 @@
                   <div class="chart-pie pt-4 pb-2">
                     <canvas id="myPieChart"></canvas>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -430,13 +431,15 @@
   new Chart(document.getElementById("myPieChart"), {
     type: 'doughnut',
     data: {
-      labels: ["Agent 0","Agent 1","Agent 2","Agent 3","Agent 4","Agent 5",
-      "Agent 6","Agent 7","Agent 8","Agent 9","Agent 10"],
+      labels: ["Agent 0", "Agent 1", "Agent 2", "Agent 3", "Agent 4", "Agent 5",
+        "Agent 6", "Agent 7", "Agent 8", "Agent 9", "Agent 10"],
       datasets: [
         {
           label: "Population (millions)",
-          backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
-          data: [20,20,20]
+          backgroundColor: ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
+            '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
+            '#80B300', '#809900', '#E6B3B3'],
+          data: "{{ Pie Chart Data }}"
         }
       ]
     },
@@ -447,6 +450,15 @@
       },
       responsive: true,
       maintainAspectRatio: false,
+    },
+    legend: {
+      position: 'right',
+      usePointStyle: true,
+      labels: {
+        usePointStyle: true,
+        fontSize: 9,
+        padding: 12
+      }
     }
   });
 </script>
