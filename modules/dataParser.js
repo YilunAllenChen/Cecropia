@@ -29,12 +29,11 @@ function dataParser(items, numOfAgents) {
 
         dataPointsCountByAgents.push(dataCount);
 
-
+        console.log(chartData[ndx], "----");
         // let someSet = new dataSet(chartData[ndx], 'agent ' + ndx, colors[ndx]);
         // replacement = replacement + JSON.stringify(someSet);
 
         replacement = replacement + agentData;
-        console.log(replacement);
         if (ndx != numOfAgents - 1) {
             replacement = replacement + ',\n';
         }

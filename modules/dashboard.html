@@ -12,6 +12,7 @@
   <title>SlothBot Environment Monitoring Dashboard</title>
 
   <!-- Custom fonts for this template-->
+  <script src="./modules/moment.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link
@@ -357,11 +358,11 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  
 </body>
 
 <script>
-
-  new Chart(document.getElementById("line-chart1"), {
+  var areaChart = new Chart(document.getElementById("line-chart1"), {
     type: 'line',
     data: {
       datasets: ["{{ replacement datasets }}"
@@ -372,9 +373,7 @@
         xAxes: [{
           type: 'time',
           time: {
-            min: '2019-01-01',
-            max: '2019-12-31',
-            unit: 'month'
+            unit: 'day'
           }
         }]
       },
@@ -403,7 +402,6 @@
       },
     }
   });
-
 
 
   new Chart(document.getElementById("myPieChart"), {
