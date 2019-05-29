@@ -79,10 +79,11 @@ app.get('/visitor', (req, res) => {
     //modify the html with the replacement string.
     fs.readFile('./modules/dashboard.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
-      //change the data to be displayed.
+      //change the data of the area chart to be displayed.
       var result = data.replace('"{{ replacement datasets }}"', sampleParser.replacement);
 
-      console.log(sampleParser.dataByAgents);
+      //change the data of the pie chart to be displayed
+      var result = result.replace('"{{ Pie Chart Data }}"', sampleParser.dataByAgents);
 
       //change the title of the chart.
       var result = result.replace('{{ dataType }}', req.query.dataType);

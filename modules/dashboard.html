@@ -138,7 +138,7 @@
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
-      
+
     </ul>
     <!-- End of Sidebar -->
 
@@ -235,17 +235,6 @@
                 <div class="card-body">
                   <div class="chart-pie pt-4 pb-2">
                     <canvas id="myPieChart"></canvas>
-                  </div>
-                  <div class="mt-4 text-center small">
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Direct
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Social
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> Referral
-                    </span>
                   </div>
                 </div>
               </div>
@@ -423,7 +412,7 @@
           top: 5,
           bottom: 0
         }
-      }, 
+      },
       legend: {
         position: 'right',
         usePointStyle: true,
@@ -433,6 +422,31 @@
           padding: 12
         }
       },
+    }
+  });
+
+
+
+  new Chart(document.getElementById("myPieChart"), {
+    type: 'doughnut',
+    data: {
+      labels: ["Agent 0","Agent 1","Agent 2","Agent 3","Agent 4","Agent 5",
+      "Agent 6","Agent 7","Agent 8","Agent 9","Agent 10"],
+      datasets: [
+        {
+          label: "Population (millions)",
+          backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
+          data: [20,20,20]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Predicted world population (millions) in 2050'
+      },
+      responsive: true,
+      maintainAspectRatio: false,
     }
   });
 </script>

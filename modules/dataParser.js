@@ -15,7 +15,7 @@ function dataParser(items, numOfAgents) {
             }
         })
         chartData[ndx] = agentData;
-        dataPointsCountByAgents.push(agentData.legnth);
+        dataPointsCountByAgents.push(agentData.length);
         let someSet = new dataSet(chartData[ndx],'agent ' + ndx,colors[ndx]);
         replacement = replacement + JSON.stringify(someSet);
         if(ndx != numOfAgents-1){
@@ -23,7 +23,7 @@ function dataParser(items, numOfAgents) {
         }
     }
     this.chartData = chartData;
-    this.dataByAgents = dataPointsCountByAgents;
+    this.dataByAgents = '[' + dataPointsCountByAgents.toString() + ']';
     this.replacement = replacement;
 }
 
