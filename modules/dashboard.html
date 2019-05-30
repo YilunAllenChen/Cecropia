@@ -38,7 +38,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-tree"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Cecropia<sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Cecropia</div>
       </a>
 
       <!-- Divider -->
@@ -133,9 +133,9 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+        <a class="nav-link" href="/clearData">
+          <i class="fas fa-trash-alt"></i>
+          <span>Clear Data</span></a>
       </li>
 
       <!-- Divider -->
@@ -329,9 +329,13 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">I don't know what to put here</h1>
+            <h1 class="h3 mb-0 text-gray-800">About Cecropia</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+          </div>
+          <div>
+            <h3 class="h5 mb-0 text-gray-800">The Cecropia Server is an integrated control center for The SlothBot
+              swarm. It allows users to view and analyze data collected by agent SlothBots easily.</h1>
           </div>
 
         </div>
@@ -451,35 +455,35 @@
   function setAreaTimeToWeek() {
     areaChart.options.scales.xAxes[0].time.unit = 'day';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1,'week');
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1, 'week');
     areaChart.update();
   }
 
   function setAreaTimeToMonth() {
     areaChart.options.scales.xAxes[0].time.unit = 'week';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1,'month');
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1, 'month');
     areaChart.update();
   }
 
   function setAreaTimeToYear() {
     areaChart.options.scales.xAxes[0].time.unit = 'month';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1,'year');
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1, 'year');
     areaChart.update();
   }
 
   function setAreaTimeToFiveDays() {
     areaChart.options.scales.xAxes[0].time.unit = 'day';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(5,'days');
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(5, 'days');
     areaChart.update();
   }
 
   function setAreaTimeToThreeMonths() {
     areaChart.options.scales.xAxes[0].time.unit = 'week';
     areaChart.options.scales.xAxes[0].time.unitStepSize = 2;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(3,'months');
+    areaChart.options.scales.xAxes[0].time.min = moment().subtract(3, 'months');
     areaChart.update();
   }
 

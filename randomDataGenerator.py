@@ -10,7 +10,7 @@ string = "["
 for i in range(500):
     dataPoint = "{\n\t\"signature\": " + str(rd.randint(0, 10)) + ",\n"
 
-    timeStamp = "2019-" + acceptables[rd.randint(0, 12)] + "-" + acceptables[rd.randint(1, 30)] + " " + acceptables[rd.randint(0, 24)]
+    timeStamp = "2019-" + acceptables[rd.randint(1, 6)] + "-" + acceptables[rd.randint(1, 30)] + " " + acceptables[rd.randint(0, 24)]
 
     dataPoint = dataPoint + "\t\"timeStamp\": \"" + timeStamp + "\",\n"
     dataPoint = dataPoint + "\t\"dataType\": " + \

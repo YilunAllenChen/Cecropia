@@ -40,15 +40,13 @@ app.post('/dataPost', (req, res) => {
   for (var key in req.body) {
     if (req.body.hasOwnProperty(key)) {
       coll.insertOne(req.body[key])
-        .then(result => {
-          res.status(200).send({
-            isSuccessful: true,
-            type: 'SAVE',
-            _id: result.ops.map(value => value._id)
-          });
-        });
+        
     }
   }
+    res.status(200).send({
+      isSuccessful: true,
+      type: 'SAVE'
+    });
 
   // coll.insertOne(req.body)
   //   .then(result => {
