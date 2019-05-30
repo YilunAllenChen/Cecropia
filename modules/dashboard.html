@@ -371,6 +371,9 @@
       ]
     },
     options: {
+      animations: {
+        animationEasing: 'linear'
+      },
       scales: {
         xAxes: [{
           type: 'time',
@@ -443,6 +446,7 @@
   });
 
   areaChart.options.scales.xAxes[0].time.max = moment();
+  setAreaTimeToYear();
 
   function setAreaTimeToWeek() {
     areaChart.options.scales.xAxes[0].time.unit = 'day';
