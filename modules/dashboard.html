@@ -178,12 +178,18 @@
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                       aria-labelledby="dropdownMenuLink">
                       <div class="dropdown-header">Select Time Scale:</div>
-                      <a class="dropdown-item" onclick="setAreaTimeToYear()">Year</a>
-                      <a class="dropdown-item" onclick="setAreaTimeToMonth()">Month</a>
-                      <a class="dropdown-item" onclick="setAreaTimeToWeek()">Week</a>
+                      <a id='timeScopeYear' class="dropdown-item"
+                        href="./visitor?dataType=temperature&timeScope=365">Year</a>
+                      <a id='timeScopeMonth' class="dropdown-item"
+                        href="./visitor?dataType=temperature&timeScope=365">Month</a>
+                      <a id='timeScopeWeek' class="dropdown-item"
+                        href="./visitor?dataType=temperature&timeScope=365">Week</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" onclick="setAreaTimeToFiveDays()">5 Days</a>
-                      <a class="dropdown-item" onclick="setAreaTimeToThreeMonths()">3 months</a>
+                      <a id='timeScopeFiveDays' class="dropdown-item"
+                        href="./visitor?dataType=temperature&timeScope=5">5 Days</a>
+                      <a id='timeScopeThreeMonths' class="dropdown-item"
+                        href="./visitor?dataType=temperature&timeScope=90">3
+                        months</a>
                     </div>
                   </div>
                   <!-- Time selection ends-->
@@ -196,9 +202,10 @@
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                       aria-labelledby="dropdownMenuLink">
                       <div class="dropdown-header">Select Data Type:</div>
-                      <a class="dropdown-item" href="/visitor?dataType=temperature">Temperature</a>
-                      <a class="dropdown-item" href="/visitor?dataType=humidity">Humidity</a>
-                      <a class="dropdown-item" href="/visitor?dataType=vibration">Vibration</a>
+                      <a id='dataTypeTemperature' class="dropdown-item"
+                        href="/visitor?dataType=temperature">Temperature</a>
+                      <a id='dataTypeHumidity' class="dropdown-item" href="/visitor?dataType=humidity">Humidity</a>
+                      <a id='dataTypeVibration' class="dropdown-item" href="/visitor?dataType=vibration">Vibration</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Refresh</a>
                     </div>
@@ -369,21 +376,27 @@
 
 <script>
 
-var urlParams;
-(window.onpopstate = function () {
+  var urlParams;
+  (window.onpopstate = function () {
     var match,
-        pl     = /\+/g,  // Regex for replacing addition symbol with a space
-        search = /([^&=]+)=?([^&]*)/g,
-        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-        query  = window.location.search.substring(1);
+      pl = /\+/g,  // Regex for replacing addition symbol with a space
+      search = /([^&=]+)=?([^&]*)/g,
+      decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+      query = window.location.search.substring(1);
 
     urlParams = {};
     while (match = search.exec(query))
-       urlParams[decode(match[1])] = decode(match[2]);
-})();
+      urlParams[decode(match[1])] = decode(match[2]);
+  })();
 
-  console.log(urlParams, 'hiii');
-
+  $("#dataTypeTemperature").attr("href", "./visitor?dataType=temperature&timeScope=" + urlParams['timeScope']);
+  $("#dataTypeHumidity").attr("href", "./visitor?dataType=humidity&timeScope=" + urlParams['timeScope']);
+  $("#dataTypeVibration").attr("href", "./visitor?dataType=vibration&timeScope=" + urlParams['timeScope']);
+  $("#timeScopeYear").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=365");
+  $("#timeScopeMonth").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=30");
+  $("#timeScopeWeek").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=7");
+  $("#timeScopeFiveDays").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=5");
+  $("#timeScopeThreeMonths").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=90");
 
   let areaChart = new Chart(document.getElementById("line-chart1"), {
     type: 'line',
@@ -392,9 +405,6 @@ var urlParams;
       ]
     },
     options: {
-      animations: {
-        animationEasing: 'linear'
-      },
       scales: {
         xAxes: [{
           type: 'time',
@@ -466,43 +476,28 @@ var urlParams;
     }
   });
 
-  areaChart.options.scales.xAxes[0].time.max = moment();
-  setAreaTimeToYear();
-
-  function setAreaTimeToWeek() {
-    areaChart.options.scales.xAxes[0].time.unit = 'day';
-    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1, 'week');
-    areaChart.update();
+  switch (urlParams['timeScope']) {
+    case '365':
+      areaChart.options.scales.xAxes[0].time.unit = 'month';
+      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+      break;
+    case '90':
+      areaChart.options.scales.xAxes[0].time.unit = 'week';
+      areaChart.options.scales.xAxes[0].time.unitStepSize = 2;
+      break;
+    case '30':
+      areaChart.options.scales.xAxes[0].time.unit = 'week';
+      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+      break;
+    case '7':
+      areaChart.options.scales.xAxes[0].time.unit = 'day';
+      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
+      break;
+    case '5':
+      areaChart.options.scales.xAxes[0].time.unit = 'day';
+      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
   }
-
-  function setAreaTimeToMonth() {
-    areaChart.options.scales.xAxes[0].time.unit = 'week';
-    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1, 'month');
-    areaChart.update();
-  }
-
-  function setAreaTimeToYear() {
-    areaChart.options.scales.xAxes[0].time.unit = 'month';
-    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(1, 'year');
-    areaChart.update();
-  }
-
-  function setAreaTimeToFiveDays() {
-    areaChart.options.scales.xAxes[0].time.unit = 'day';
-    areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(5, 'days');
-    areaChart.update();
-  }
-
-  function setAreaTimeToThreeMonths() {
-    areaChart.options.scales.xAxes[0].time.unit = 'week';
-    areaChart.options.scales.xAxes[0].time.unitStepSize = 2;
-    areaChart.options.scales.xAxes[0].time.min = moment().subtract(3, 'months');
-    areaChart.update();
-  }
+  areaChart.update();
 
 </script>
 

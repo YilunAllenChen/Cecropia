@@ -67,8 +67,9 @@ app.post('/dataPost', (req, res) => {
 
 app.get('/visitor', (req, res) => {
   let currentTime = parseInt(moment().format("YYYYMMDDHH"));
+  let since = parseInt(moment().subtract(req.query.timeScope,'day').format("YYYYMMDDHH"));
 
-  let collectionQuery = { dataType: req.query.dataType, timeStamp: { $gt: 2019010100, $lt: currentTime } };
+  let collectionQuery = { dataType: req.query.dataType, timeStamp: { $gt: since, $lt: currentTime } };
   coll.find(collectionQuery).toArray((err, items) => {
     //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
     let sampleParser = new dataParser(items, numOfAgents);
