@@ -40,7 +40,6 @@ app.post('/dataPost', (req, res) => {
   for (var key in req.body) {
     if (req.body.hasOwnProperty(key)) {
       coll.insertOne(req.body[key])
-
     }
   }
   res.status(200).send({
