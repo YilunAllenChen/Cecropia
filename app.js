@@ -78,16 +78,16 @@ app.get('/visitor', (req, res) => {
     fs.readFile('./modules/dashboard.html', 'utf-8', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       //change the data of the area chart to be displayed.
-      var result = data.replace('"{{ replacement datasets }}"', sampleParser.replacement);
+      var result = data.replace('"{{ Area Chart Data }}"', sampleParser.replacement);
 
       //change the data of the pie chart to be displayed
       var result = result.replace('"{{ Pie Chart Data }}"', sampleParser.dataByAgents);
 
       //change the title of the chart.
-      var result = result.replace('{{ dataType }}', req.query.dataType);
+      //var result = result.replace('{{ dataType }}', req.query.dataType);
 
       //change the data points count.
-      var result = result.replace('{{ Data Point Count }}', sampleParser.dataCount);
+      //var result = result.replace('{{ Data Point Count }}', sampleParser.dataCount);
 
       res.write(result);
       res.end();
