@@ -33,20 +33,20 @@ MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, func
 
 //routings
 app.get('/', (req, res) => {   //basic routing
-  res.sendFile('./index.html' , { root : __dirname});
+  res.sendFile('./index.html', { root: __dirname });
 });
 
 app.post('/dataPost', (req, res) => {
   for (var key in req.body) {
     if (req.body.hasOwnProperty(key)) {
       coll.insertOne(req.body[key])
-        
+
     }
   }
-    res.status(200).send({
-      isSuccessful: true,
-      type: 'SAVE'
-    });
+  res.status(200).send({
+    isSuccessful: true,
+    type: 'SAVE'
+  });
 
   // coll.insertOne(req.body)
   //   .then(result => {
@@ -66,13 +66,9 @@ app.post('/dataPost', (req, res) => {
 
 
 app.get('/visitor', (req, res) => {
-  let chartData = Array(numOfAgents);
+  let currentTime = parseInt(moment().format("YYYYMMDDHH"));
 
-  for(let x = 0; x < numOfAgents; x++){
-    chartData[x] = [];
-  }
-
-  let collectionQuery = { dataType: req.query.dataType };
+  let collectionQuery = { dataType: req.query.dataType, timeStamp: { $gt: 2019010100, $lt: currentTime } };
   coll.find(collectionQuery).toArray((err, items) => {
     //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
     let sampleParser = new dataParser(items, numOfAgents);

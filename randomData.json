@@ -1,3000 +1,3000 @@
 [{
-	"signature": 8,
-	"timeStamp": "2019-04-29 03",
+	"signature": 6,
+	"timeStamp": 2019051602,
+	"dataType": "humidity",
+	"dataValue": 76
+},
+{
+	"signature": 9,
+	"timeStamp": 2019011801,
 	"dataType": "temperature",
-	"dataValue": 60
+	"dataValue": 77
+},
+{
+	"signature": 1,
+	"timeStamp": 2019011710,
+	"dataType": "vibration",
+	"dataValue": 82
+},
+{
+	"signature": 3,
+	"timeStamp": 2019060704,
+	"dataType": "vibration",
+	"dataValue": 83
+},
+{
+	"signature": 9,
+	"timeStamp": 2019022803,
+	"dataType": "vibration",
+	"dataValue": 87
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061118,
+	"dataType": "temperature",
+	"dataValue": 83
+},
+{
+	"signature": 0,
+	"timeStamp": 2019030819,
+	"dataType": "temperature",
+	"dataValue": 78
+},
+{
+	"signature": 8,
+	"timeStamp": 2019042707,
+	"dataType": "humidity",
+	"dataValue": 73
+},
+{
+	"signature": 6,
+	"timeStamp": 2019010209,
+	"dataType": "vibration",
+	"dataValue": 74
+},
+{
+	"signature": 7,
+	"timeStamp": 2019010204,
+	"dataType": "humidity",
+	"dataValue": 69
+},
+{
+	"signature": 2,
+	"timeStamp": 2019043005,
+	"dataType": "temperature",
+	"dataValue": 66
+},
+{
+	"signature": 10,
+	"timeStamp": 2019022610,
+	"dataType": "temperature",
+	"dataValue": 63
 },
 {
 	"signature": 4,
-	"timeStamp": "2019-03-12 05",
+	"timeStamp": 2019022620,
+	"dataType": "humidity",
+	"dataValue": 62
+},
+{
+	"signature": 4,
+	"timeStamp": 2019032310,
+	"dataType": "vibration",
+	"dataValue": 67
+},
+{
+	"signature": 8,
+	"timeStamp": 2019062300,
+	"dataType": "vibration",
+	"dataValue": 72
+},
+{
+	"signature": 0,
+	"timeStamp": 2019050215,
+	"dataType": "humidity",
+	"dataValue": 73
+},
+{
+	"signature": 3,
+	"timeStamp": 2019010822,
+	"dataType": "temperature",
+	"dataValue": 73
+},
+{
+	"signature": 3,
+	"timeStamp": 2019010509,
+	"dataType": "temperature",
+	"dataValue": 78
+},
+{
+	"signature": 4,
+	"timeStamp": 2019061218,
+	"dataType": "temperature",
+	"dataValue": 82
+},
+{
+	"signature": 8,
+	"timeStamp": 2019050400,
+	"dataType": "temperature",
+	"dataValue": 86
+},
+{
+	"signature": 6,
+	"timeStamp": 2019040805,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 9,
+	"timeStamp": 2019022913,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 9,
+	"timeStamp": 2019011206,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 0,
+	"timeStamp": 2019061303,
+	"dataType": "vibration",
+	"dataValue": 86
+},
+{
+	"signature": 9,
+	"timeStamp": 2019042105,
+	"dataType": "humidity",
+	"dataValue": 81
+},
+{
+	"signature": 10,
+	"timeStamp": 2019030924,
+	"dataType": "humidity",
+	"dataValue": 78
+},
+{
+	"signature": 9,
+	"timeStamp": 2019020520,
+	"dataType": "temperature",
+	"dataValue": 83
+},
+{
+	"signature": 10,
+	"timeStamp": 2019032320,
+	"dataType": "vibration",
+	"dataValue": 78
+},
+{
+	"signature": 6,
+	"timeStamp": 2019010806,
+	"dataType": "humidity",
+	"dataValue": 74
+},
+{
+	"signature": 0,
+	"timeStamp": 2019042316,
+	"dataType": "humidity",
+	"dataValue": 73
+},
+{
+	"signature": 4,
+	"timeStamp": 2019041714,
+	"dataType": "vibration",
+	"dataValue": 76
+},
+{
+	"signature": 0,
+	"timeStamp": 2019031121,
+	"dataType": "vibration",
+	"dataValue": 72
+},
+{
+	"signature": 4,
+	"timeStamp": 2019062824,
+	"dataType": "humidity",
+	"dataValue": 73
+},
+{
+	"signature": 9,
+	"timeStamp": 2019060124,
+	"dataType": "humidity",
+	"dataValue": 69
+},
+{
+	"signature": 7,
+	"timeStamp": 2019032624,
+	"dataType": "humidity",
+	"dataValue": 70
+},
+{
+	"signature": 1,
+	"timeStamp": 2019041309,
+	"dataType": "temperature",
+	"dataValue": 66
+},
+{
+	"signature": 7,
+	"timeStamp": 2019031120,
+	"dataType": "temperature",
+	"dataValue": 63
+},
+{
+	"signature": 8,
+	"timeStamp": 2019062324,
+	"dataType": "temperature",
+	"dataValue": 59
+},
+{
+	"signature": 5,
+	"timeStamp": 2019060907,
+	"dataType": "temperature",
+	"dataValue": 58
+},
+{
+	"signature": 3,
+	"timeStamp": 2019062320,
+	"dataType": "vibration",
+	"dataValue": 58
+},
+{
+	"signature": 2,
+	"timeStamp": 2019013009,
+	"dataType": "vibration",
+	"dataValue": 61
+},
+{
+	"signature": 7,
+	"timeStamp": 2019051811,
 	"dataType": "vibration",
 	"dataValue": 57
 },
 {
 	"signature": 7,
-	"timeStamp": "2019-03-13 02",
-	"dataType": "humidity",
-	"dataValue": 92
+	"timeStamp": 2019061819,
+	"dataType": "vibration",
+	"dataValue": 56
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-01-11 00",
-	"dataType": "temperature",
-	"dataValue": 84
+	"signature": 5,
+	"timeStamp": 2019022824,
+	"dataType": "vibration",
+	"dataValue": 54
 },
 {
-	"signature": 7,
-	"timeStamp": "2019-04-23 22",
-	"dataType": "temperature",
-	"dataValue": 65
+	"signature": 2,
+	"timeStamp": 2019020107,
+	"dataType": "vibration",
+	"dataValue": 54
 },
 {
 	"signature": 6,
-	"timeStamp": "2019-06-02 09",
+	"timeStamp": 2019042003,
+	"dataType": "humidity",
+	"dataValue": 49
+},
+{
+	"signature": 8,
+	"timeStamp": 2019021308,
+	"dataType": "temperature",
+	"dataValue": 52
+},
+{
+	"signature": 2,
+	"timeStamp": 2019051010,
+	"dataType": "humidity",
+	"dataValue": 51
+},
+{
+	"signature": 1,
+	"timeStamp": 2019032820,
+	"dataType": "vibration",
+	"dataValue": 47
+},
+{
+	"signature": 10,
+	"timeStamp": 2019012404,
+	"dataType": "temperature",
+	"dataValue": 46
+},
+{
+	"signature": 3,
+	"timeStamp": 2019060819,
+	"dataType": "temperature",
+	"dataValue": 47
+},
+{
+	"signature": 1,
+	"timeStamp": 2019031317,
+	"dataType": "temperature",
+	"dataValue": 50
+},
+{
+	"signature": 7,
+	"timeStamp": 2019022719,
+	"dataType": "humidity",
+	"dataValue": 51
+},
+{
+	"signature": 1,
+	"timeStamp": 2019020600,
+	"dataType": "temperature",
+	"dataValue": 46
+},
+{
+	"signature": 0,
+	"timeStamp": 2019052911,
+	"dataType": "temperature",
+	"dataValue": 43
+},
+{
+	"signature": 2,
+	"timeStamp": 2019020608,
+	"dataType": "vibration",
+	"dataValue": 39
+},
+{
+	"signature": 7,
+	"timeStamp": 2019011810,
+	"dataType": "temperature",
+	"dataValue": 35
+},
+{
+	"signature": 5,
+	"timeStamp": 2019063000,
+	"dataType": "vibration",
+	"dataValue": 36
+},
+{
+	"signature": 7,
+	"timeStamp": 2019032412,
+	"dataType": "vibration",
+	"dataValue": 36
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061113,
+	"dataType": "humidity",
+	"dataValue": 33
+},
+{
+	"signature": 2,
+	"timeStamp": 2019022602,
+	"dataType": "humidity",
+	"dataValue": 29
+},
+{
+	"signature": 6,
+	"timeStamp": 2019061608,
+	"dataType": "vibration",
+	"dataValue": 30
+},
+{
+	"signature": 9,
+	"timeStamp": 2019031115,
+	"dataType": "vibration",
+	"dataValue": 33
+},
+{
+	"signature": 0,
+	"timeStamp": 2019012004,
+	"dataType": "humidity",
+	"dataValue": 38
+},
+{
+	"signature": 5,
+	"timeStamp": 2019051717,
+	"dataType": "temperature",
+	"dataValue": 38
+},
+{
+	"signature": 1,
+	"timeStamp": 2019042406,
+	"dataType": "vibration",
+	"dataValue": 40
+},
+{
+	"signature": 5,
+	"timeStamp": 2019030617,
+	"dataType": "humidity",
+	"dataValue": 40
+},
+{
+	"signature": 9,
+	"timeStamp": 2019062920,
+	"dataType": "vibration",
+	"dataValue": 45
+},
+{
+	"signature": 0,
+	"timeStamp": 2019030505,
+	"dataType": "humidity",
+	"dataValue": 42
+},
+{
+	"signature": 1,
+	"timeStamp": 2019010821,
+	"dataType": "vibration",
+	"dataValue": 38
+},
+{
+	"signature": 9,
+	"timeStamp": 2019020504,
+	"dataType": "temperature",
+	"dataValue": 40
+},
+{
+	"signature": 1,
+	"timeStamp": 2019052919,
+	"dataType": "temperature",
+	"dataValue": 36
+},
+{
+	"signature": 10,
+	"timeStamp": 2019041509,
+	"dataType": "temperature",
+	"dataValue": 34
+},
+{
+	"signature": 10,
+	"timeStamp": 2019012912,
+	"dataType": "vibration",
+	"dataValue": 32
+},
+{
+	"signature": 1,
+	"timeStamp": 2019012802,
+	"dataType": "vibration",
+	"dataValue": 36
+},
+{
+	"signature": 5,
+	"timeStamp": 2019051212,
+	"dataType": "humidity",
+	"dataValue": 31
+},
+{
+	"signature": 6,
+	"timeStamp": 2019020720,
 	"dataType": "temperature",
 	"dataValue": 32
 },
 {
-	"signature": 10,
-	"timeStamp": "2019-04-27 22",
-	"dataType": "humidity",
-	"dataValue": 85
+	"signature": 1,
+	"timeStamp": 2019041817,
+	"dataType": "temperature",
+	"dataValue": 36
 },
 {
-	"signature": 2,
-	"timeStamp": "2019-03-28 00",
+	"signature": 5,
+	"timeStamp": 2019030303,
 	"dataType": "temperature",
-	"dataValue": 98
+	"dataValue": 31
 },
 {
 	"signature": 8,
-	"timeStamp": "2019-05-23 02",
+	"timeStamp": 2019031608,
 	"dataType": "temperature",
-	"dataValue": 57
+	"dataValue": 35
+},
+{
+	"signature": 0,
+	"timeStamp": 2019022606,
+	"dataType": "humidity",
+	"dataValue": 31
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061917,
+	"dataType": "temperature",
+	"dataValue": 28
+},
+{
+	"signature": 5,
+	"timeStamp": 2019032111,
+	"dataType": "humidity",
+	"dataValue": 24
+},
+{
+	"signature": 2,
+	"timeStamp": 2019042617,
+	"dataType": "humidity",
+	"dataValue": 23
+},
+{
+	"signature": 5,
+	"timeStamp": 2019010316,
+	"dataType": "temperature",
+	"dataValue": 27
 },
 {
 	"signature": 6,
-	"timeStamp": "2019-05-29 16",
-	"dataType": "temperature",
-	"dataValue": 90
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-02-27 16",
-	"dataType": "temperature",
-	"dataValue": 97
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-03-18 23",
+	"timeStamp": 2019031017,
 	"dataType": "vibration",
-	"dataValue": 85
+	"dataValue": 27
+},
+{
+	"signature": 6,
+	"timeStamp": 2019041921,
+	"dataType": "humidity",
+	"dataValue": 31
+},
+{
+	"signature": 6,
+	"timeStamp": 2019030309,
+	"dataType": "vibration",
+	"dataValue": 28
+},
+{
+	"signature": 1,
+	"timeStamp": 2019033006,
+	"dataType": "humidity",
+	"dataValue": 24
 },
 {
 	"signature": 3,
-	"timeStamp": "2019-02-16 06",
+	"timeStamp": 2019052012,
+	"dataType": "humidity",
+	"dataValue": 24
+},
+{
+	"signature": 10,
+	"timeStamp": 2019022919,
+	"dataType": "temperature",
+	"dataValue": 24
+},
+{
+	"signature": 3,
+	"timeStamp": 2019051017,
+	"dataType": "humidity",
+	"dataValue": 26
+},
+{
+	"signature": 5,
+	"timeStamp": 2019051713,
+	"dataType": "vibration",
+	"dataValue": 24
+},
+{
+	"signature": 2,
+	"timeStamp": 2019010509,
+	"dataType": "vibration",
+	"dataValue": 21
+},
+{
+	"signature": 5,
+	"timeStamp": 2019041313,
+	"dataType": "temperature",
+	"dataValue": 25
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020922,
+	"dataType": "temperature",
+	"dataValue": 22
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020511,
+	"dataType": "temperature",
+	"dataValue": 19
+},
+{
+	"signature": 10,
+	"timeStamp": 2019012512,
+	"dataType": "humidity",
+	"dataValue": 17
+},
+{
+	"signature": 4,
+	"timeStamp": 2019021011,
+	"dataType": "vibration",
+	"dataValue": 22
+},
+{
+	"signature": 9,
+	"timeStamp": 2019031101,
+	"dataType": "vibration",
+	"dataValue": 22
+},
+{
+	"signature": 0,
+	"timeStamp": 2019020318,
+	"dataType": "vibration",
+	"dataValue": 19
+},
+{
+	"signature": 6,
+	"timeStamp": 2019062616,
+	"dataType": "temperature",
+	"dataValue": 17
+},
+{
+	"signature": 10,
+	"timeStamp": 2019013003,
+	"dataType": "vibration",
+	"dataValue": 15
+},
+{
+	"signature": 9,
+	"timeStamp": 2019032211,
+	"dataType": "temperature",
+	"dataValue": 17
+},
+{
+	"signature": 2,
+	"timeStamp": 2019062818,
+	"dataType": "humidity",
+	"dataValue": 17
+},
+{
+	"signature": 4,
+	"timeStamp": 2019040612,
+	"dataType": "vibration",
+	"dataValue": 21
+},
+{
+	"signature": 1,
+	"timeStamp": 2019041510,
+	"dataType": "humidity",
+	"dataValue": 23
+},
+{
+	"signature": 4,
+	"timeStamp": 2019012716,
+	"dataType": "temperature",
+	"dataValue": 26
+},
+{
+	"signature": 7,
+	"timeStamp": 2019020109,
+	"dataType": "vibration",
+	"dataValue": 31
+},
+{
+	"signature": 2,
+	"timeStamp": 2019040118,
+	"dataType": "vibration",
+	"dataValue": 28
+},
+{
+	"signature": 8,
+	"timeStamp": 2019052822,
+	"dataType": "humidity",
+	"dataValue": 26
+},
+{
+	"signature": 9,
+	"timeStamp": 2019012719,
+	"dataType": "temperature",
+	"dataValue": 28
+},
+{
+	"signature": 7,
+	"timeStamp": 2019041719,
+	"dataType": "vibration",
+	"dataValue": 25
+},
+{
+	"signature": 10,
+	"timeStamp": 2019021324,
+	"dataType": "humidity",
+	"dataValue": 27
+},
+{
+	"signature": 9,
+	"timeStamp": 2019041616,
+	"dataType": "vibration",
+	"dataValue": 31
+},
+{
+	"signature": 8,
+	"timeStamp": 2019061515,
+	"dataType": "humidity",
+	"dataValue": 35
+},
+{
+	"signature": 6,
+	"timeStamp": 2019021214,
+	"dataType": "humidity",
+	"dataValue": 40
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061904,
+	"dataType": "vibration",
+	"dataValue": 42
+},
+{
+	"signature": 7,
+	"timeStamp": 2019022003,
+	"dataType": "vibration",
+	"dataValue": 47
+},
+{
+	"signature": 6,
+	"timeStamp": 2019011212,
+	"dataType": "temperature",
+	"dataValue": 45
+},
+{
+	"signature": 9,
+	"timeStamp": 2019011308,
+	"dataType": "temperature",
+	"dataValue": 47
+},
+{
+	"signature": 0,
+	"timeStamp": 2019061800,
+	"dataType": "humidity",
+	"dataValue": 52
+},
+{
+	"signature": 5,
+	"timeStamp": 2019052113,
+	"dataType": "humidity",
+	"dataValue": 55
+},
+{
+	"signature": 4,
+	"timeStamp": 2019062603,
+	"dataType": "humidity",
+	"dataValue": 52
+},
+{
+	"signature": 5,
+	"timeStamp": 2019041621,
+	"dataType": "humidity",
+	"dataValue": 48
+},
+{
+	"signature": 10,
+	"timeStamp": 2019031324,
+	"dataType": "vibration",
+	"dataValue": 51
+},
+{
+	"signature": 5,
+	"timeStamp": 2019030722,
+	"dataType": "humidity",
+	"dataValue": 53
+},
+{
+	"signature": 1,
+	"timeStamp": 2019011115,
+	"dataType": "humidity",
+	"dataValue": 53
+},
+{
+	"signature": 8,
+	"timeStamp": 2019041321,
+	"dataType": "vibration",
+	"dataValue": 55
+},
+{
+	"signature": 3,
+	"timeStamp": 2019041018,
+	"dataType": "humidity",
+	"dataValue": 53
+},
+{
+	"signature": 7,
+	"timeStamp": 2019022410,
+	"dataType": "humidity",
+	"dataValue": 49
+},
+{
+	"signature": 0,
+	"timeStamp": 2019021902,
+	"dataType": "humidity",
+	"dataValue": 50
+},
+{
+	"signature": 0,
+	"timeStamp": 2019051716,
+	"dataType": "humidity",
+	"dataValue": 54
+},
+{
+	"signature": 5,
+	"timeStamp": 2019062019,
+	"dataType": "humidity",
+	"dataValue": 55
+},
+{
+	"signature": 1,
+	"timeStamp": 2019051212,
+	"dataType": "vibration",
+	"dataValue": 52
+},
+{
+	"signature": 0,
+	"timeStamp": 2019040723,
+	"dataType": "temperature",
+	"dataValue": 50
+},
+{
+	"signature": 5,
+	"timeStamp": 2019031721,
+	"dataType": "temperature",
+	"dataValue": 53
+},
+{
+	"signature": 1,
+	"timeStamp": 2019040323,
+	"dataType": "humidity",
+	"dataValue": 53
+},
+{
+	"signature": 8,
+	"timeStamp": 2019030214,
+	"dataType": "humidity",
+	"dataValue": 56
+},
+{
+	"signature": 8,
+	"timeStamp": 2019012205,
+	"dataType": "vibration",
+	"dataValue": 55
+},
+{
+	"signature": 6,
+	"timeStamp": 2019041716,
 	"dataType": "vibration",
 	"dataValue": 59
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-05-21 02",
-	"dataType": "humidity",
-	"dataValue": 71
+	"signature": 7,
+	"timeStamp": 2019041105,
+	"dataType": "vibration",
+	"dataValue": 64
+},
+{
+	"signature": 5,
+	"timeStamp": 2019010908,
+	"dataType": "temperature",
+	"dataValue": 63
+},
+{
+	"signature": 6,
+	"timeStamp": 2019020123,
+	"dataType": "temperature",
+	"dataValue": 63
 },
 {
 	"signature": 2,
-	"timeStamp": "2019-03-07 09",
-	"dataType": "temperature",
-	"dataValue": 64
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-01-09 01",
+	"timeStamp": 2019062803,
 	"dataType": "humidity",
-	"dataValue": 12
+	"dataValue": 60
 },
 {
-	"signature": 3,
-	"timeStamp": "2019-03-19 20",
-	"dataType": "temperature",
-	"dataValue": 96
+	"signature": 0,
+	"timeStamp": 2019060811,
+	"dataType": "humidity",
+	"dataValue": 61
 },
 {
 	"signature": 8,
-	"timeStamp": "2019-04-26 04",
-	"dataType": "temperature",
-	"dataValue": 19
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-03 08",
-	"dataType": "humidity",
-	"dataValue": 73
+	"timeStamp": 2019032920,
+	"dataType": "vibration",
+	"dataValue": 66
 },
 {
 	"signature": 9,
-	"timeStamp": "2019-03-03 18",
+	"timeStamp": 2019042818,
+	"dataType": "humidity",
+	"dataValue": 69
+},
+{
+	"signature": 8,
+	"timeStamp": 2019061918,
+	"dataType": "humidity",
+	"dataValue": 67
+},
+{
+	"signature": 9,
+	"timeStamp": 2019061916,
+	"dataType": "vibration",
+	"dataValue": 71
+},
+{
+	"signature": 8,
+	"timeStamp": 2019060601,
 	"dataType": "temperature",
-	"dataValue": 30
+	"dataValue": 68
+},
+{
+	"signature": 5,
+	"timeStamp": 2019042701,
+	"dataType": "vibration",
+	"dataValue": 63
 },
 {
 	"signature": 3,
-	"timeStamp": "2019-05-06 13",
+	"timeStamp": 2019011706,
+	"dataType": "vibration",
+	"dataValue": 67
+},
+{
+	"signature": 3,
+	"timeStamp": 2019010124,
 	"dataType": "temperature",
-	"dataValue": 94
+	"dataValue": 72
+},
+{
+	"signature": 1,
+	"timeStamp": 2019040907,
+	"dataType": "temperature",
+	"dataValue": 70
+},
+{
+	"signature": 1,
+	"timeStamp": 2019050917,
+	"dataType": "humidity",
+	"dataValue": 74
+},
+{
+	"signature": 7,
+	"timeStamp": 2019062100,
+	"dataType": "vibration",
+	"dataValue": 79
+},
+{
+	"signature": 1,
+	"timeStamp": 2019040506,
+	"dataType": "vibration",
+	"dataValue": 82
+},
+{
+	"signature": 7,
+	"timeStamp": 2019031921,
+	"dataType": "vibration",
+	"dataValue": 77
+},
+{
+	"signature": 6,
+	"timeStamp": 2019053018,
+	"dataType": "temperature",
+	"dataValue": 74
 },
 {
 	"signature": 5,
-	"timeStamp": "2019-04-27 02",
-	"dataType": "humidity",
-	"dataValue": 38
+	"timeStamp": 2019040523,
+	"dataType": "temperature",
+	"dataValue": 79
 },
 {
-	"signature": 10,
-	"timeStamp": "2019-05-22 14",
+	"signature": 9,
+	"timeStamp": 2019022710,
+	"dataType": "vibration",
+	"dataValue": 74
+},
+{
+	"signature": 6,
+	"timeStamp": 2019041923,
+	"dataType": "vibration",
+	"dataValue": 78
+},
+{
+	"signature": 5,
+	"timeStamp": 2019031815,
+	"dataType": "temperature",
+	"dataValue": 82
+},
+{
+	"signature": 7,
+	"timeStamp": 2019010203,
 	"dataType": "humidity",
-	"dataValue": 73
+	"dataValue": 87
+},
+{
+	"signature": 6,
+	"timeStamp": 2019020523,
+	"dataType": "temperature",
+	"dataValue": 89
+},
+{
+	"signature": 9,
+	"timeStamp": 2019022407,
+	"dataType": "vibration",
+	"dataValue": 84
+},
+{
+	"signature": 1,
+	"timeStamp": 2019033004,
+	"dataType": "temperature",
+	"dataValue": 79
+},
+{
+	"signature": 9,
+	"timeStamp": 2019051003,
+	"dataType": "humidity",
+	"dataValue": 80
 },
 {
 	"signature": 8,
-	"timeStamp": "2019-01-10 09",
-	"dataType": "temperature",
-	"dataValue": 28
+	"timeStamp": 2019050909,
+	"dataType": "humidity",
+	"dataValue": 85
+},
+{
+	"signature": 3,
+	"timeStamp": 2019011415,
+	"dataType": "vibration",
+	"dataValue": 80
 },
 {
 	"signature": 4,
-	"timeStamp": "2019-02-30 19",
-	"dataType": "temperature",
-	"dataValue": 64
+	"timeStamp": 2019012205,
+	"dataType": "humidity",
+	"dataValue": 84
 },
 {
-	"signature": 8,
-	"timeStamp": "2019-03-27 00",
-	"dataType": "temperature",
-	"dataValue": 100
+	"signature": 1,
+	"timeStamp": 2019031821,
+	"dataType": "humidity",
+	"dataValue": 80
 },
 {
-	"signature": 5,
-	"timeStamp": "2019-05-17 01",
+	"signature": 1,
+	"timeStamp": 2019021323,
 	"dataType": "temperature",
 	"dataValue": 78
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-05-05 21",
-	"dataType": "temperature",
-	"dataValue": 22
+	"signature": 6,
+	"timeStamp": 2019040907,
+	"dataType": "vibration",
+	"dataValue": 74
 },
 {
 	"signature": 7,
-	"timeStamp": "2019-03-02 01",
-	"dataType": "vibration",
-	"dataValue": 19
+	"timeStamp": 2019021224,
+	"dataType": "temperature",
+	"dataValue": 77
 },
 {
 	"signature": 3,
-	"timeStamp": "2019-03-17 19",
+	"timeStamp": 2019010419,
+	"dataType": "humidity",
+	"dataValue": 80
+},
+{
+	"signature": 8,
+	"timeStamp": 2019042506,
 	"dataType": "vibration",
-	"dataValue": 14
+	"dataValue": 80
 },
 {
 	"signature": 0,
-	"timeStamp": "2019-02-28 17",
+	"timeStamp": 2019032619,
+	"dataType": "humidity",
+	"dataValue": 83
+},
+{
+	"signature": 0,
+	"timeStamp": 2019010617,
+	"dataType": "vibration",
+	"dataValue": 86
+},
+{
+	"signature": 9,
+	"timeStamp": 2019042922,
+	"dataType": "temperature",
+	"dataValue": 82
+},
+{
+	"signature": 10,
+	"timeStamp": 2019030517,
+	"dataType": "humidity",
+	"dataValue": 80
+},
+{
+	"signature": 5,
+	"timeStamp": 2019052418,
+	"dataType": "temperature",
+	"dataValue": 84
+},
+{
+	"signature": 9,
+	"timeStamp": 2019022001,
+	"dataType": "humidity",
+	"dataValue": 88
+},
+{
+	"signature": 1,
+	"timeStamp": 2019050804,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 10,
+	"timeStamp": 2019063006,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 7,
+	"timeStamp": 2019022418,
+	"dataType": "humidity",
+	"dataValue": 100
+},
+{
+	"signature": 3,
+	"timeStamp": 2019010507,
+	"dataType": "humidity",
+	"dataValue": 95
+},
+{
+	"signature": 0,
+	"timeStamp": 2019011006,
+	"dataType": "temperature",
+	"dataValue": 99
+},
+{
+	"signature": 4,
+	"timeStamp": 2019031513,
+	"dataType": "vibration",
+	"dataValue": 86
+},
+{
+	"signature": 5,
+	"timeStamp": 2019050313,
+	"dataType": "humidity",
+	"dataValue": 87
+},
+{
+	"signature": 0,
+	"timeStamp": 2019022105,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 3,
+	"timeStamp": 2019061820,
+	"dataType": "temperature",
+	"dataValue": 90
+},
+{
+	"signature": 8,
+	"timeStamp": 2019022823,
+	"dataType": "humidity",
+	"dataValue": 89
+},
+{
+	"signature": 9,
+	"timeStamp": 2019062608,
+	"dataType": "temperature",
+	"dataValue": 93
+},
+{
+	"signature": 9,
+	"timeStamp": 2019062023,
+	"dataType": "humidity",
+	"dataValue": 93
+},
+{
+	"signature": 10,
+	"timeStamp": 2019021210,
+	"dataType": "temperature",
+	"dataValue": 93
+},
+{
+	"signature": 0,
+	"timeStamp": 2019031100,
+	"dataType": "humidity",
+	"dataValue": 88
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061122,
+	"dataType": "vibration",
+	"dataValue": 86
+},
+{
+	"signature": 8,
+	"timeStamp": 2019012308,
+	"dataType": "temperature",
+	"dataValue": 81
+},
+{
+	"signature": 6,
+	"timeStamp": 2019011112,
+	"dataType": "temperature",
+	"dataValue": 85
+},
+{
+	"signature": 9,
+	"timeStamp": 2019021910,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 1,
+	"timeStamp": 2019030410,
+	"dataType": "temperature",
+	"dataValue": 92
+},
+{
+	"signature": 8,
+	"timeStamp": 2019012301,
+	"dataType": "temperature",
+	"dataValue": 91
+},
+{
+	"signature": 8,
+	"timeStamp": 2019012918,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 3,
+	"timeStamp": 2019061917,
+	"dataType": "temperature",
+	"dataValue": 85
+},
+{
+	"signature": 7,
+	"timeStamp": 2019010319,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 1,
+	"timeStamp": 2019020916,
+	"dataType": "temperature",
+	"dataValue": 93
+},
+{
+	"signature": 6,
+	"timeStamp": 2019041407,
+	"dataType": "vibration",
+	"dataValue": 93
+},
+{
+	"signature": 1,
+	"timeStamp": 2019022319,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 4,
+	"timeStamp": 2019042221,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 6,
+	"timeStamp": 2019042806,
+	"dataType": "vibration",
+	"dataValue": 94
+},
+{
+	"signature": 6,
+	"timeStamp": 2019040300,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061510,
+	"dataType": "temperature",
+	"dataValue": 92
+},
+{
+	"signature": 5,
+	"timeStamp": 2019012523,
+	"dataType": "temperature",
+	"dataValue": 94
+},
+{
+	"signature": 0,
+	"timeStamp": 2019020304,
+	"dataType": "temperature",
+	"dataValue": 94
+},
+{
+	"signature": 9,
+	"timeStamp": 2019010220,
+	"dataType": "humidity",
+	"dataValue": 96
+},
+{
+	"signature": 6,
+	"timeStamp": 2019010711,
+	"dataType": "humidity",
+	"dataValue": 100
+},
+{
+	"signature": 4,
+	"timeStamp": 2019051414,
+	"dataType": "humidity",
+	"dataValue": 96
+},
+{
+	"signature": 7,
+	"timeStamp": 2019042005,
+	"dataType": "temperature",
+	"dataValue": 100
+},
+{
+	"signature": 10,
+	"timeStamp": 2019042909,
+	"dataType": "vibration",
+	"dataValue": 98
+},
+{
+	"signature": 8,
+	"timeStamp": 2019041622,
+	"dataType": "temperature",
+	"dataValue": 99
+},
+{
+	"signature": 2,
+	"timeStamp": 2019010414,
+	"dataType": "vibration",
+	"dataValue": 87
+},
+{
+	"signature": 2,
+	"timeStamp": 2019011121,
+	"dataType": "temperature",
+	"dataValue": 91
+},
+{
+	"signature": 4,
+	"timeStamp": 2019050922,
+	"dataType": "humidity",
+	"dataValue": 90
+},
+{
+	"signature": 2,
+	"timeStamp": 2019011310,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 0,
+	"timeStamp": 2019042804,
+	"dataType": "temperature",
+	"dataValue": 91
+},
+{
+	"signature": 8,
+	"timeStamp": 2019050712,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020724,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 10,
+	"timeStamp": 2019032809,
+	"dataType": "humidity",
+	"dataValue": 97
+},
+{
+	"signature": 9,
+	"timeStamp": 2019040708,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 3,
+	"timeStamp": 2019030222,
+	"dataType": "temperature",
+	"dataValue": 89
+},
+{
+	"signature": 9,
+	"timeStamp": 2019022100,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 5,
+	"timeStamp": 2019042303,
+	"dataType": "vibration",
+	"dataValue": 93
+},
+{
+	"signature": 5,
+	"timeStamp": 2019020522,
+	"dataType": "vibration",
+	"dataValue": 95
+},
+{
+	"signature": 8,
+	"timeStamp": 2019062100,
+	"dataType": "temperature",
+	"dataValue": 99
+},
+{
+	"signature": 6,
+	"timeStamp": 2019011307,
+	"dataType": "humidity",
+	"dataValue": 89
+},
+{
+	"signature": 3,
+	"timeStamp": 2019030516,
+	"dataType": "vibration",
+	"dataValue": 89
+},
+{
+	"signature": 2,
+	"timeStamp": 2019050712,
+	"dataType": "temperature",
+	"dataValue": 90
+},
+{
+	"signature": 4,
+	"timeStamp": 2019051400,
+	"dataType": "vibration",
+	"dataValue": 93
+},
+{
+	"signature": 5,
+	"timeStamp": 2019022512,
 	"dataType": "temperature",
 	"dataValue": 89
 },
 {
 	"signature": 4,
-	"timeStamp": "2019-05-29 10",
-	"dataType": "humidity",
-	"dataValue": 24
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-10 07",
-	"dataType": "humidity",
-	"dataValue": 99
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-03 02",
+	"timeStamp": 2019040400,
 	"dataType": "temperature",
-	"dataValue": 67
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-04-21 21",
-	"dataType": "humidity",
-	"dataValue": 83
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-05-04 14",
-	"dataType": "temperature",
-	"dataValue": 53
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-04 03",
-	"dataType": "temperature",
-	"dataValue": 11
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-01-24 21",
-	"dataType": "vibration",
-	"dataValue": 14
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-03-04 18",
-	"dataType": "vibration",
-	"dataValue": 58
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-05 08",
-	"dataType": "vibration",
-	"dataValue": 41
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-03 15",
-	"dataType": "humidity",
-	"dataValue": 45
+	"dataValue": 86
 },
 {
 	"signature": 10,
-	"timeStamp": "2019-01-28 04",
-	"dataType": "humidity",
-	"dataValue": 16
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-12 04",
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-05 09",
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-04-23 03",
-	"dataType": "vibration",
-	"dataValue": 43
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-01-04 01",
-	"dataType": "temperature",
-	"dataValue": 64
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-18 23",
+	"timeStamp": 2019043012,
 	"dataType": "humidity",
 	"dataValue": 87
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-05-11 17",
-	"dataType": "humidity",
-	"dataValue": 31
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-06 06",
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
 	"signature": 8,
-	"timeStamp": "2019-02-05 01",
-	"dataType": "humidity",
-	"dataValue": 95
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-06-02 01",
-	"dataType": "vibration",
-	"dataValue": 16
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-03-12 17",
-	"dataType": "humidity",
-	"dataValue": 57
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-03-04 08",
-	"dataType": "humidity",
-	"dataValue": 90
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-28 09",
-	"dataType": "vibration",
-	"dataValue": 68
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-06-10 08",
+	"timeStamp": 2019022400,
 	"dataType": "temperature",
-	"dataValue": 11
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-29 11",
-	"dataType": "vibration",
-	"dataValue": 61
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-30 09",
-	"dataType": "humidity",
 	"dataValue": 82
 },
 {
 	"signature": 3,
-	"timeStamp": "2019-05-07 12",
+	"timeStamp": 2019020216,
 	"dataType": "humidity",
+	"dataValue": 83
+},
+{
+	"signature": 0,
+	"timeStamp": 2019022304,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 2,
+	"timeStamp": 2019021423,
+	"dataType": "temperature",
+	"dataValue": 90
+},
+{
+	"signature": 7,
+	"timeStamp": 2019030317,
+	"dataType": "temperature",
 	"dataValue": 87
 },
 {
-	"signature": 3,
-	"timeStamp": "2019-01-19 24",
-	"dataType": "temperature",
+	"signature": 0,
+	"timeStamp": 2019061215,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 0,
+	"timeStamp": 2019031618,
+	"dataType": "vibration",
+	"dataValue": 87
+},
+{
+	"signature": 1,
+	"timeStamp": 2019010823,
+	"dataType": "humidity",
+	"dataValue": 92
+},
+{
+	"signature": 8,
+	"timeStamp": 2019021612,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 6,
+	"timeStamp": 2019022017,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 6,
+	"timeStamp": 2019010301,
+	"dataType": "vibration",
+	"dataValue": 96
+},
+{
+	"signature": 2,
+	"timeStamp": 2019060711,
+	"dataType": "humidity",
 	"dataValue": 96
 },
 {
 	"signature": 4,
-	"timeStamp": "2019-03-29 04",
-	"dataType": "vibration",
-	"dataValue": 71
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-05-24 18",
+	"timeStamp": 2019041005,
 	"dataType": "humidity",
-	"dataValue": 67
+	"dataValue": 99
 },
 {
-	"signature": 2,
-	"timeStamp": "2019-06-29 20",
+	"signature": 10,
+	"timeStamp": 2019032420,
+	"dataType": "humidity",
+	"dataValue": 100
+},
+{
+	"signature": 10,
+	"timeStamp": 2019022622,
+	"dataType": "temperature",
+	"dataValue": 99
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020415,
 	"dataType": "vibration",
-	"dataValue": 17
+	"dataValue": 99
+},
+{
+	"signature": 3,
+	"timeStamp": 2019031708,
+	"dataType": "vibration",
+	"dataValue": 95
+},
+{
+	"signature": 1,
+	"timeStamp": 2019062504,
+	"dataType": "humidity",
+	"dataValue": 96
+},
+{
+	"signature": 9,
+	"timeStamp": 2019042719,
+	"dataType": "temperature",
+	"dataValue": 92
+},
+{
+	"signature": 4,
+	"timeStamp": 2019042807,
+	"dataType": "temperature",
+	"dataValue": 94
+},
+{
+	"signature": 5,
+	"timeStamp": 2019020913,
+	"dataType": "vibration",
+	"dataValue": 91
+},
+{
+	"signature": 1,
+	"timeStamp": 2019032719,
+	"dataType": "temperature",
+	"dataValue": 89
+},
+{
+	"signature": 9,
+	"timeStamp": 2019041417,
+	"dataType": "temperature",
+	"dataValue": 94
 },
 {
 	"signature": 8,
-	"timeStamp": "2019-06-03 22",
+	"timeStamp": 2019052718,
+	"dataType": "temperature",
+	"dataValue": 99
+},
+{
+	"signature": 8,
+	"timeStamp": 2019052722,
+	"dataType": "vibration",
+	"dataValue": 98
+},
+{
+	"signature": 4,
+	"timeStamp": 2019011003,
+	"dataType": "vibration",
+	"dataValue": 99
+},
+{
+	"signature": 9,
+	"timeStamp": 2019032818,
+	"dataType": "temperature",
+	"dataValue": 95
+},
+{
+	"signature": 6,
+	"timeStamp": 2019022121,
+	"dataType": "vibration",
+	"dataValue": 97
+},
+{
+	"signature": 0,
+	"timeStamp": 2019013020,
+	"dataType": "humidity",
+	"dataValue": 95
+},
+{
+	"signature": 10,
+	"timeStamp": 2019050901,
 	"dataType": "humidity",
 	"dataValue": 91
 },
 {
 	"signature": 9,
-	"timeStamp": "2019-04-02 13",
-	"dataType": "vibration",
-	"dataValue": 11
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-20 14",
-	"dataType": "humidity",
-	"dataValue": 27
+	"timeStamp": 2019062021,
+	"dataType": "temperature",
+	"dataValue": 88
 },
 {
 	"signature": 10,
-	"timeStamp": "2019-04-27 24",
-	"dataType": "vibration",
-	"dataValue": 51
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-21 06",
-	"dataType": "vibration",
-	"dataValue": 15
+	"timeStamp": 2019062404,
+	"dataType": "humidity",
+	"dataValue": 93
 },
 {
 	"signature": 7,
-	"timeStamp": "2019-06-05 02",
+	"timeStamp": 2019052816,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 2,
+	"timeStamp": 2019010301,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 2,
+	"timeStamp": 2019021317,
+	"dataType": "temperature",
+	"dataValue": 90
+},
+{
+	"signature": 3,
+	"timeStamp": 2019012802,
 	"dataType": "humidity",
-	"dataValue": 33
+	"dataValue": 91
+},
+{
+	"signature": 3,
+	"timeStamp": 2019051901,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 8,
+	"timeStamp": 2019030517,
+	"dataType": "temperature",
+	"dataValue": 93
+},
+{
+	"signature": 1,
+	"timeStamp": 2019042101,
+	"dataType": "temperature",
+	"dataValue": 97
+},
+{
+	"signature": 3,
+	"timeStamp": 2019052523,
+	"dataType": "temperature",
+	"dataValue": 95
+},
+{
+	"signature": 1,
+	"timeStamp": 2019011820,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 4,
+	"timeStamp": 2019052009,
+	"dataType": "temperature",
+	"dataValue": 92
+},
+{
+	"signature": 3,
+	"timeStamp": 2019010513,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020221,
+	"dataType": "humidity",
+	"dataValue": 98
+},
+{
+	"signature": 6,
+	"timeStamp": 2019011702,
+	"dataType": "temperature",
+	"dataValue": 98
+},
+{
+	"signature": 7,
+	"timeStamp": 2019060717,
+	"dataType": "humidity",
+	"dataValue": 96
 },
 {
 	"signature": 5,
-	"timeStamp": "2019-01-08 20",
+	"timeStamp": 2019012810,
 	"dataType": "humidity",
-	"dataValue": 42
+	"dataValue": 91
+},
+{
+	"signature": 7,
+	"timeStamp": 2019062903,
+	"dataType": "humidity",
+	"dataValue": 87
+},
+{
+	"signature": 6,
+	"timeStamp": 2019021212,
+	"dataType": "temperature",
+	"dataValue": 89
+},
+{
+	"signature": 4,
+	"timeStamp": 2019052317,
+	"dataType": "temperature",
+	"dataValue": 84
+},
+{
+	"signature": 0,
+	"timeStamp": 2019020602,
+	"dataType": "temperature",
+	"dataValue": 80
+},
+{
+	"signature": 7,
+	"timeStamp": 2019041518,
+	"dataType": "temperature",
+	"dataValue": 80
+},
+{
+	"signature": 2,
+	"timeStamp": 2019060504,
+	"dataType": "vibration",
+	"dataValue": 79
+},
+{
+	"signature": 1,
+	"timeStamp": 2019031705,
+	"dataType": "humidity",
+	"dataValue": 78
 },
 {
 	"signature": 10,
-	"timeStamp": "2019-01-22 03",
+	"timeStamp": 2019061717,
+	"dataType": "vibration",
+	"dataValue": 82
+},
+{
+	"signature": 5,
+	"timeStamp": 2019040507,
+	"dataType": "temperature",
+	"dataValue": 85
+},
+{
+	"signature": 1,
+	"timeStamp": 2019052909,
+	"dataType": "vibration",
+	"dataValue": 82
+},
+{
+	"signature": 9,
+	"timeStamp": 2019022409,
+	"dataType": "vibration",
+	"dataValue": 83
+},
+{
+	"signature": 7,
+	"timeStamp": 2019042913,
+	"dataType": "vibration",
+	"dataValue": 84
+},
+{
+	"signature": 6,
+	"timeStamp": 2019061314,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 8,
+	"timeStamp": 2019032208,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 1,
+	"timeStamp": 2019042121,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 9,
+	"timeStamp": 2019032723,
+	"dataType": "humidity",
+	"dataValue": 99
+},
+{
+	"signature": 5,
+	"timeStamp": 2019012711,
+	"dataType": "temperature",
+	"dataValue": 94
+},
+{
+	"signature": 1,
+	"timeStamp": 2019062513,
+	"dataType": "vibration",
+	"dataValue": 96
+},
+{
+	"signature": 3,
+	"timeStamp": 2019050203,
+	"dataType": "temperature",
+	"dataValue": 92
+},
+{
+	"signature": 7,
+	"timeStamp": 2019052710,
+	"dataType": "temperature",
+	"dataValue": 90
+},
+{
+	"signature": 5,
+	"timeStamp": 2019011611,
+	"dataType": "temperature",
+	"dataValue": 93
+},
+{
+	"signature": 3,
+	"timeStamp": 2019062810,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 3,
+	"timeStamp": 2019022020,
+	"dataType": "temperature",
+	"dataValue": 92
+},
+{
+	"signature": 9,
+	"timeStamp": 2019053014,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 5,
+	"timeStamp": 2019060916,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 3,
+	"timeStamp": 2019030701,
+	"dataType": "humidity",
+	"dataValue": 96
+},
+{
+	"signature": 2,
+	"timeStamp": 2019010124,
+	"dataType": "temperature",
+	"dataValue": 91
+},
+{
+	"signature": 6,
+	"timeStamp": 2019052404,
+	"dataType": "humidity",
+	"dataValue": 96
+},
+{
+	"signature": 8,
+	"timeStamp": 2019012508,
+	"dataType": "temperature",
+	"dataValue": 86
+},
+{
+	"signature": 9,
+	"timeStamp": 2019020315,
+	"dataType": "humidity",
+	"dataValue": 83
+},
+{
+	"signature": 9,
+	"timeStamp": 2019060921,
+	"dataType": "vibration",
+	"dataValue": 85
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020518,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 2,
+	"timeStamp": 2019040818,
+	"dataType": "vibration",
+	"dataValue": 89
+},
+{
+	"signature": 0,
+	"timeStamp": 2019011516,
+	"dataType": "vibration",
+	"dataValue": 89
+},
+{
+	"signature": 9,
+	"timeStamp": 2019041319,
+	"dataType": "humidity",
+	"dataValue": 86
+},
+{
+	"signature": 6,
+	"timeStamp": 2019012522,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 1,
+	"timeStamp": 2019032319,
+	"dataType": "vibration",
+	"dataValue": 86
+},
+{
+	"signature": 3,
+	"timeStamp": 2019042018,
+	"dataType": "humidity",
+	"dataValue": 90
+},
+{
+	"signature": 10,
+	"timeStamp": 2019020221,
+	"dataType": "temperature",
+	"dataValue": 95
+},
+{
+	"signature": 1,
+	"timeStamp": 2019040307,
+	"dataType": "humidity",
+	"dataValue": 99
+},
+{
+	"signature": 0,
+	"timeStamp": 2019061010,
+	"dataType": "vibration",
+	"dataValue": 99
+},
+{
+	"signature": 0,
+	"timeStamp": 2019012418,
+	"dataType": "temperature",
+	"dataValue": 86
+},
+{
+	"signature": 0,
+	"timeStamp": 2019030400,
+	"dataType": "humidity",
+	"dataValue": 88
+},
+{
+	"signature": 10,
+	"timeStamp": 2019060603,
+	"dataType": "humidity",
+	"dataValue": 86
+},
+{
+	"signature": 5,
+	"timeStamp": 2019022703,
+	"dataType": "humidity",
+	"dataValue": 82
+},
+{
+	"signature": 8,
+	"timeStamp": 2019020912,
+	"dataType": "humidity",
+	"dataValue": 77
+},
+{
+	"signature": 4,
+	"timeStamp": 2019040612,
+	"dataType": "vibration",
+	"dataValue": 77
+},
+{
+	"signature": 0,
+	"timeStamp": 2019062811,
+	"dataType": "vibration",
+	"dataValue": 73
+},
+{
+	"signature": 10,
+	"timeStamp": 2019031906,
+	"dataType": "humidity",
+	"dataValue": 71
+},
+{
+	"signature": 6,
+	"timeStamp": 2019032715,
+	"dataType": "temperature",
+	"dataValue": 68
+},
+{
+	"signature": 7,
+	"timeStamp": 2019040624,
+	"dataType": "temperature",
+	"dataValue": 72
+},
+{
+	"signature": 7,
+	"timeStamp": 2019010801,
+	"dataType": "temperature",
+	"dataValue": 76
+},
+{
+	"signature": 6,
+	"timeStamp": 2019052704,
+	"dataType": "humidity",
+	"dataValue": 78
+},
+{
+	"signature": 8,
+	"timeStamp": 2019011707,
+	"dataType": "vibration",
+	"dataValue": 76
+},
+{
+	"signature": 4,
+	"timeStamp": 2019042714,
+	"dataType": "temperature",
+	"dataValue": 72
+},
+{
+	"signature": 9,
+	"timeStamp": 2019010312,
+	"dataType": "temperature",
+	"dataValue": 75
+},
+{
+	"signature": 5,
+	"timeStamp": 2019062808,
+	"dataType": "temperature",
+	"dataValue": 71
+},
+{
+	"signature": 9,
+	"timeStamp": 2019020814,
+	"dataType": "humidity",
+	"dataValue": 71
+},
+{
+	"signature": 2,
+	"timeStamp": 2019010103,
+	"dataType": "humidity",
+	"dataValue": 70
+},
+{
+	"signature": 7,
+	"timeStamp": 2019031618,
+	"dataType": "temperature",
+	"dataValue": 75
+},
+{
+	"signature": 1,
+	"timeStamp": 2019032016,
+	"dataType": "temperature",
+	"dataValue": 76
+},
+{
+	"signature": 2,
+	"timeStamp": 2019051618,
+	"dataType": "humidity",
+	"dataValue": 80
+},
+{
+	"signature": 9,
+	"timeStamp": 2019053005,
+	"dataType": "temperature",
+	"dataValue": 82
+},
+{
+	"signature": 2,
+	"timeStamp": 2019041001,
+	"dataType": "vibration",
+	"dataValue": 82
+},
+{
+	"signature": 9,
+	"timeStamp": 2019061620,
+	"dataType": "vibration",
+	"dataValue": 79
+},
+{
+	"signature": 7,
+	"timeStamp": 2019031705,
+	"dataType": "humidity",
+	"dataValue": 76
+},
+{
+	"signature": 9,
+	"timeStamp": 2019011120,
+	"dataType": "humidity",
+	"dataValue": 75
+},
+{
+	"signature": 10,
+	"timeStamp": 2019062123,
+	"dataType": "temperature",
+	"dataValue": 72
+},
+{
+	"signature": 6,
+	"timeStamp": 2019020805,
+	"dataType": "vibration",
+	"dataValue": 72
+},
+{
+	"signature": 8,
+	"timeStamp": 2019030321,
+	"dataType": "humidity",
+	"dataValue": 77
+},
+{
+	"signature": 4,
+	"timeStamp": 2019051402,
+	"dataType": "humidity",
+	"dataValue": 77
+},
+{
+	"signature": 7,
+	"timeStamp": 2019030601,
+	"dataType": "humidity",
+	"dataValue": 75
+},
+{
+	"signature": 5,
+	"timeStamp": 2019013021,
+	"dataType": "vibration",
+	"dataValue": 74
+},
+{
+	"signature": 3,
+	"timeStamp": 2019051018,
+	"dataType": "humidity",
+	"dataValue": 69
+},
+{
+	"signature": 1,
+	"timeStamp": 2019011109,
+	"dataType": "temperature",
+	"dataValue": 71
+},
+{
+	"signature": 1,
+	"timeStamp": 2019021700,
+	"dataType": "humidity",
+	"dataValue": 70
+},
+{
+	"signature": 4,
+	"timeStamp": 2019031616,
+	"dataType": "vibration",
+	"dataValue": 66
+},
+{
+	"signature": 7,
+	"timeStamp": 2019022420,
+	"dataType": "humidity",
+	"dataValue": 67
+},
+{
+	"signature": 4,
+	"timeStamp": 2019021310,
+	"dataType": "humidity",
+	"dataValue": 70
+},
+{
+	"signature": 6,
+	"timeStamp": 2019060920,
+	"dataType": "temperature",
+	"dataValue": 69
+},
+{
+	"signature": 5,
+	"timeStamp": 2019051208,
+	"dataType": "temperature",
+	"dataValue": 73
+},
+{
+	"signature": 4,
+	"timeStamp": 2019012800,
+	"dataType": "temperature",
+	"dataValue": 70
+},
+{
+	"signature": 3,
+	"timeStamp": 2019051623,
+	"dataType": "humidity",
+	"dataValue": 65
+},
+{
+	"signature": 3,
+	"timeStamp": 2019020705,
+	"dataType": "temperature",
+	"dataValue": 62
+},
+{
+	"signature": 6,
+	"timeStamp": 2019031102,
+	"dataType": "humidity",
+	"dataValue": 58
+},
+{
+	"signature": 8,
+	"timeStamp": 2019040208,
+	"dataType": "vibration",
+	"dataValue": 54
+},
+{
+	"signature": 4,
+	"timeStamp": 2019010906,
+	"dataType": "humidity",
+	"dataValue": 58
+},
+{
+	"signature": 0,
+	"timeStamp": 2019010316,
+	"dataType": "temperature",
+	"dataValue": 57
+},
+{
+	"signature": 7,
+	"timeStamp": 2019041107,
+	"dataType": "temperature",
+	"dataValue": 55
+},
+{
+	"signature": 1,
+	"timeStamp": 2019010209,
+	"dataType": "temperature",
+	"dataValue": 54
+},
+{
+	"signature": 6,
+	"timeStamp": 2019031721,
+	"dataType": "temperature",
+	"dataValue": 56
+},
+{
+	"signature": 6,
+	"timeStamp": 2019020610,
+	"dataType": "humidity",
+	"dataValue": 60
+},
+{
+	"signature": 6,
+	"timeStamp": 2019042300,
+	"dataType": "vibration",
+	"dataValue": 56
+},
+{
+	"signature": 6,
+	"timeStamp": 2019032318,
+	"dataType": "vibration",
+	"dataValue": 61
+},
+{
+	"signature": 6,
+	"timeStamp": 2019010403,
+	"dataType": "temperature",
+	"dataValue": 66
+},
+{
+	"signature": 6,
+	"timeStamp": 2019060914,
+	"dataType": "temperature",
+	"dataValue": 65
+},
+{
+	"signature": 1,
+	"timeStamp": 2019062111,
+	"dataType": "temperature",
+	"dataValue": 64
+},
+{
+	"signature": 10,
+	"timeStamp": 2019021720,
+	"dataType": "humidity",
+	"dataValue": 67
+},
+{
+	"signature": 7,
+	"timeStamp": 2019031307,
+	"dataType": "humidity",
+	"dataValue": 63
+},
+{
+	"signature": 1,
+	"timeStamp": 2019022314,
+	"dataType": "temperature",
+	"dataValue": 61
+},
+{
+	"signature": 4,
+	"timeStamp": 2019012719,
+	"dataType": "humidity",
+	"dataValue": 63
+},
+{
+	"signature": 7,
+	"timeStamp": 2019013006,
+	"dataType": "temperature",
+	"dataValue": 66
+},
+{
+	"signature": 1,
+	"timeStamp": 2019060311,
+	"dataType": "humidity",
+	"dataValue": 64
+},
+{
+	"signature": 9,
+	"timeStamp": 2019011323,
+	"dataType": "temperature",
+	"dataValue": 69
+},
+{
+	"signature": 2,
+	"timeStamp": 2019060414,
+	"dataType": "humidity",
+	"dataValue": 74
+},
+{
+	"signature": 5,
+	"timeStamp": 2019030424,
+	"dataType": "humidity",
+	"dataValue": 75
+},
+{
+	"signature": 0,
+	"timeStamp": 2019042308,
+	"dataType": "temperature",
+	"dataValue": 78
+},
+{
+	"signature": 8,
+	"timeStamp": 2019021902,
+	"dataType": "humidity",
+	"dataValue": 80
+},
+{
+	"signature": 4,
+	"timeStamp": 2019021416,
+	"dataType": "vibration",
+	"dataValue": 83
+},
+{
+	"signature": 10,
+	"timeStamp": 2019053019,
+	"dataType": "humidity",
+	"dataValue": 81
+},
+{
+	"signature": 10,
+	"timeStamp": 2019023002,
+	"dataType": "humidity",
+	"dataValue": 84
+},
+{
+	"signature": 6,
+	"timeStamp": 2019051505,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 3,
+	"timeStamp": 2019040623,
+	"dataType": "humidity",
+	"dataValue": 85
+},
+{
+	"signature": 5,
+	"timeStamp": 2019050100,
+	"dataType": "vibration",
+	"dataValue": 88
+},
+{
+	"signature": 5,
+	"timeStamp": 2019022016,
+	"dataType": "temperature",
+	"dataValue": 83
+},
+{
+	"signature": 2,
+	"timeStamp": 2019022004,
+	"dataType": "vibration",
+	"dataValue": 84
+},
+{
+	"signature": 8,
+	"timeStamp": 2019012909,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 10,
+	"timeStamp": 2019062915,
+	"dataType": "vibration",
+	"dataValue": 92
+},
+{
+	"signature": 6,
+	"timeStamp": 2019051607,
+	"dataType": "vibration",
+	"dataValue": 90
+},
+{
+	"signature": 7,
+	"timeStamp": 2019061914,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 9,
+	"timeStamp": 2019051122,
+	"dataType": "temperature",
+	"dataValue": 88
+},
+{
+	"signature": 0,
+	"timeStamp": 2019060510,
+	"dataType": "vibration",
+	"dataValue": 84
+},
+{
+	"signature": 9,
+	"timeStamp": 2019041923,
 	"dataType": "vibration",
 	"dataValue": 81
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-04-18 18",
-	"dataType": "temperature",
-	"dataValue": 96
-},
-{
 	"signature": 2,
-	"timeStamp": "2019-04-05 20",
-	"dataType": "humidity",
-	"dataValue": 27
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-25 20",
-	"dataType": "temperature",
-	"dataValue": 12
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-06-11 04",
-	"dataType": "temperature",
-	"dataValue": 17
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-12 10",
-	"dataType": "humidity",
-	"dataValue": 54
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-15 01",
-	"dataType": "vibration",
-	"dataValue": 77
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-02-04 01",
-	"dataType": "vibration",
-	"dataValue": 50
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-21 02",
-	"dataType": "temperature",
-	"dataValue": 43
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-01 01",
-	"dataType": "humidity",
-	"dataValue": 79
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-03 23",
-	"dataType": "temperature",
-	"dataValue": 90
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-28 15",
-	"dataType": "vibration",
-	"dataValue": 23
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-05-03 22",
-	"dataType": "humidity",
-	"dataValue": 13
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-29 01",
-	"dataType": "humidity",
-	"dataValue": 60
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-19 20",
-	"dataType": "humidity",
-	"dataValue": 31
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-26 17",
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-03 01",
-	"dataType": "temperature",
-	"dataValue": 97
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-20 08",
-	"dataType": "humidity",
-	"dataValue": 86
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-13 22",
-	"dataType": "vibration",
-	"dataValue": 17
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-04 12",
-	"dataType": "vibration",
-	"dataValue": 83
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-04-13 19",
-	"dataType": "humidity",
-	"dataValue": 87
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-06-09 12",
-	"dataType": "humidity",
-	"dataValue": 58
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-05-02 07",
-	"dataType": "humidity",
-	"dataValue": 58
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-06-15 07",
-	"dataType": "vibration",
-	"dataValue": 52
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-08 23",
-	"dataType": "humidity",
-	"dataValue": 67
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-01-13 16",
-	"dataType": "vibration",
-	"dataValue": 66
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-29 09",
-	"dataType": "vibration",
-	"dataValue": 63
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-04-02 00",
-	"dataType": "humidity",
-	"dataValue": 38
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-02-02 06",
-	"dataType": "temperature",
-	"dataValue": 54
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-12 12",
-	"dataType": "temperature",
-	"dataValue": 100
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-14 07",
-	"dataType": "vibration",
-	"dataValue": 48
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-27 18",
-	"dataType": "temperature",
-	"dataValue": 91
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-24 24",
-	"dataType": "temperature",
-	"dataValue": 24
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-29 15",
-	"dataType": "humidity",
-	"dataValue": 15
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-20 13",
-	"dataType": "humidity",
-	"dataValue": 62
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-01-22 23",
-	"dataType": "humidity",
-	"dataValue": 62
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-02-19 00",
-	"dataType": "temperature",
-	"dataValue": 16
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-02-12 15",
-	"dataType": "temperature",
-	"dataValue": 52
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-29 11",
-	"dataType": "temperature",
-	"dataValue": 34
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-12 23",
-	"dataType": "vibration",
-	"dataValue": 66
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-03 14",
-	"dataType": "temperature",
-	"dataValue": 67
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-04-22 09",
-	"dataType": "vibration",
-	"dataValue": 28
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-01-25 01",
-	"dataType": "vibration",
-	"dataValue": 48
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-06-16 09",
-	"dataType": "vibration",
-	"dataValue": 40
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-01-20 16",
-	"dataType": "humidity",
-	"dataValue": 32
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-04-07 06",
-	"dataType": "temperature",
-	"dataValue": 95
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-04-13 23",
-	"dataType": "temperature",
-	"dataValue": 21
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-05-09 23",
-	"dataType": "vibration",
-	"dataValue": 51
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-06-06 11",
-	"dataType": "temperature",
-	"dataValue": 42
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-05-22 05",
-	"dataType": "vibration",
-	"dataValue": 97
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-05-04 12",
-	"dataType": "humidity",
-	"dataValue": 12
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-06-02 03",
-	"dataType": "vibration",
-	"dataValue": 34
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-01-01 23",
-	"dataType": "temperature",
-	"dataValue": 62
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-01-26 11",
-	"dataType": "humidity",
-	"dataValue": 32
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-12 14",
-	"dataType": "vibration",
-	"dataValue": 49
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-26 20",
-	"dataType": "humidity",
-	"dataValue": 12
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-05 14",
-	"dataType": "vibration",
-	"dataValue": 71
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-06-18 06",
-	"dataType": "vibration",
-	"dataValue": 38
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-07 10",
-	"dataType": "vibration",
-	"dataValue": 45
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-23 08",
-	"dataType": "temperature",
-	"dataValue": 72
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-04-03 22",
-	"dataType": "humidity",
-	"dataValue": 95
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-28 12",
-	"dataType": "vibration",
-	"dataValue": 69
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-01-13 23",
-	"dataType": "humidity",
-	"dataValue": 87
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-15 17",
-	"dataType": "humidity",
-	"dataValue": 57
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-08 11",
-	"dataType": "vibration",
-	"dataValue": 80
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-18 23",
-	"dataType": "vibration",
-	"dataValue": 20
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-24 23",
-	"dataType": "humidity",
-	"dataValue": 96
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-04-29 22",
-	"dataType": "temperature",
-	"dataValue": 44
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-01-27 14",
-	"dataType": "vibration",
-	"dataValue": 67
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-30 03",
-	"dataType": "humidity",
-	"dataValue": 27
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-14 18",
-	"dataType": "temperature",
-	"dataValue": 43
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-06-19 20",
-	"dataType": "temperature",
-	"dataValue": 38
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-23 19",
-	"dataType": "vibration",
-	"dataValue": 100
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-04-30 16",
-	"dataType": "temperature",
-	"dataValue": 29
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-04-16 05",
-	"dataType": "temperature",
-	"dataValue": 30
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-05-04 22",
-	"dataType": "vibration",
-	"dataValue": 70
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-18 19",
-	"dataType": "temperature",
-	"dataValue": 91
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-01-19 09",
-	"dataType": "humidity",
-	"dataValue": 83
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-02-09 03",
-	"dataType": "temperature",
-	"dataValue": 12
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-06-10 15",
-	"dataType": "temperature",
-	"dataValue": 24
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-06-20 22",
-	"dataType": "humidity",
-	"dataValue": 76
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-07 05",
-	"dataType": "vibration",
-	"dataValue": 94
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-23 04",
-	"dataType": "vibration",
-	"dataValue": 26
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-01-03 24",
-	"dataType": "temperature",
-	"dataValue": 65
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-05 00",
-	"dataType": "vibration",
-	"dataValue": 76
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-02-08 08",
-	"dataType": "vibration",
-	"dataValue": 22
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-01 16",
-	"dataType": "vibration",
-	"dataValue": 29
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-06-06 11",
-	"dataType": "vibration",
-	"dataValue": 85
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-14 20",
-	"dataType": "humidity",
-	"dataValue": 23
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-18 23",
-	"dataType": "vibration",
-	"dataValue": 95
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-05-17 00",
-	"dataType": "temperature",
-	"dataValue": 70
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-04 00",
-	"dataType": "humidity",
-	"dataValue": 65
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-03 02",
-	"dataType": "vibration",
-	"dataValue": 77
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-04-15 08",
-	"dataType": "vibration",
-	"dataValue": 14
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-04-19 04",
-	"dataType": "humidity",
-	"dataValue": 90
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-02-07 17",
-	"dataType": "vibration",
-	"dataValue": 11
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-12 21",
-	"dataType": "vibration",
-	"dataValue": 38
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-12 07",
+	"timeStamp": 2019062506,
 	"dataType": "humidity",
 	"dataValue": 84
 },
 {
-	"signature": 2,
-	"timeStamp": "2019-04-14 15",
-	"dataType": "temperature",
-	"dataValue": 48
+	"signature": 9,
+	"timeStamp": 2019061009,
+	"dataType": "vibration",
+	"dataValue": 84
 },
 {
-	"signature": 2,
-	"timeStamp": "2019-06-08 12",
+	"signature": 5,
+	"timeStamp": 2019050404,
 	"dataType": "humidity",
-	"dataValue": 53
+	"dataValue": 88
 },
 {
-	"signature": 1,
-	"timeStamp": "2019-02-15 10",
-	"dataType": "humidity",
-	"dataValue": 34
+	"signature": 5,
+	"timeStamp": 2019042219,
+	"dataType": "vibration",
+	"dataValue": 88
 },
 {
 	"signature": 0,
-	"timeStamp": "2019-03-13 06",
-	"dataType": "temperature",
-	"dataValue": 69
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-06-28 12",
-	"dataType": "temperature",
-	"dataValue": 50
+	"timeStamp": 2019062307,
+	"dataType": "humidity",
+	"dataValue": 89
 },
 {
 	"signature": 9,
-	"timeStamp": "2019-03-15 23",
+	"timeStamp": 2019031312,
 	"dataType": "vibration",
-	"dataValue": 87
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-04-07 09",
-	"dataType": "vibration",
-	"dataValue": 43
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-05-15 17",
-	"dataType": "vibration",
-	"dataValue": 60
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-23 20",
-	"dataType": "humidity",
-	"dataValue": 15
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-05-16 09",
-	"dataType": "humidity",
-	"dataValue": 53
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-13 10",
-	"dataType": "temperature",
-	"dataValue": 43
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-03-14 19",
-	"dataType": "vibration",
-	"dataValue": 44
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-04-30 08",
-	"dataType": "humidity",
-	"dataValue": 54
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-04-15 03",
-	"dataType": "temperature",
-	"dataValue": 66
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-27 07",
-	"dataType": "humidity",
-	"dataValue": 70
+	"dataValue": 93
 },
 {
 	"signature": 1,
-	"timeStamp": "2019-04-14 03",
+	"timeStamp": 2019031500,
+	"dataType": "temperature",
+	"dataValue": 95
+},
+{
+	"signature": 8,
+	"timeStamp": 2019062519,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 9,
+	"timeStamp": 2019011017,
+	"dataType": "temperature",
+	"dataValue": 93
+},
+{
+	"signature": 3,
+	"timeStamp": 2019052217,
+	"dataType": "humidity",
+	"dataValue": 93
+},
+{
+	"signature": 7,
+	"timeStamp": 2019011007,
+	"dataType": "vibration",
+	"dataValue": 95
+},
+{
+	"signature": 10,
+	"timeStamp": 2019022019,
 	"dataType": "temperature",
 	"dataValue": 90
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-02-20 12",
-	"dataType": "temperature",
-	"dataValue": 93
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-04-13 06",
-	"dataType": "temperature",
-	"dataValue": 25
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-10 02",
-	"dataType": "vibration",
-	"dataValue": 82
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-15 12",
-	"dataType": "humidity",
-	"dataValue": 71
-},
-{
 	"signature": 3,
-	"timeStamp": "2019-04-18 17",
-	"dataType": "vibration",
-	"dataValue": 57
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-02-23 14",
-	"dataType": "vibration",
-	"dataValue": 32
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-06-01 12",
-	"dataType": "temperature",
-	"dataValue": 79
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-12 09",
-	"dataType": "vibration",
-	"dataValue": 40
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-02-23 21",
-	"dataType": "temperature",
-	"dataValue": 13
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-01-10 22",
-	"dataType": "temperature",
-	"dataValue": 35
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-14 13",
-	"dataType": "humidity",
-	"dataValue": 79
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-17 00",
-	"dataType": "temperature",
-	"dataValue": 55
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-06-18 22",
-	"dataType": "humidity",
-	"dataValue": 20
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-27 07",
-	"dataType": "humidity",
-	"dataValue": 21
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-02-23 22",
-	"dataType": "vibration",
-	"dataValue": 29
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-12 20",
-	"dataType": "vibration",
-	"dataValue": 43
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-03 15",
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-06-02 03",
-	"dataType": "vibration",
-	"dataValue": 32
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-21 18",
-	"dataType": "temperature",
-	"dataValue": 45
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-16 07",
-	"dataType": "humidity",
-	"dataValue": 42
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-03-27 18",
-	"dataType": "vibration",
-	"dataValue": 53
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-22 13",
-	"dataType": "vibration",
-	"dataValue": 55
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-04-14 22",
-	"dataType": "vibration",
-	"dataValue": 10
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-30 04",
-	"dataType": "humidity",
-	"dataValue": 21
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-22 09",
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-30 04",
-	"dataType": "humidity",
-	"dataValue": 48
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-02-02 21",
-	"dataType": "humidity",
-	"dataValue": 48
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-01-27 20",
-	"dataType": "temperature",
-	"dataValue": 70
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-06 11",
-	"dataType": "vibration",
-	"dataValue": 20
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-05-01 08",
-	"dataType": "vibration",
-	"dataValue": 73
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-05-19 20",
-	"dataType": "humidity",
-	"dataValue": 45
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-03-01 22",
-	"dataType": "temperature",
-	"dataValue": 49
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-04-29 15",
-	"dataType": "vibration",
-	"dataValue": 43
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-25 04",
-	"dataType": "vibration",
-	"dataValue": 25
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-06-07 18",
-	"dataType": "vibration",
-	"dataValue": 38
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-30 15",
-	"dataType": "temperature",
-	"dataValue": 35
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-16 01",
-	"dataType": "vibration",
-	"dataValue": 82
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-04-25 11",
-	"dataType": "humidity",
-	"dataValue": 57
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-09 11",
-	"dataType": "humidity",
-	"dataValue": 53
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-02 04",
-	"dataType": "temperature",
-	"dataValue": 98
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-04-08 14",
-	"dataType": "humidity",
-	"dataValue": 20
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-17 16",
-	"dataType": "vibration",
-	"dataValue": 24
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-06 18",
-	"dataType": "vibration",
-	"dataValue": 96
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-04-11 13",
-	"dataType": "vibration",
-	"dataValue": 47
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-15 00",
-	"dataType": "humidity",
-	"dataValue": 70
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-11 02",
-	"dataType": "temperature",
-	"dataValue": 70
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-11 11",
-	"dataType": "temperature",
-	"dataValue": 72
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-05-25 15",
-	"dataType": "vibration",
-	"dataValue": 58
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-08 23",
-	"dataType": "temperature",
-	"dataValue": 93
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-30 00",
-	"dataType": "vibration",
-	"dataValue": 67
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-04-28 14",
-	"dataType": "humidity",
-	"dataValue": 85
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-05-23 10",
+	"timeStamp": 2019052810,
 	"dataType": "temperature",
 	"dataValue": 87
 },
 {
-	"signature": 2,
-	"timeStamp": "2019-04-18 23",
-	"dataType": "temperature",
-	"dataValue": 22
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-03-06 10",
-	"dataType": "vibration",
-	"dataValue": 71
-},
-{
 	"signature": 1,
-	"timeStamp": "2019-02-18 02",
-	"dataType": "vibration",
-	"dataValue": 36
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-01-22 09",
-	"dataType": "humidity",
-	"dataValue": 25
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-06-28 17",
+	"timeStamp": 2019051203,
 	"dataType": "temperature",
-	"dataValue": 61
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-05-18 02",
-	"dataType": "temperature",
-	"dataValue": 46
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-01-11 14",
-	"dataType": "temperature",
-	"dataValue": 65
+	"dataValue": 84
 },
 {
 	"signature": 5,
-	"timeStamp": "2019-06-09 21",
-	"dataType": "vibration",
-	"dataValue": 52
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-02-11 02",
+	"timeStamp": 2019012314,
 	"dataType": "temperature",
-	"dataValue": 53
+	"dataValue": 86
 },
 {
 	"signature": 4,
-	"timeStamp": "2019-04-24 00",
+	"timeStamp": 2019042403,
+	"dataType": "humidity",
+	"dataValue": 88
+},
+{
+	"signature": 6,
+	"timeStamp": 2019020504,
+	"dataType": "humidity",
+	"dataValue": 86
+},
+{
+	"signature": 8,
+	"timeStamp": 2019011709,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 8,
+	"timeStamp": 2019020810,
+	"dataType": "temperature",
+	"dataValue": 87
+},
+{
+	"signature": 3,
+	"timeStamp": 2019041500,
 	"dataType": "vibration",
-	"dataValue": 70
+	"dataValue": 91
+},
+{
+	"signature": 3,
+	"timeStamp": 2019030211,
+	"dataType": "vibration",
+	"dataValue": 91
 },
 {
 	"signature": 2,
-	"timeStamp": "2019-03-05 16",
-	"dataType": "temperature",
-	"dataValue": 69
+	"timeStamp": 2019021207,
+	"dataType": "humidity",
+	"dataValue": 95
+},
+{
+	"signature": 5,
+	"timeStamp": 2019021203,
+	"dataType": "vibration",
+	"dataValue": 97
 },
 {
 	"signature": 9,
-	"timeStamp": "2019-03-05 11",
-	"dataType": "temperature",
-	"dataValue": 39
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-04-15 20",
-	"dataType": "humidity",
-	"dataValue": 29
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-03-09 21",
-	"dataType": "humidity",
-	"dataValue": 28
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-07 24",
-	"dataType": "vibration",
-	"dataValue": 23
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-13 19",
-	"dataType": "vibration",
-	"dataValue": 89
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-21 11",
+	"timeStamp": 2019060915,
 	"dataType": "temperature",
 	"dataValue": 92
 },
 {
-	"signature": 4,
-	"timeStamp": "2019-04-11 03",
-	"dataType": "temperature",
-	"dataValue": 79
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-03-05 05",
-	"dataType": "vibration",
-	"dataValue": 46
-},
-{
 	"signature": 7,
-	"timeStamp": "2019-03-01 04",
+	"timeStamp": 2019031822,
 	"dataType": "temperature",
-	"dataValue": 78
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-19 00",
-	"dataType": "vibration",
-	"dataValue": 50
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-06 09",
-	"dataType": "humidity",
-	"dataValue": 96
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-05-13 14",
-	"dataType": "temperature",
-	"dataValue": 91
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-01-14 15",
-	"dataType": "humidity",
-	"dataValue": 34
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-13 20",
-	"dataType": "temperature",
-	"dataValue": 22
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-04-07 10",
-	"dataType": "temperature",
-	"dataValue": 28
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-01-13 17",
-	"dataType": "humidity",
-	"dataValue": 52
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-17 03",
-	"dataType": "vibration",
-	"dataValue": 34
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-21 15",
-	"dataType": "vibration",
-	"dataValue": 11
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-04-10 10",
-	"dataType": "temperature",
-	"dataValue": 42
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-03-08 22",
-	"dataType": "vibration",
-	"dataValue": 33
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-05-27 11",
-	"dataType": "temperature",
-	"dataValue": 50
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-13 02",
-	"dataType": "vibration",
-	"dataValue": 56
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-04-13 07",
-	"dataType": "temperature",
-	"dataValue": 100
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-01-23 20",
-	"dataType": "temperature",
-	"dataValue": 76
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-01-11 08",
-	"dataType": "humidity",
-	"dataValue": 34
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-12 05",
-	"dataType": "temperature",
-	"dataValue": 68
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-18 08",
-	"dataType": "temperature",
-	"dataValue": 25
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-05-09 07",
-	"dataType": "vibration",
-	"dataValue": 12
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-05-06 12",
-	"dataType": "humidity",
-	"dataValue": 46
+	"dataValue": 92
 },
 {
 	"signature": 5,
-	"timeStamp": "2019-01-10 01",
+	"timeStamp": 2019061003,
 	"dataType": "vibration",
-	"dataValue": 65
+	"dataValue": 87
 },
 {
-	"signature": 10,
-	"timeStamp": "2019-02-15 16",
+	"signature": 9,
+	"timeStamp": 2019031610,
 	"dataType": "temperature",
-	"dataValue": 21
+	"dataValue": 86
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-05-29 09",
-	"dataType": "vibration",
-	"dataValue": 22
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-04-11 17",
-	"dataType": "humidity",
-	"dataValue": 16
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-14 17",
-	"dataType": "vibration",
-	"dataValue": 66
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-11 14",
-	"dataType": "humidity",
-	"dataValue": 95
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-01 11",
-	"dataType": "vibration",
+	"signature": 8,
+	"timeStamp": 2019050522,
+	"dataType": "temperature",
 	"dataValue": 83
 },
 {
-	"signature": 6,
-	"timeStamp": "2019-02-04 10",
-	"dataType": "humidity",
-	"dataValue": 52
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-06-16 03",
-	"dataType": "vibration",
-	"dataValue": 79
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-06-19 03",
-	"dataType": "humidity",
-	"dataValue": 48
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-03-01 11",
-	"dataType": "temperature",
-	"dataValue": 100
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-05-26 15",
-	"dataType": "temperature",
-	"dataValue": 88
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-21 15",
-	"dataType": "vibration",
-	"dataValue": 13
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-01-04 12",
-	"dataType": "vibration",
-	"dataValue": 63
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-26 02",
-	"dataType": "vibration",
-	"dataValue": 95
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-05-26 20",
+	"signature": 1,
+	"timeStamp": 2019022123,
 	"dataType": "temperature",
 	"dataValue": 84
 },
 {
-	"signature": 6,
-	"timeStamp": "2019-04-10 21",
-	"dataType": "humidity",
-	"dataValue": 26
+	"signature": 9,
+	"timeStamp": 2019051415,
+	"dataType": "vibration",
+	"dataValue": 81
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-05-19 14",
+	"signature": 1,
+	"timeStamp": 2019012519,
+	"dataType": "humidity",
+	"dataValue": 78
+},
+{
+	"signature": 6,
+	"timeStamp": 2019022022,
 	"dataType": "vibration",
-	"dataValue": 83
+	"dataValue": 73
+},
+{
+	"signature": 9,
+	"timeStamp": 2019021912,
+	"dataType": "temperature",
+	"dataValue": 73
 },
 {
 	"signature": 5,
-	"timeStamp": "2019-04-14 10",
+	"timeStamp": 2019021919,
 	"dataType": "humidity",
-	"dataValue": 20
+	"dataValue": 75
 },
 {
-	"signature": 8,
-	"timeStamp": "2019-04-30 19",
+	"signature": 10,
+	"timeStamp": 2019011906,
 	"dataType": "humidity",
-	"dataValue": 11
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-13 10",
-	"dataType": "temperature",
-	"dataValue": 39
+	"dataValue": 79
 },
 {
 	"signature": 6,
-	"timeStamp": "2019-04-03 24",
+	"timeStamp": 2019021718,
+	"dataType": "humidity",
+	"dataValue": 80
+},
+{
+	"signature": 6,
+	"timeStamp": 2019051507,
+	"dataType": "humidity",
+	"dataValue": 79
+},
+{
+	"signature": 5,
+	"timeStamp": 2019011805,
+	"dataType": "temperature",
+	"dataValue": 80
+},
+{
+	"signature": 10,
+	"timeStamp": 2019022402,
 	"dataType": "humidity",
 	"dataValue": 85
 },
 {
 	"signature": 10,
-	"timeStamp": "2019-02-07 06",
+	"timeStamp": 2019021709,
 	"dataType": "temperature",
-	"dataValue": 39
+	"dataValue": 82
 },
 {
-	"signature": 9,
-	"timeStamp": "2019-06-20 16",
-	"dataType": "vibration",
-	"dataValue": 77
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-27 09",
-	"dataType": "temperature",
+	"signature": 7,
+	"timeStamp": 2019010222,
+	"dataType": "humidity",
 	"dataValue": 83
 },
 {
+	"signature": 5,
+	"timeStamp": 2019061222,
+	"dataType": "humidity",
+	"dataValue": 83
+},
+{
+	"signature": 4,
+	"timeStamp": 2019041921,
+	"dataType": "temperature",
+	"dataValue": 82
+},
+{
+	"signature": 10,
+	"timeStamp": 2019062522,
+	"dataType": "vibration",
+	"dataValue": 78
+},
+{
+	"signature": 6,
+	"timeStamp": 2019022619,
+	"dataType": "humidity",
+	"dataValue": 81
+},
+{
+	"signature": 0,
+	"timeStamp": 2019011601,
+	"dataType": "vibration",
+	"dataValue": 82
+},
+{
+	"signature": 10,
+	"timeStamp": 2019061504,
+	"dataType": "vibration",
+	"dataValue": 87
+},
+{
 	"signature": 7,
-	"timeStamp": "2019-06-02 16",
-	"dataType": "humidity",
-	"dataValue": 74
+	"timeStamp": 2019041805,
+	"dataType": "vibration",
+	"dataValue": 85
 },
 {
 	"signature": 6,
-	"timeStamp": "2019-05-11 12",
+	"timeStamp": 2019041724,
 	"dataType": "temperature",
-	"dataValue": 54
+	"dataValue": 85
 },
 {
-	"signature": 5,
-	"timeStamp": "2019-02-10 06",
+	"signature": 4,
+	"timeStamp": 2019012801,
 	"dataType": "temperature",
-	"dataValue": 29
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-29 04",
-	"dataType": "temperature",
-	"dataValue": 88
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-02-18 22",
-	"dataType": "humidity",
-	"dataValue": 50
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-05-01 03",
-	"dataType": "vibration",
-	"dataValue": 54
+	"dataValue": 82
 },
 {
 	"signature": 7,
-	"timeStamp": "2019-01-17 17",
-	"dataType": "temperature",
-	"dataValue": 96
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-04-04 08",
+	"timeStamp": 2019042416,
 	"dataType": "vibration",
-	"dataValue": 11
+	"dataValue": 84
 },
 {
-	"signature": 10,
-	"timeStamp": "2019-04-19 10",
-	"dataType": "temperature",
-	"dataValue": 47
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-03-30 22",
-	"dataType": "temperature",
-	"dataValue": 96
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-03 18",
+	"signature": 7,
+	"timeStamp": 2019010119,
 	"dataType": "vibration",
-	"dataValue": 33
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-06-22 03",
-	"dataType": "humidity",
-	"dataValue": 12
+	"dataValue": 87
 },
 {
 	"signature": 6,
-	"timeStamp": "2019-06-17 22",
-	"dataType": "temperature",
-	"dataValue": 44
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-06-02 03",
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-26 23",
-	"dataType": "temperature",
-	"dataValue": 37
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-08 02",
+	"timeStamp": 2019041200,
 	"dataType": "humidity",
-	"dataValue": 53
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-04-30 15",
-	"dataType": "vibration",
-	"dataValue": 72
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-28 22",
-	"dataType": "humidity",
-	"dataValue": 42
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-02-28 02",
-	"dataType": "temperature",
-	"dataValue": 13
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-16 06",
-	"dataType": "vibration",
-	"dataValue": 96
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-06-02 09",
-	"dataType": "temperature",
-	"dataValue": 69
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-04-08 22",
-	"dataType": "temperature",
-	"dataValue": 95
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-01 03",
-	"dataType": "vibration",
-	"dataValue": 63
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-08 05",
-	"dataType": "temperature",
-	"dataValue": 93
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-01-13 04",
-	"dataType": "temperature",
-	"dataValue": 13
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-09 00",
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-19 03",
-	"dataType": "vibration",
-	"dataValue": 56
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-25 16",
-	"dataType": "temperature",
-	"dataValue": 96
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-05-04 21",
-	"dataType": "temperature",
-	"dataValue": 32
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-21 18",
-	"dataType": "vibration",
-	"dataValue": 61
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-02-04 09",
-	"dataType": "temperature",
-	"dataValue": 54
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-01-08 09",
-	"dataType": "temperature",
-	"dataValue": 10
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-08 10",
-	"dataType": "temperature",
-	"dataValue": 26
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-04-22 24",
-	"dataType": "vibration",
-	"dataValue": 56
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-04 01",
-	"dataType": "temperature",
 	"dataValue": 86
 },
 {
 	"signature": 1,
-	"timeStamp": "2019-06-20 03",
-	"dataType": "humidity",
-	"dataValue": 55
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-03-11 03",
-	"dataType": "vibration",
-	"dataValue": 64
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-03-03 07",
+	"timeStamp": 2019051405,
 	"dataType": "humidity",
 	"dataValue": 91
 },
 {
-	"signature": 8,
-	"timeStamp": "2019-01-19 02",
-	"dataType": "temperature",
-	"dataValue": 93
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-05-09 14",
-	"dataType": "humidity",
-	"dataValue": 27
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-12 19",
-	"dataType": "vibration",
-	"dataValue": 76
-},
-{
 	"signature": 10,
-	"timeStamp": "2019-05-17 24",
-	"dataType": "vibration",
-	"dataValue": 18
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-21 07",
+	"timeStamp": 2019021417,
 	"dataType": "temperature",
-	"dataValue": 70
+	"dataValue": 94
 },
 {
-	"signature": 1,
-	"timeStamp": "2019-06-28 02",
-	"dataType": "vibration",
-	"dataValue": 89
+	"signature": 3,
+	"timeStamp": 2019061620,
+	"dataType": "humidity",
+	"dataValue": 91
 },
 {
-	"signature": 9,
-	"timeStamp": "2019-03-08 15",
+	"signature": 2,
+	"timeStamp": 2019052405,
+	"dataType": "humidity",
+	"dataValue": 94
+},
+{
+	"signature": 3,
+	"timeStamp": 2019051324,
 	"dataType": "temperature",
-	"dataValue": 71
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-04-09 04",
-	"dataType": "vibration",
 	"dataValue": 99
 },
 {
-	"signature": 9,
-	"timeStamp": "2019-02-11 11",
-	"dataType": "temperature",
-	"dataValue": 71
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-25 14",
+	"signature": 8,
+	"timeStamp": 2019040400,
 	"dataType": "vibration",
-	"dataValue": 71
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-05-29 07",
-	"dataType": "humidity",
-	"dataValue": 68
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-06-19 18",
-	"dataType": "humidity",
-	"dataValue": 48
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-25 13",
-	"dataType": "humidity",
-	"dataValue": 45
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-08 08",
-	"dataType": "humidity",
-	"dataValue": 64
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-01-05 05",
-	"dataType": "humidity",
-	"dataValue": 80
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-08 04",
-	"dataType": "vibration",
-	"dataValue": 10
+	"dataValue": 95
 },
 {
 	"signature": 5,
-	"timeStamp": "2019-01-27 12",
-	"dataType": "humidity",
-	"dataValue": 66
+	"timeStamp": 2019061309,
+	"dataType": "vibration",
+	"dataValue": 94
 },
 {
-	"signature": 8,
-	"timeStamp": "2019-02-25 04",
-	"dataType": "temperature",
-	"dataValue": 32
+	"signature": 4,
+	"timeStamp": 2019022316,
+	"dataType": "humidity",
+	"dataValue": 90
+},
+{
+	"signature": 3,
+	"timeStamp": 2019032402,
+	"dataType": "humidity",
+	"dataValue": 93
 },
 {
 	"signature": 2,
-	"timeStamp": "2019-06-29 17",
-	"dataType": "vibration",
+	"timeStamp": 2019012724,
+	"dataType": "temperature",
 	"dataValue": 98
 },
 {
 	"signature": 4,
-	"timeStamp": "2019-01-18 19",
-	"dataType": "temperature",
-	"dataValue": 43
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-26 11",
+	"timeStamp": 2019010302,
 	"dataType": "humidity",
-	"dataValue": 24
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-03-14 24",
-	"dataType": "temperature",
-	"dataValue": 21
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-01-16 10",
-	"dataType": "temperature",
-	"dataValue": 77
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-10 14",
-	"dataType": "vibration",
-	"dataValue": 54
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-06 10",
-	"dataType": "temperature",
-	"dataValue": 80
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-01-07 15",
-	"dataType": "vibration",
-	"dataValue": 77
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-03-17 12",
-	"dataType": "temperature",
-	"dataValue": 95
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-02-16 02",
-	"dataType": "humidity",
-	"dataValue": 51
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-06-23 17",
-	"dataType": "humidity",
-	"dataValue": 24
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-25 11",
-	"dataType": "temperature",
-	"dataValue": 10
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-04-30 05",
-	"dataType": "temperature",
-	"dataValue": 53
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-03-03 19",
-	"dataType": "temperature",
-	"dataValue": 90
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-08 03",
-	"dataType": "humidity",
-	"dataValue": 68
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-28 16",
-	"dataType": "temperature",
-	"dataValue": 70
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-06-10 22",
-	"dataType": "temperature",
-	"dataValue": 66
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-01-05 10",
-	"dataType": "vibration",
-	"dataValue": 35
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-06-17 09",
-	"dataType": "vibration",
-	"dataValue": 68
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-15 13",
-	"dataType": "vibration",
-	"dataValue": 11
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-05-09 06",
-	"dataType": "humidity",
-	"dataValue": 30
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-06-11 07",
-	"dataType": "humidity",
-	"dataValue": 43
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-06-27 01",
-	"dataType": "temperature",
-	"dataValue": 86
+	"dataValue": 96
 },
 {
 	"signature": 0,
-	"timeStamp": "2019-04-19 02",
+	"timeStamp": 2019041021,
 	"dataType": "temperature",
-	"dataValue": 67
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-23 03",
-	"dataType": "temperature",
-	"dataValue": 25
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-06-25 19",
-	"dataType": "temperature",
-	"dataValue": 45
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-05 23",
-	"dataType": "temperature",
-	"dataValue": 41
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-11 22",
-	"dataType": "vibration",
-	"dataValue": 23
+	"dataValue": 96
 },
 {
 	"signature": 8,
-	"timeStamp": "2019-05-29 11",
+	"timeStamp": 2019062721,
 	"dataType": "temperature",
 	"dataValue": 97
 },
 {
-	"signature": 6,
-	"timeStamp": "2019-02-02 13",
-	"dataType": "humidity",
+	"signature": 4,
+	"timeStamp": 2019020908,
+	"dataType": "temperature",
 	"dataValue": 86
 },
 {
-	"signature": 7,
-	"timeStamp": "2019-05-05 06",
-	"dataType": "vibration",
-	"dataValue": 75
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-01-07 05",
-	"dataType": "humidity",
-	"dataValue": 10
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-30 23",
-	"dataType": "humidity",
-	"dataValue": 11
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-14 00",
-	"dataType": "vibration",
-	"dataValue": 78
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-05-30 19",
-	"dataType": "temperature",
-	"dataValue": 78
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-03 04",
-	"dataType": "vibration",
-	"dataValue": 88
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-02 23",
-	"dataType": "humidity",
-	"dataValue": 47
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-02 18",
-	"dataType": "vibration",
-	"dataValue": 28
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-01-11 21",
-	"dataType": "humidity",
-	"dataValue": 38
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-06-19 03",
-	"dataType": "temperature",
-	"dataValue": 43
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-30 00",
-	"dataType": "vibration",
-	"dataValue": 36
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-04-07 17",
-	"dataType": "humidity",
-	"dataValue": 16
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-14 02",
-	"dataType": "vibration",
-	"dataValue": 84
-},
-{
 	"signature": 0,
-	"timeStamp": "2019-01-22 22",
-	"dataType": "vibration",
-	"dataValue": 17
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-06-17 07",
-	"dataType": "temperature",
-	"dataValue": 11
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-05-03 00",
-	"dataType": "vibration",
-	"dataValue": 42
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-30 13",
-	"dataType": "temperature",
-	"dataValue": 54
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-01-22 01",
-	"dataType": "vibration",
-	"dataValue": 50
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-03-13 00",
-	"dataType": "temperature",
-	"dataValue": 31
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-05-08 01",
-	"dataType": "temperature",
-	"dataValue": 83
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-13 16",
+	"timeStamp": 2019052819,
 	"dataType": "humidity",
-	"dataValue": 33
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-04-07 07",
-	"dataType": "vibration",
-	"dataValue": 38
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-06-26 16",
-	"dataType": "vibration",
-	"dataValue": 88
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-02-24 16",
-	"dataType": "humidity",
-	"dataValue": 84
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-21 01",
-	"dataType": "temperature",
-	"dataValue": 30
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-19 14",
-	"dataType": "vibration",
 	"dataValue": 87
 },
 {
 	"signature": 6,
-	"timeStamp": "2019-03-29 08",
-	"dataType": "humidity",
-	"dataValue": 90
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-01 21",
-	"dataType": "temperature",
-	"dataValue": 26
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-29 21",
-	"dataType": "humidity",
-	"dataValue": 67
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-05-06 20",
-	"dataType": "temperature",
-	"dataValue": 64
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-05-30 24",
-	"dataType": "humidity",
-	"dataValue": 90
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-05-25 13",
-	"dataType": "vibration",
-	"dataValue": 80
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-04 04",
-	"dataType": "humidity",
-	"dataValue": 73
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-05 04",
-	"dataType": "temperature",
-	"dataValue": 21
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-30 18",
-	"dataType": "humidity",
-	"dataValue": 54
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-02-29 07",
-	"dataType": "vibration",
-	"dataValue": 25
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-30 20",
-	"dataType": "temperature",
-	"dataValue": 53
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-04-28 04",
-	"dataType": "temperature",
-	"dataValue": 92
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-05-23 15",
-	"dataType": "vibration",
-	"dataValue": 39
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-01-28 19",
-	"dataType": "vibration",
-	"dataValue": 60
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-04-28 06",
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-03 05",
-	"dataType": "temperature",
-	"dataValue": 15
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-01-03 16",
-	"dataType": "temperature",
-	"dataValue": 77
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-05-18 07",
-	"dataType": "humidity",
-	"dataValue": 20
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-28 19",
-	"dataType": "temperature",
-	"dataValue": 94
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-04-01 13",
+	"timeStamp": 2019062502,
 	"dataType": "humidity",
 	"dataValue": 82
 },
 {
-	"signature": 9,
-	"timeStamp": "2019-05-08 05",
-	"dataType": "vibration",
-	"dataValue": 92
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-01-08 10",
-	"dataType": "humidity",
-	"dataValue": 78
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-01-07 06",
+	"signature": 8,
+	"timeStamp": 2019030111,
 	"dataType": "temperature",
-	"dataValue": 24
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-06-22 00",
-	"dataType": "vibration",
-	"dataValue": 41
+	"dataValue": 86
 },
 {
 	"signature": 7,
-	"timeStamp": "2019-04-08 09",
-	"dataType": "temperature",
-	"dataValue": 46
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-03-14 00",
-	"dataType": "temperature",
-	"dataValue": 71
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-11 06",
+	"timeStamp": 2019042405,
 	"dataType": "humidity",
-	"dataValue": 29
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-27 10",
-	"dataType": "humidity",
-	"dataValue": 95
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-03-21 01",
-	"dataType": "vibration",
-	"dataValue": 73
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-03-18 03",
-	"dataType": "temperature",
-	"dataValue": 74
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-02-12 12",
-	"dataType": "vibration",
-	"dataValue": 33
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-25 08",
-	"dataType": "vibration",
-	"dataValue": 15
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-01-30 02",
-	"dataType": "humidity",
-	"dataValue": 34
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-06-09 00",
-	"dataType": "humidity",
-	"dataValue": 92
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-04-14 14",
-	"dataType": "temperature",
-	"dataValue": 55
+	"dataValue": 81
 },
 {
 	"signature": 10,
-	"timeStamp": "2019-04-22 24",
-	"dataType": "humidity",
-	"dataValue": 11
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-04-07 00",
-	"dataType": "humidity",
-	"dataValue": 87
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-12 05",
+	"timeStamp": 2019053015,
 	"dataType": "vibration",
-	"dataValue": 50
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-03 01",
-	"dataType": "humidity",
 	"dataValue": 80
 },
 {
-	"signature": 5,
-	"timeStamp": "2019-05-29 11",
-	"dataType": "temperature",
-	"dataValue": 42
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-03 16",
-	"dataType": "humidity",
-	"dataValue": 65
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-06-01 06",
-	"dataType": "humidity",
-	"dataValue": 71
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-05 12",
-	"dataType": "vibration",
-	"dataValue": 35
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-02-14 02",
-	"dataType": "humidity",
-	"dataValue": 11
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-05-30 19",
-	"dataType": "humidity",
-	"dataValue": 70
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-14 04",
-	"dataType": "humidity",
-	"dataValue": 14
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-17 05",
-	"dataType": "humidity",
-	"dataValue": 39
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-05-01 19",
-	"dataType": "humidity",
-	"dataValue": 56
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-05-12 05",
-	"dataType": "humidity",
-	"dataValue": 56
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-03-08 12",
-	"dataType": "humidity",
-	"dataValue": 94
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-02-09 10",
-	"dataType": "humidity",
-	"dataValue": 63
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-15 09",
-	"dataType": "vibration",
-	"dataValue": 43
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-05-01 05",
-	"dataType": "temperature",
-	"dataValue": 17
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-03-20 21",
-	"dataType": "humidity",
-	"dataValue": 94
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-03-23 11",
-	"dataType": "humidity",
-	"dataValue": 40
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-01-27 15",
-	"dataType": "humidity",
-	"dataValue": 69
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-03-05 24",
-	"dataType": "humidity",
-	"dataValue": 20
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-06-25 12",
-	"dataType": "vibration",
-	"dataValue": 32
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-05-29 21",
-	"dataType": "vibration",
-	"dataValue": 60
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-04-17 12",
-	"dataType": "temperature",
-	"dataValue": 48
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-03-09 20",
-	"dataType": "temperature",
-	"dataValue": 50
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-04-25 18",
-	"dataType": "temperature",
-	"dataValue": 26
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-02-28 07",
-	"dataType": "temperature",
-	"dataValue": 34
-},
-{
-	"signature": 0,
-	"timeStamp": "2019-02-27 14",
-	"dataType": "humidity",
-	"dataValue": 67
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-01-27 17",
-	"dataType": "temperature",
-	"dataValue": 17
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-03-19 20",
-	"dataType": "vibration",
-	"dataValue": 39
-},
-{
-	"signature": 1,
-	"timeStamp": "2019-02-14 17",
-	"dataType": "humidity",
-	"dataValue": 31
-},
-{
-	"signature": 6,
-	"timeStamp": "2019-06-14 22",
-	"dataType": "temperature",
-	"dataValue": 30
-},
-{
-	"signature": 5,
-	"timeStamp": "2019-06-19 05",
-	"dataType": "vibration",
-	"dataValue": 52
-},
-{
-	"signature": 3,
-	"timeStamp": "2019-02-09 22",
-	"dataType": "humidity",
-	"dataValue": 47
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-04-14 22",
-	"dataType": "temperature",
-	"dataValue": 70
-},
-{
-	"signature": 10,
-	"timeStamp": "2019-06-27 07",
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-05-24 02",
-	"dataType": "vibration",
-	"dataValue": 91
-},
-{
 	"signature": 4,
-	"timeStamp": "2019-05-14 15",
-	"dataType": "temperature",
-	"dataValue": 68
-},
-{
-	"signature": 7,
-	"timeStamp": "2019-02-18 00",
-	"dataType": "temperature",
-	"dataValue": 18
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-04-10 23",
-	"dataType": "temperature",
-	"dataValue": 33
-},
-{
-	"signature": 9,
-	"timeStamp": "2019-03-04 21",
-	"dataType": "vibration",
-	"dataValue": 56
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-06-16 11",
-	"dataType": "temperature",
-	"dataValue": 95
-},
-{
-	"signature": 2,
-	"timeStamp": "2019-04-02 19",
+	"timeStamp": 2019020907,
 	"dataType": "vibration",
 	"dataValue": 75
 },
 {
-	"signature": 8,
-	"timeStamp": "2019-04-01 06",
+	"signature": 7,
+	"timeStamp": 2019011324,
 	"dataType": "temperature",
-	"dataValue": 45
+	"dataValue": 78
 },
 {
-	"signature": 8,
-	"timeStamp": "2019-03-14 23",
-	"dataType": "temperature",
-	"dataValue": 37
+	"signature": 7,
+	"timeStamp": 2019030421,
+	"dataType": "vibration",
+	"dataValue": 78
 },
 {
-	"signature": 6,
-	"timeStamp": "2019-05-27 01",
+	"signature": 5,
+	"timeStamp": 2019042604,
 	"dataType": "temperature",
-	"dataValue": 30
+	"dataValue": 82
 },
 {
 	"signature": 1,
-	"timeStamp": "2019-01-07 14",
-	"dataType": "humidity",
-	"dataValue": 11
-},
-{
-	"signature": 8,
-	"timeStamp": "2019-05-22 12",
+	"timeStamp": 2019051414,
 	"dataType": "temperature",
-	"dataValue": 22
-},
-{
-	"signature": 4,
-	"timeStamp": "2019-05-12 14",
-	"dataType": "vibration",
-	"dataValue": 68
+	"dataValue": 87
 },
 {
 	"signature": 2,
-	"timeStamp": "2019-02-17 04",
-	"dataType": "humidity",
-	"dataValue": 35
+	"timeStamp": 2019021020,
+	"dataType": "temperature",
+	"dataValue": 88
 },
 {
-	"signature": 6,
-	"timeStamp": "2019-03-17 13",
+	"signature": 9,
+	"timeStamp": 2019022807,
 	"dataType": "humidity",
-	"dataValue": 30
+	"dataValue": 85
 },
 {
-	"signature": 0,
-	"timeStamp": "2019-06-14 15",
+	"signature": 5,
+	"timeStamp": 2019020603,
 	"dataType": "vibration",
-	"dataValue": 51
+	"dataValue": 90
+},
+{
+	"signature": 1,
+	"timeStamp": 2019021906,
+	"dataType": "humidity",
+	"dataValue": 86
+},
+{
+	"signature": 4,
+	"timeStamp": 2019052908,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 3,
+	"timeStamp": 2019051818,
+	"dataType": "vibration",
+	"dataValue": 94
+},
+{
+	"signature": 10,
+	"timeStamp": 2019021324,
+	"dataType": "humidity",
+	"dataValue": 91
+},
+{
+	"signature": 1,
+	"timeStamp": 2019011622,
+	"dataType": "temperature",
+	"dataValue": 96
+},
+{
+	"signature": 8,
+	"timeStamp": 2019021812,
+	"dataType": "temperature",
+	"dataValue": 99
+},
+{
+	"signature": 8,
+	"timeStamp": 2019050108,
+	"dataType": "vibration",
+	"dataValue": 100
 }]

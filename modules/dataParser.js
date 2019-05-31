@@ -14,7 +14,7 @@ function dataParser(items, numOfAgents) {
         items.forEach(element => {
             let signature = Object.values(element)[1];
             if (signature == ndx) {
-                let timeStamp = Object.values(element)[2];
+                let timeStamp = moment(Object.values(element)[2].toString(), "YYYYMMDDHH");
                 let dataPt = new dataPoint(timeStamp, element.dataValue);
                 agentData.push(dataPt);
             }

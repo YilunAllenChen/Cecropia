@@ -369,9 +369,20 @@
 
 <script>
 
-  let mm = moment('2019040109', 'YYYYMMDDHH');
-  console.log(mm);
+var urlParams;
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
 
+    urlParams = {};
+    while (match = search.exec(query))
+       urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+  console.log(urlParams, 'hiii');
 
 
   let areaChart = new Chart(document.getElementById("line-chart1"), {
@@ -389,7 +400,7 @@
           type: 'time',
           time: {
             unit: 'day',
-            unitStepSize: 5
+            unitStepSize: 5,
           }
         }]
       },
@@ -418,7 +429,7 @@
       },
       elements: {
         line: {
-          tension: 0.2 // disables bezier curves
+          tension: 0.2
         }
       }
     }

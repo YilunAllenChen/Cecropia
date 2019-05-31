@@ -6,17 +6,23 @@ acceptables = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10',
                '28', '29', '30']
 
 string = "["
+cacheDataValue = rd.randint(0,100)
 
 for i in range(500):
     dataPoint = "{\n\t\"signature\": " + str(rd.randint(0, 10)) + ",\n"
 
-    timeStamp = "2019-" + acceptables[rd.randint(1, 6)] + "-" + acceptables[rd.randint(1, 30)] + " " + acceptables[rd.randint(0, 24)]
+    timeStamp = int('2019' + acceptables[rd.randint(1, 6)] + acceptables[rd.randint(1, 30)]  + acceptables[rd.randint(0, 24)])
 
-    dataPoint = dataPoint + "\t\"timeStamp\": \"" + timeStamp + "\",\n"
+    dataPoint = dataPoint + "\t\"timeStamp\": " + str(timeStamp) + ",\n"
     dataPoint = dataPoint + "\t\"dataType\": " + \
         dataTypes[rd.randint(0, 2)] + ",\n"
     dataPoint = dataPoint + "\t\"dataValue\": " + \
-        str(rd.randint(10, 100)) + "\n}"
+        str(cacheDataValue) + "\n}"
+    cacheDataValue = cacheDataValue + (rd.randint(-5,5))
+    if(cacheDataValue > 100):
+        cacheDataValue -= 15
+    if(cacheDataValue < 0):
+        cacheDataValue += 15
     if(i < 499):
         dataPoint = dataPoint + ",\n"
     string = string + dataPoint
