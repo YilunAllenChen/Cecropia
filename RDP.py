@@ -28,6 +28,7 @@ for month in acceptables[4:6]:
                     dataValueCache = dataValueCache + rd.randint(-2, 2)
                 dataSet = dataSet + str(dataPoint) + ',\n'
         dataSet = dataSet[0:-2] + ']'
-        r = requests.post('http://localhost/dataPost', data=dataSet)
+        dataSet = dataSet.replace("\'","\"")
+        r = requests.post('http://localhost/dataPost', data=dataSet, headers={'content-type': 'application/json'})
         pastebin_url = r.text 
         print('date: ' + month + day + " : " + pastebin_url)
