@@ -8,16 +8,15 @@ acceptables = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10',
 
 dataValueCache = 50
 
-
-for month in acceptables[4:6]:
+for month in acceptables[7:12]:
     for day in acceptables[1:31]:
         dataSet = '['
-        for hour in acceptables[0:24:6]:
+        for hour in acceptables[0:24:2]:
             for agent in range(10):
                 dataPoint = {
                     'signature': agent,
-                    'timeStamp': int('2019' + month + day + hour),
-                    'dataType': dataTypes[1],
+                    'timeStamp': int('2018' + month + day + hour),
+                    'dataType': dataTypes[0],
                     'dataValue': dataValueCache
                 }
                 if(dataValueCache > 100):
@@ -31,4 +30,4 @@ for month in acceptables[4:6]:
         dataSet = dataSet.replace("\'","\"")
         r = requests.post('http://localhost/dataPost', data=dataSet, headers={'content-type': 'application/json'})
         pastebin_url = r.text 
-        print('date: ' + month + day + " : " + pastebin_url)
+    print('date: ' + month + " : " + pastebin_url)

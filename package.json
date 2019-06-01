@@ -9,6 +9,7 @@
   "author": "Allen Chen",
   "license": "ISC",
   "dependencies": {
+    "dygraphs": "^2.1.0",
     "express": "^4.17.0",
     "http-server": "^0.11.1",
     "moment": "^2.24.0",

@@ -13,8 +13,14 @@
 
   <!-- Custom fonts for this template-->
   <script src="./modules/moment.js"></script>
-  <script>moment().format();</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script>
+    moment().format();
+  </script>
+
+  <script src="./modules/canvasjs.min.js"></script>
+
+
+
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -34,7 +40,8 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/visitor?dataType=temperature&timeScope=30">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center"
+        href="/visitor?dataType=temperature&timeScope=30">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-tree"></i>
         </div>
@@ -214,7 +221,7 @@
                 <!-- Card Body -->
                 <div class="card-body">
                   <div class="chart-area">
-                    <canvas id="line-chart1"></canvas>
+                    <div id="areaChartContainer" style="height:300px;width:80%"></div>
                   </div>
                 </div>
               </div>
@@ -244,7 +251,7 @@
                 <!-- Card Body -->
                 <div class="card-body">
                   <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myPieChart"></canvas>
+                    <div id="pieChartContainer"></div>
                   </div>
 
                 </div>
@@ -278,11 +285,11 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Active Time</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">11 days</div>
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Active Agents</div>
+                      <div id="activeAgents" class="h5 mb-0 font-weight-bold text-gray-800">0</div>
                     </div>
                     <div class="col-auto">
-                      <i class="far fa-clock fa-2x text-gray-300"></i>
+                      <i class="fas fa-robot fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
@@ -295,21 +302,21 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Active Agents</div>
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Active Percentage</div>
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
-                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                          <div id="activePercentage" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0%</div>
                         </div>
                         <div class="col">
                           <div class="progress progress-sm mr-2">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
-                              aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" id="activePercentageBar" role="progressbar"
+                              style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-robot fa-2x text-gray-300"></i>
+                      <i class="fas fa-project-diagram fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
@@ -376,13 +383,14 @@
 </body>
 
 <script>
-
   var urlParams; //parse all the params in the url and store into urlParams. usage: urlParams['nameOfParam']
   (window.onpopstate = function () {
     var match,
-      pl = /\+/g,  // Regex for replacing addition symbol with a space
+      pl = /\+/g, // Regex for replacing addition symbol with a space
       search = /([^&=]+)=?([^&]*)/g,
-      decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+      decode = function (s) {
+        return decodeURIComponent(s.replace(pl, " "));
+      },
       query = window.location.search.substring(1);
 
     urlParams = {};
@@ -390,112 +398,30 @@
       urlParams[decode(match[1])] = decode(match[2]);
   })();
 
-  let areaChart = new Chart(document.getElementById("line-chart1"), {
-    type: 'line',
-    data: {
-      datasets: ["{{ Area Chart Data }}"
-      ]
-    },
-    options: {
-      scales: {
-        xAxes: [{
-          type: 'time',
-          time: {
-            unit: 'day',
-            unitStepSize: 5,
-          }
-        }]
-      },
-      responsive: true,
-      title: {
-        display: true,
-        text: urlParams['dataType'] + ' data collected by agent bots.'
-      },
-      maintainAspectRatio: false,
-      layout: {
-        padding: {
-          left: 5,
-          right: 5,
-          top: 5,
-          bottom: 0
-        }
-      },
-      legend: {
-        position: 'right',
-        usePointStyle: true,
-        labels: {
-          usePointStyle: true,
-          fontSize: 9,
-          padding: 10
-        }
-      },
-      elements: {
-        line: {
-          tension: 0.2
-        }
-      }
-    }
-  });
 
-  let pieChart = new Chart(document.getElementById("myPieChart"), {
-    type: 'doughnut',
-    data: {
-      labels: ["Agent 0", "Agent 1", "Agent 2", "Agent 3", "Agent 4", "Agent 5",
-        "Agent 6", "Agent 7", "Agent 8", "Agent 9"],
-      datasets: [
-        {
-          label: "Population (millions)",
-          backgroundColor: ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
-            '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
-            '#80B300', '#809900', '#E6B3B3'],
-          data: "{{ Pie Chart Data }}"
-        }
-      ]
+  var areaChart = new CanvasJS.Chart("areaChartContainer", {
+    title: {
+      text: urlParams["dataType"] + " data collected by agent robots"
     },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      legend: {
-        position: 'bottom',
-        usePointStyle: true,
-        labels: {
-          usePointStyle: true,
-          fontSize: 9,
-          padding: 12
-        }
-      }
-    }
-  });
+    data: ["{{ Area Chart Data }}"
+      // Change type to "doughnut", "line", "splineArea", etc.
 
-  //Organize the labels of the x-axis.
-  switch (urlParams['timeScope']) {
-    case '365':
-      areaChart.options.scales.xAxes[0].time.unit = 'month';
-      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-      break;
-    case '90':
-      areaChart.options.scales.xAxes[0].time.unit = 'week';
-      areaChart.options.scales.xAxes[0].time.unitStepSize = 2;
-      break;
-    case '30':
-      areaChart.options.scales.xAxes[0].time.unit = 'week';
-      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-      break;
-    case '7':
-      areaChart.options.scales.xAxes[0].time.unit = 'day';
-      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-      break;
-    case '5':
-      areaChart.options.scales.xAxes[0].time.unit = 'day';
-      areaChart.options.scales.xAxes[0].time.unitStepSize = 1;
-  }
-  areaChart.update();
+    ]
+  });
+  areaChart.render();
+
+
 
   //update number of dataPoints.
   let sum = 0;
-  areaChart.data.datasets.forEach(element => sum = sum + element.data.length);
+  areaChart.data.forEach(element => sum = sum + element.dataPoints.length);
   $("#dataPointCount").html(sum);
 
+  $("#activeAgents").html(areaChart.data.length);
+
+  activePercentageStr = (areaChart.data.length / 10 * 100).toString() + "%"
+  $("#activePercentage").html(activePercentageStr);
+  $("#activePercentageBar").attr("style", "width: " + activePercentageStr);
 
   //update all the links
   $("#dataTypeTemperature").attr("href", "./visitor?dataType=temperature&timeScope=" + urlParams['timeScope']);
@@ -506,10 +432,6 @@
   $("#timeScopeWeek").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=7");
   $("#timeScopeFiveDays").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=5");
   $("#timeScopeThreeMonths").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=90");
-
-
-
-
 </script>
 
 </html>

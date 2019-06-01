@@ -80,7 +80,7 @@ app.get('/visitor', (req, res) => {
       var result = data.replace('"{{ Area Chart Data }}"', sampleParser.replacement);
 
       //change the data of the pie chart to be displayed
-      var result = result.replace('"{{ Pie Chart Data }}"', sampleParser.dataByAgents);
+      //var result = result.replace('"{{ Pie Chart Data }}"', sampleParser.dataByAgents);
 
       res.write(result);
       res.end();

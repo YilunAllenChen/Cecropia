@@ -1,10 +1,8 @@
-var moment = require('moment');
-moment().format();
-
 function dataParser(items, numOfAgents) {
     let colors = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
         '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
-        '#80B300', '#809900', '#E6B3B3'];
+        '#80B300', '#809900', '#E6B3B3'
+    ];
     let replacement = ''; //the replacement string to be put in place of datasets.
     let dataPointsCountByAgents = [];
     for (let ndx = 0; ndx < numOfAgents; ndx++) {
@@ -12,14 +10,18 @@ function dataParser(items, numOfAgents) {
         items.forEach(element => {
             let signature = Object.values(element)[1];
             if (signature == ndx) {
-                let timeStamp = moment(Object.values(element)[2].toString(),"YYYYMMDDHH");
-                let dataPt = new dataPoint(timeStamp, element.dataValue);
+                let timeStamp = Object.values(element)[2].toString();
+                let year = parseInt(timeStamp.substring(0, 4));
+                let month = parseInt(timeStamp.substring(4, 6));
+                let day = parseInt(timeStamp.substring(6, 8));
+                let hour = parseInt(timeStamp.substring(8, 10));
+                let dataPt = new dataPoint(year, month, day, hour, element.dataValue);
                 agentData.push(dataPt);
             }
 
         });
 
-        agentData.sort((a, b) => new moment(a.x).format('YYYYMMDDHH') - new moment(b.x).format('YYYYMMDDHH'));
+        agentData.sort((a, b) => a.x - b.x);
 
         dataPointsCountByAgents.push(agentData.length);
 
@@ -34,17 +36,16 @@ function dataParser(items, numOfAgents) {
     this.replacement = replacement;
 }
 
-function dataSet(data, label, color) {
-    this.data = data;
-    this.label = label;
-    this.borderColor = color;
-    this.fill = false;
+function dataSet(data) {
+    this.type = "line";
+    this.xValueType = "dateTime",
+    this.dataPoints = data;
     return this;
 }
 
-function dataPoint(x, y) {
-    this.x = x;
-    this.y = y;
+function dataPoint(year, month, day, hour, value) {
+    this.x = Date.UTC(year,month-1,day,hour);
+    this.y = value;
     return this;
 }
 
