@@ -396,7 +396,12 @@
 
   var areaChart = new CanvasJS.Chart("areaChartContainer", {
     title: {
-      text: urlParams["dataType"] + " data collected by agent robots"
+      fontFamily: "arial",
+      text: urlParams["dataType"] + " data in past " + urlParams['timeScope'] + " days"
+    },
+    legend: {
+      horizontalAlign: "right", // left, center ,right 
+      verticalAlign: "center",  // top, center, 
     },
     data: ["{{ Area Chart Data }}"
 
@@ -404,9 +409,9 @@
   });
 
   var pieChart = new CanvasJS.Chart("pieChartContainer", {
-    
     data: [{
       type: "doughnut",
+      showInLegend: false,
       dataPoints: ["{{ Pie Chart Data }}"
       ]
     }]
