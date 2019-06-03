@@ -8,9 +8,9 @@ function dataParser(items, numOfAgents) {
     for (let ndx = 0; ndx < numOfAgents; ndx++) {
         let agentData = [];
         items.forEach(element => {
-            let signature = Object.values(element)[1];
+            let signature = element.signature;
             if (signature == ndx) {
-                let timeStamp = Object.values(element)[2].toString();
+                let timeStamp = element.timeStamp.toString();
                 let year = parseInt(timeStamp.substring(0, 4));
                 let month = parseInt(timeStamp.substring(4, 6));
                 let day = parseInt(timeStamp.substring(6, 8));
