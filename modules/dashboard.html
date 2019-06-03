@@ -11,11 +11,6 @@
 
   <title>SlothBot Environment Monitoring Dashboard</title>
 
-  <!-- Custom fonts for this template-->
-  <script src="./modules/moment.js"></script>
-  <script>
-    moment().format();
-  </script>
 
   <script src="./modules/canvasjs.min.js"></script>
 
@@ -170,7 +165,7 @@
           <div class="row">
 
             <!-- Area Chart -->
-            <div class="col-xl-9 col-lg-12">
+            <div class="col-xl-9 col-lg-9 col-md-12">
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
@@ -221,14 +216,14 @@
                 <!-- Card Body -->
                 <div class="card-body">
                   <div class="chart-area">
-                    <div id="areaChartContainer" style="height:300px;width:80%"></div>
+                    <div id="areaChartContainer" style="height:300px;width:100%"></div>
                   </div>
                 </div>
               </div>
             </div>
 
             <!-- Pie Chart -->
-            <div class="col-xl-3 col-lg-12">
+            <div class="col-xl-3 col-lg-3 col-md-12">
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
@@ -250,8 +245,8 @@
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-                  <div class="chart-pie pt-4 pb-2">
-                    <div id="pieChartContainer"></div>
+                  <div class="chart-pie pt-4 pb-4">
+                    <div id="pieChartContainer" style="height:250px;width:100%"></div>
                   </div>
 
                 </div>
@@ -404,10 +399,22 @@
       text: urlParams["dataType"] + " data collected by agent robots"
     },
     data: ["{{ Area Chart Data }}"
-      // Change type to "doughnut", "line", "splineArea", etc.
 
     ]
   });
+
+  var pieChart = new CanvasJS.Chart("pieChartContainer", {
+    
+    data: [{
+      type: "doughnut",
+      dataPoints: ["{{ Pie Chart Data }}"
+      ]
+    }]
+  });
+
+  pieChart.render();
+
+
   areaChart.render();
 
 

@@ -3,9 +3,11 @@ Server computer:
     1. node.js
     2. mongoDB
     3. under the repo "npm install" to add all dependencies
+    4. pip install requests
 Agent robots:
     1. pip install requests numpy pyserial
 
 run:
     1. under the repo "node app.js"
-    2. go to web browser, "localhost/visitor" to see data in local database.
+    2. go to web browser, "localhost/visitor?dataType=Temperature&timeScope=30" to see data in local database.
+    3. send mock data by using "python ./RDP.py"

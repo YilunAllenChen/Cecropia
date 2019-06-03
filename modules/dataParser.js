@@ -25,19 +25,27 @@ function dataParser(items, numOfAgents) {
 
         dataPointsCountByAgents.push(agentData.length);
 
-        let someSet = new dataSet(agentData, 'agent ' + ndx, colors[ndx]);
+        let someSet = new dataSet(agentData, ndx);
         replacement = replacement + JSON.stringify(someSet);
 
         if (ndx != numOfAgents - 1) {
             replacement = replacement + ',\n';
         }
     }
-    this.dataByAgents = '[' + dataPointsCountByAgents.toString() + ']';
+    let dataByAgentsStr = ''
+    dataPointsCountByAgents.forEach((element,ndx) => {
+        dataByAgentsStr = dataByAgentsStr + "{\n\ty: " + element.valueOf().toString() + ",\n\t" +
+        "indexLabel: \"Agent " + ndx.toString() + "\"\n},";
+    })
+
+    this.dataByAgents = dataByAgentsStr;
     this.replacement = replacement;
 }
 
-function dataSet(data) {
+function dataSet(data, ndx) {
     this.type = "line";
+    this.showInLegend = true;
+    this.legendText = "Agent " + ndx.toString();
     this.xValueType = "dateTime",
     this.dataPoints = data;
     return this;
