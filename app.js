@@ -12,11 +12,13 @@ moment().format();
 
 
 //setting up app and config.
-const hostname = '127.0.0.1';
+const hostname = '192.168.137.27';
 const app = express();
 const port = 80;
 app.set('port', process.env.PORT || port);
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
 app.use(bodyParser.json());
 app.use(express.static(__dirname)); //so that the file of res.sendFile can source another file.
 
@@ -24,7 +26,9 @@ app.use(express.static(__dirname)); //so that the file of res.sendFile can sourc
 //setting up mongoDB.
 var coll;
 const MongoClient = require('mongodb').MongoClient;
-MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, function (err, client) {
+MongoClient.connect('mongodb://192.168.137.27:27017', {
+  useNewUrlParser: true
+}, function (err, client) {
   if (err) throw err;
   coll = client.db("mydb").collection('agentData');
   console.log('database connection established.');
@@ -32,8 +36,10 @@ MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, func
 
 
 //routings
-app.get('/', (req, res) => {   //basic routing
-  res.sendFile('./index.html', { root: __dirname });
+app.get('/', (req, res) => { //basic routing
+  res.sendFile('./index.html', {
+    root: __dirname
+  });
 });
 
 app.post('/dataPost', (req, res) => {
@@ -42,6 +48,7 @@ app.post('/dataPost', (req, res) => {
       coll.insertOne(req.body[key])
     }
   }
+  console.log("new data received")
   res.status(200).send({
     isSuccessful: true,
     type: 'SAVE'
@@ -66,16 +73,23 @@ app.post('/dataPost', (req, res) => {
 
 app.get('/visitor', (req, res) => {
   let currentTime = parseInt(moment().format("YYYYMMDDHH"));
-  let since = parseInt(moment().subtract(req.query.timeScope,'day').format("YYYYMMDDHH"));
+  let since = parseInt(moment().subtract(req.query.timeScope, 'day').format("YYYYMMDDHH"));
 
-  let collectionQuery = { dataType: req.query.dataType, timeStamp: { $gt: since, $lt: currentTime } };
+  let collectionQuery = {
+    dataType: req.query.dataType,
+    timeStamp: {
+      $gt: since,
+      $lt: currentTime
+    }
+  };
   coll.find(collectionQuery).toArray((err, items) => {
     //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
     let sampleParser = new dataParser(items, numOfAgents);
-
     //modify the html with the replacement string.
     fs.readFile('./modules/dashboard.html', 'utf-8', function (err, data) {
-      res.writeHead(200, { 'Content-Type': 'text/html' });
+      res.writeHead(200, {
+        'Content-Type': 'text/html'
+      });
       //change the data of the area chart to be displayed.
       var result = data.replace('"{{ Area Chart Data }}"', sampleParser.replacement);
 
