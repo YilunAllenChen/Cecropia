@@ -7,6 +7,7 @@ acceptables = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10',
                '28', '29', '30']
 
 dataValueCache = 50
+hostname = '192.168.137.1'
 
 for month in acceptables[0:6]:
     for day in acceptables[1:31]:
@@ -28,7 +29,7 @@ for month in acceptables[0:6]:
                 dataSet = dataSet + str(dataPoint) + ',\n'
         dataSet = dataSet[0:-2] + ']'
         dataSet = dataSet.replace("\'","\"")
-        r = requests.post('http://192.168.137.27/dataPost', data=dataSet, headers={'content-type': 'application/json'})
+        r = requests.post('http://' + hostname + '/dataPost', data=dataSet, headers={'content-type': 'application/json'})
         pastebin_url = r.text 
     print('Temperature | Month: ' + month + " : " + pastebin_url)
 
@@ -52,7 +53,7 @@ for month in acceptables[0:6]:
                 dataSet = dataSet + str(dataPoint) + ',\n'
         dataSet = dataSet[0:-2] + ']'
         dataSet = dataSet.replace("\'","\"")
-        r = requests.post('http://192.168.137.27/dataPost', data=dataSet, headers={'content-type': 'application/json'})
+        r = requests.post('http://' + hostname + '/dataPost', data=dataSet, headers={'content-type': 'application/json'})
         pastebin_url = r.text 
     print('Humidity | Month: ' + month + " : " + pastebin_url)
 
@@ -77,6 +78,6 @@ for month in acceptables[0:6]:
                 dataSet = dataSet + str(dataPoint) + ',\n'
         dataSet = dataSet[0:-2] + ']'
         dataSet = dataSet.replace("\'","\"")
-        r = requests.post('http://192.168.137.27/dataPost', data=dataSet, headers={'content-type': 'application/json'})
+        r = requests.post('http://' + hostname + '/dataPost', data=dataSet, headers={'content-type': 'application/json'})
         pastebin_url = r.text 
     print('Vibration | Month: ' + month + " : " + pastebin_url)
