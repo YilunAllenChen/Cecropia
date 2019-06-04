@@ -4,6 +4,7 @@ Server computer:
     2. mongoDB
     3. under the repo "npm install" to add all dependencies
     4. pip install requests
+    5. change etd/mongod.conf -> bind_ip to 0.0.0.0
 Agent robots:
     1. pip install requests numpy pyserial
 

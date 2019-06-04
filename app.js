@@ -26,7 +26,7 @@ app.use(express.static(__dirname)); //so that the file of res.sendFile can sourc
 //setting up mongoDB.
 var coll;
 const MongoClient = require('mongodb').MongoClient;
-MongoClient.connect('mongodb://192.168.137.27:27017', {
+MongoClient.connect('mongodb://' + hostname + ':27017', {
   useNewUrlParser: true
 }, function (err, client) {
   if (err) throw err;
