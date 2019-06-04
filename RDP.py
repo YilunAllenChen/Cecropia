@@ -30,4 +30,53 @@ for month in acceptables[0:6]:
         dataSet = dataSet.replace("\'","\"")
         r = requests.post('http://192.168.137.27/dataPost', data=dataSet, headers={'content-type': 'application/json'})
         pastebin_url = r.text 
-    print('date: ' + month + " : " + pastebin_url)
+    print('Temperature | Month: ' + month + " : " + pastebin_url)
+
+for month in acceptables[0:6]:
+    for day in acceptables[1:31]:
+        dataSet = '['
+        for hour in acceptables[0:24:1]:
+            for agent in range(10):
+                dataPoint = {
+                    'signature': agent,
+                    'timeStamp': int('2019' + month + day + hour),
+                    'dataType': dataTypes[1],
+                    'dataValue': dataValueCache
+                }
+                if(dataValueCache > 800):
+                    dataValueCache = dataValueCache + rd.randint(-3, 1)
+                elif(dataValueCache < 30):
+                    dataValueCache = dataValueCache + rd.randint(-1, 3)
+                else:
+                    dataValueCache = dataValueCache + rd.randint(-2, 2)
+                dataSet = dataSet + str(dataPoint) + ',\n'
+        dataSet = dataSet[0:-2] + ']'
+        dataSet = dataSet.replace("\'","\"")
+        r = requests.post('http://192.168.137.27/dataPost', data=dataSet, headers={'content-type': 'application/json'})
+        pastebin_url = r.text 
+    print('Humidity | Month: ' + month + " : " + pastebin_url)
+
+
+for month in acceptables[0:6]:
+    for day in acceptables[1:31]:
+        dataSet = '['
+        for hour in acceptables[0:24:4]:
+            for agent in range(7):
+                dataPoint = {
+                    'signature': agent,
+                    'timeStamp': int('2019' + month + day + hour),
+                    'dataType': dataTypes[2],
+                    'dataValue': dataValueCache
+                }
+                if(dataValueCache > 500):
+                    dataValueCache = dataValueCache + rd.randint(-3, 1)
+                elif(dataValueCache < 0):
+                    dataValueCache = dataValueCache + rd.randint(-1, 3)
+                else:
+                    dataValueCache = dataValueCache + rd.randint(-2, 2)
+                dataSet = dataSet + str(dataPoint) + ',\n'
+        dataSet = dataSet[0:-2] + ']'
+        dataSet = dataSet.replace("\'","\"")
+        r = requests.post('http://192.168.137.27/dataPost', data=dataSet, headers={'content-type': 'application/json'})
+        pastebin_url = r.text 
+    print('Vibration | Month: ' + month + " : " + pastebin_url)

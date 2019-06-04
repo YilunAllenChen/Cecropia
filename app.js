@@ -12,7 +12,7 @@ moment().format();
 
 
 //setting up app and config.
-const hostname = '192.168.137.27';
+const hostname = '192.168.137.1';
 const app = express();
 const port = 80;
 app.set('port', process.env.PORT || port);
@@ -32,7 +32,7 @@ MongoClient.connect('mongodb://' + hostname + ':27017', {
   if (err) throw err;
   coll = client.db("mydb").collection('agentData');
   console.log('database connection established.');
-});
+}); 
 
 
 //routings
