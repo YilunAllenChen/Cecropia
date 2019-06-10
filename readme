@@ -7,8 +7,9 @@ Server computer:
     5. change etd/mongod.conf -> bind_ip to 0.0.0.0
 Agent robots:
     1. pip install requests numpy pyserial
+    2. raspi-config -> enable i2c
 
 run:
     1. under the repo "node app.js"
-    2. go to web browser, "localhost/visitor?dataType=Temperature&timeScope=30" to see data in local database.
+    2. go to web browser, "192.168.137.1/visitor" then select desired data type to see data in local database.
     3. send mock data by using "python ./RDP.py"

@@ -48,7 +48,7 @@ app.post('/dataPost', (req, res) => {
       coll.insertOne(req.body[key])
     }
   }
-  console.log("new data received")
+  console.log("new data received");
   res.status(200).send({
     isSuccessful: true,
     type: 'SAVE'
