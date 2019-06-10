@@ -6,7 +6,7 @@ import datetime as dt
 from time import sleep
 
 bus = smbus.SMBus(1)
-address = 0x40
+address = 0x44
 hostname = '192.168.137.1'
 
 
@@ -27,10 +27,8 @@ while True:
     x = dt.datetime.now()
     dataSet = '['
 
-    print(bus.read_word_data(address,1))
-    print(bus.read_word_data(address,2))
-    print(bus.read_word_data(address,3))
-    print(bus.read_word_data(address,4))
+    print(bus.read_word_data(address, 1) + " | " +
+          bus.read_word_data(address, 2) + " | " + bus.read_word_data(address, 3))
 
     dataPoint = {
         'signature': 1,
@@ -42,8 +40,7 @@ while True:
 
     sleep(1)
 
-    #print(dataPoint)
-
+    # print(dataPoint)
 
     # dataSet = dataSet + str(dataPoint) + ',\n'
     # dataSet = dataSet[0:-2] + ']'
