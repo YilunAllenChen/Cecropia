@@ -3,6 +3,7 @@ import requests
 import smbus as smbus
 import smbus2 as smbus
 import datetime as dt
+from time import sleep
 
 bus = smbus.SMBus(1)
 address = 0x29
@@ -29,8 +30,11 @@ while True:
         'signature': 1,
         'timeStamp': int(x.strftime("%Y") + x.strftime("%m") + x.strftime("%d") + x.strftime("%H ")),
         'dataType': "temperature",
-        'dataValue': range()
+        'dataValue': lightlevel(),
+        'dataRange': range()
     }
+
+    sleep(1)
 
     print(dataPoint)
 
