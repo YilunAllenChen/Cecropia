@@ -27,8 +27,8 @@ while True:
     x = dt.datetime.now()
     dataSet = '['
 
-    print(str(bus.read_word_data(address, 1)) + " | " +
-          str(bus.read_word_data(address, 2)) + " | " + str(bus.read_word_data(address, 3))
+    print(str(bus.read_word_data(address, 0)) + " | " +
+          str(bus.read_word_data(address, 1)) + " | " + str(bus.read_word_data(address, 2)))
 
     dataPoint = {
         'signature': 1,
