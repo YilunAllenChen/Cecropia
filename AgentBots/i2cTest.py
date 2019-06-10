@@ -18,7 +18,7 @@ def range():
 
 
 def lightlevel():
-    light = bus.read_byte_data(address, 1)
+    light = bus.read_byte_data(address, 0)
     return light
 
 
@@ -27,20 +27,16 @@ while True:
     x = dt.datetime.now()
     dataSet = '['
 
-    print(str(bus.read_byte_data(address, 0)) + " | " +
-          str(bus.read_byte_data(address, 1)) + " | " + str(bus.read_byte_data(address, 2)))
-
     dataPoint = {
         'signature': 1,
         'timeStamp': int(x.strftime("%Y") + x.strftime("%m") + x.strftime("%d") + x.strftime("%H ")),
         'dataType': "temperature",
-        'dataValue': lightlevel(),
-        'dataRange': range()
+        'dataValue': lightlevel()
     }
 
     sleep(1)
 
-    # print(dataPoint)
+    print(dataPoint)
 
     # dataSet = dataSet + str(dataPoint) + ',\n'
     # dataSet = dataSet[0:-2] + ']'
