@@ -36,11 +36,12 @@ while True:
 
     sleep(1)
 
-    print(dataPoint)
+    
+    dataSet = dataSet + str(dataPoint) + ',\n'
+    dataSet = dataSet[0:-2] + ']'
+    dataSet = dataSet.replace("\'", "\"")
 
-    # dataSet = dataSet + str(dataPoint) + ',\n'
-    # dataSet = dataSet[0:-2] + ']'
-    # dataSet = dataSet.replace("\'", "\"")
+    print(dataSet)
     # r = requests.post('http://' + hostname + '/dataPost',
     #                   data=dataSet, headers={'content-type': 'application/json'})
     # pastebin_url = r.text
