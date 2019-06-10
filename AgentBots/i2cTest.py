@@ -6,7 +6,7 @@ import datetime as dt
 from time import sleep
 
 bus = smbus.SMBus(1)
-address = 0x29
+address = 0x40
 hostname = '192.168.137.1'
 
 
