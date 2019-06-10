@@ -26,6 +26,12 @@ while True:
 
     x = dt.datetime.now()
     dataSet = '['
+
+    print(bus.read_word_data(address,1))
+    print(bus.read_word_data(address,2))
+    print(bus.read_word_data(address,3))
+    print(bus.read_word_data(address,4))
+
     dataPoint = {
         'signature': 1,
         'timeStamp': int(x.strftime("%Y") + x.strftime("%m") + x.strftime("%d") + x.strftime("%H ")),
@@ -36,7 +42,7 @@ while True:
 
     sleep(1)
 
-    print(dataPoint)
+    #print(dataPoint)
 
 
     # dataSet = dataSet + str(dataPoint) + ',\n'
