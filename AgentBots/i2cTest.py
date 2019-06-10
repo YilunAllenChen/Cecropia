@@ -24,7 +24,7 @@ def lightlevel():
 
 while True:
 
-    x = dt.datetime(2019,1,10,20)
+    x = dt.datetime.now()
     dataSet = '['
 
     dataPoint = {
