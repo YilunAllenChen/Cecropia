@@ -34,7 +34,7 @@ while True:
         'dataValue': lightlevel()
     }
 
-    sleep(1)
+    sleep(3600)
 
 
     dataSet = dataSet + str(dataPoint) + ',\n'
