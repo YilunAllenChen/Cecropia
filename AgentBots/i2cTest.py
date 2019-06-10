@@ -4,7 +4,7 @@ import smbus as smbus
 import smbus2 as smbus
 import datetime as dt
 
-bus = smbus.SMBus(0)
+bus = smbus.SMBus(1)
 address = 0x29
 hostname = '192.168.137.1'
 
