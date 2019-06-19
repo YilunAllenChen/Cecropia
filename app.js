@@ -93,6 +93,8 @@ app.get('/visitor', (req, res) => {
       //change the data of the area chart to be displayed.
       var result = data.replace('"{{ Area Chart Data }}"', sampleParser.replacement);
 
+      console.log(sampleParser.replacement);
+
       //change the data of the pie chart to be displayed
       var result = result.replace('"{{ Pie Chart Data }}"', sampleParser.dataByAgents);
 
