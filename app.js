@@ -32,7 +32,7 @@ MongoClient.connect('mongodb://' + hostname + ':27017', {
   if (err) throw err;
   coll = client.db("mydb").collection('agentData');
   console.log('database connection established.');
-}); 
+});
 
 
 //routings
@@ -72,7 +72,7 @@ app.post('/dataPost', (req, res) => {
 
 
 app.get('/visitor', (req, res) => {
-  let currentTime = parseInt(moment().add(1,'day').format("YYYYMMDDHH"));
+  let currentTime = parseInt(moment().add(1, 'day').format("YYYYMMDDHH"));
   let since = parseInt(moment().subtract(req.query.timeScope, 'day').format("YYYYMMDDHH"));
 
   let collectionQuery = {
