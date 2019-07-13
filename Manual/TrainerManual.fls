@@ -1,7 +1,7 @@
-PWD c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual
+PWD c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual
 INPUT C:\Users\allen\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.tex
-OUTPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.log
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.tex
+OUTPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.log
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
@@ -90,9 +90,9 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.aux
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.aux
-OUTPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.aux
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux
+OUTPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
@@ -101,33 +101,33 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
-OUTPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.bcf
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.bbl
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.bbl
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.bbl
+OUTPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.bcf
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.bbl
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.bbl
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.bbl
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.pdf
+OUTPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.pdf
 INPUT C:\Users\allen\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.toc
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.toc
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.toc
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.toc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-OUTPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.toc
+OUTPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.toc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\sample.png
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\sample.png
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\sample.png
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\sample.png
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\sample.png
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\sample.png
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\sample.png
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\sample.png
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\sample.png
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\sample.png
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.aux
-INPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.run.xml
-OUTPUT c:\Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.run.xml
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux
+INPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.run.xml
+OUTPUT c:\Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.run.xml
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb

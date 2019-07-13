@@ -60,7 +60,13 @@ and visualize the data on a web page that it serves.
 \paragraph{}This document aims to provide an overview of how the project works for future developers of the project. Details of how the project is structured, 
 how it achieves different functionalities, how to deal with emergencies/bugs will be provided.
 \paragraph{}
-\includegraphics[scale=0.5]{sample}
+\paragraph{}
+\begin{center}
+  \includegraphics[scale=0.5]{sample}
+  Figure 1. GUI screenshot of the Cecropia system.
+\end{center}
+
+
 
 \newpage
 \subsection{Tech Stack}
@@ -72,8 +78,8 @@ NPM offers a wide variety of packages, providing almost all functionalities desi
 \paragraph{Database:} MongoDB\\
 MongoDB uses JSON-like syntax as the form of its document. This feature/characteristic means that its documents
 can be easily translated into a form that is easy for JavaScript to use.
-\paragraph{User Interface:} JQuery \& Bootstrap
-jQuery and Bootstrap offer a wide choice of tempates that we can straight up use and build upon, while adding a lot of additional 
+\paragraph{User Interface:} JQuery \& Bootstrap\\
+jQuery and Bootstrap offer a wide choice of templates that we can straight up use and build upon, while adding a lot of additional 
 handy functionalities that can be used in overall development process.
 \paragraph{Package Management:} NPM\\
 Almost all JavaScript packages can be found on NPM. It is extremely easy to use and it also offers great mobility - When 
@@ -126,6 +132,11 @@ locate the problem and solve it. Only the modules used in real deployment will b
   \item Establish Connection: It setup express and starts to serve on desired IP.
   \item Database Connection: It attempts to connect to MongoDB via port 27017.
   \item It routes different request to different sites.
+  \begin{itemize}
+    \item /visitor: Dashboard of the system, where users can obtain data.
+    \item /dataPost: Interface between robots and the system. Used to post data.
+    \item /clearData: Used to clean up all data stored in the database. 
+  \end{itemize}
 \end{itemize}
 
 \subsection{dashboard.html}

@@ -10,6 +10,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{2}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{2}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Tech Stack}{3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Web Framework:}{3}% 

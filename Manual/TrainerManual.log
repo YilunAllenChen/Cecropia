@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.16)  1 JUL 2019 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.16)  13 JUL 2019 18:43
 entering extended mode
-**"c:/Users/allen/Downloads/Personal Projects/Cecropia/Manual/TrainerManual.tex"
-("c:/Users/allen/Downloads/Personal Projects/Cecropia/Manual/TrainerManual.tex"
+**c:/Users/allen/Downloads/Personal_Projects/Cecropia/Manual/TrainerManual.tex
+(c:/Users/allen/Downloads/Personal_Projects/Cecropia/Manual/TrainerManual.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -386,7 +386,7 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 \@quotelevel=\count300
 \@quotereset=\count301
- ("c:/Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.aux")
+ (c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux)
 \openout1 = `TrainerManual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -433,7 +433,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'TrainerManual.bbl' found.
- ("c:/Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.bbl")
+ (c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.bbl)
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
 \c@lstlisting=\count308
@@ -474,7 +474,7 @@ Package biblatex Info: Reference segment=0 on input line 21.
 
 [1
 
-{C:/Users/allen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] ("c:/Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.toc")
+{C:/Users/allen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.toc)
 \tf@toc=\write4
 \openout4 = `TrainerManual.toc'.
 
@@ -482,35 +482,30 @@ Package biblatex Info: Reference segment=0 on input line 21.
 <sample.png, id=11, 963.6pt x 642.14906pt>
 File: sample.png Graphic file (type png)
 <use sample.png>
-Package pdftex.def Info: sample.png  used on input line 63.
+Package pdftex.def Info: sample.png  used on input line 65.
 (pdftex.def)             Requested size: 481.79883pt x 321.07375pt.
-
-Overfull \hbox (8.102pt too wide) in paragraph at lines 63--64
- [] [] 
- []
-
-[2 <c:/Users/allen/Downloads/Personal Projects/Cecropia/Manual/sample.png>] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 125.
+ [2 <c:/Users/allen/Downloads/Personal_Projects/Cecropia/Manual/sample.png>] [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
- [5] [6] ("c:/Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.aux")
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+ [5] [6] (c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux)
 Package logreq Info: Writing requests to 'TrainerManual.run.xml'.
 \openout1 = `TrainerManual.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  11036 strings out of 492895
- 182150 string characters out of 3133479
+ 182146 string characters out of 3133479
  651857 words of memory out of 3000000
  14859 multiletter control sequences out of 15000+200000
  5780 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,5n,35p,884b,1030s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,5n,35p,882b,1030s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:/Users\allen\Downloads\Personal Projects\Cecropia\Manual\TrainerManual.pdf" (7 pages, 254812 bytes).
+Output written on c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.pdf (7 pages, 255090 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
