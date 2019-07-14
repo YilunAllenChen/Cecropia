@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.16)  13 JUL 2019 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.6.16)  14 JUL 2019 10:32
 entering extended mode
 **c:/Users/allen/Downloads/Personal_Projects/Cecropia/Manual/TrainerManual.tex
 (c:/Users/allen/Downloads/Personal_Projects/Cecropia/Manual/TrainerManual.tex
@@ -491,7 +491,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
- [5] [6] (c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux)
+ [5] [6]
+Overfull \hbox (38.01537pt too wide) in paragraph at lines 226--227
+[]\OT1/cmr/m/n/10 Change the con-fig-u-ra-tion file's bind[]ip = 0.0.0.0 (https://docs.mongodb.com/manual/reference/configuration-
+ []
+
+[7] (c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.aux)
 Package logreq Info: Writing requests to 'TrainerManual.run.xml'.
 \openout1 = `TrainerManual.run.xml'.
 
@@ -505,9 +510,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  35i,5n,35p,882b,1030s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.pdf (7 pages, 255090 bytes).
+Output written on c:/Users\allen\Downloads\Personal_Projects\Cecropia\Manual\TrainerManual.pdf (8 pages, 257316 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

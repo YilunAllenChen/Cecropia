@@ -212,5 +212,33 @@ it not being able to display RDP data, it means that dataParser is malfunctionin
   }
 \end{lstlisting}
 
+\newpage
+\section{Deploying Cecropia}
+In the last section of this document I show you how to deploy Cecropia system onto the local network.
+\subsection{Installation}
+\begin{itemize}
+  \item On Server Computer:
+  \begin{itemize}
+    \item Install node.JS
+    \item Install mongoDB
+    \item under the project directory, do 'npm install'
+    \item do 'pip install requests'
+    \item Change the configuration file's bind\_ip = 0.0.0.0 (https://docs.mongodb.com/manual/reference/configuration-options/)
+  \end{itemize}
+  \item On Agent Robots:
+  \begin{itemize}
+    \item pip install requests
+    \item use command raspi-config to enable i2c
+  \end{itemize}
+\end{itemize}
+
+\subsection{Test the server}
+\begin{itemize}
+  \item Under the repo "node app.js"
+  \item Go to web browser, "192.168.137.1/visitor" then select desired data type to see data in local database.
+  \item Send mock data by using "python ./RDP.py"
+  \item Let the robots connect to the same network to enable connection.
+\end{itemize}
+
 
 \end{document}

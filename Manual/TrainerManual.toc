@@ -85,3 +85,9 @@
 \contentsline {subsection}{\numberline {5.2}Document Entry in MongoDB}{6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}String Processed by DataParser}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Deploying Cecropia}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Installation}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Test the server}{7}% 

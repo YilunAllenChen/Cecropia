@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'TrainerManual.blg'
-[65] biber-MSWIN64:315> INFO - === 
-[120] Biber.pm:371> INFO - Reading 'TrainerManual.bcf'
-[309] Utils.pm:193> WARN - No data sources defined!
+[0] Config.pm:307> INFO - Logfile is 'TrainerManual.blg'
+[25] biber-MSWIN64:315> INFO - === 
+[52] Biber.pm:371> INFO - Reading 'TrainerManual.bcf'
+[129] Utils.pm:193> WARN - No data sources defined!
