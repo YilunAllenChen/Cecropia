@@ -3,7 +3,7 @@ function dataParser(items, numOfAgents) {
         '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
         '#80B300', '#809900', '#E6B3B3'
     ];
-    let replacement = ''; //the replacement string to be put in place of datasets.
+    let dataByTime = ''; //the dataByTime string to be put in place of datasets.
     let dataPointsCountByAgents = [];
     for (let ndx = 0; ndx < numOfAgents; ndx++) {
         let agentData = [];
@@ -26,10 +26,10 @@ function dataParser(items, numOfAgents) {
         dataPointsCountByAgents.push(agentData.length);
 
         let someSet = new dataSet(agentData, ndx);
-        replacement = replacement + JSON.stringify(someSet);
+        dataByTime = dataByTime + JSON.stringify(someSet);
 
         if (ndx != numOfAgents - 1) {
-            replacement = replacement + ',\n';
+            dataByTime = dataByTime + ',\n';
         }
     }
     let dataByAgentsStr = ''
@@ -39,7 +39,7 @@ function dataParser(items, numOfAgents) {
     })
 
     this.dataByAgents = dataByAgentsStr;
-    this.replacement = replacement;
+    this.dataByTime = dataByTime;
 }
 
 function dataSet(data, ndx) {

@@ -135,7 +135,7 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="/#">  
+        <a class="nav-link" href="/#">
           <i class="fas fa-trash-alt"></i>
           <span>Clear Data</span></a>
       </li>
@@ -172,6 +172,7 @@
                   <h6 class="m-0 font-weight-bold text-primary">Data by Time</h6>
                   <div class="col-xl-9 col-lg-8 col-sm-7"></div>
                   <!-- Time Selection: Under Construction. TODO-->
+
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
@@ -401,7 +402,7 @@
     },
     legend: {
       horizontalAlign: "right", // left, center ,right 
-      verticalAlign: "center",  // top, center, 
+      verticalAlign: "center", // top, center, 
     },
     data: ["{{ Area Chart Data }}"
 
@@ -412,8 +413,7 @@
     data: [{
       type: "doughnut",
       showInLegend: false,
-      dataPoints: ["{{ Pie Chart Data }}"
-      ]
+      dataPoints: ["{{ Pie Chart Data }}"]
     }]
   });
 
