@@ -102,6 +102,28 @@ app.get('/visitor', (req, res) => {
   });
 });
 
+
+
+
+app.get('/fetch', (req, res) => {
+  let currentTime = parseInt(moment().add(1, 'day').format("YYYYMMDDHH"));
+  let since = parseInt(moment().subtract(req.query.timeScope, 'day').format("YYYYMMDDHH"));
+  let collectionQuery = {
+    dataType: req.query.dataType,
+    timeStamp: {
+      $gt: since,
+      $lt: currentTime
+    }
+  };
+  coll.find(collectionQuery).toArray((err, items) => {
+    //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
+    let sampleParser = new dataParser(items, numOfAgents);
+    res.write(sampleParser.dataByTime);
+    res.end();
+  });
+});
+
+
 app.get('/clearData', (req, res) => {
   coll.remove();
   console.log("collection cleared");

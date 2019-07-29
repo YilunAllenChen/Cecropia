@@ -181,18 +181,13 @@
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                       aria-labelledby="dropdownMenuLink">
                       <div class="dropdown-header">Select Time Scale:</div>
-                      <a id='timeScopeYear' class="dropdown-item"
-                        href="./visitor?dataType=temperature&timeScope=365">Year</a>
-                      <a id='timeScopeMonth' class="dropdown-item"
-                        href="./visitor?dataType=temperature&timeScope=365">Month</a>
-                      <a id='timeScopeWeek' class="dropdown-item"
-                        href="./visitor?dataType=temperature&timeScope=365">Week</a>
+                      <a id='timeScopeYear' class="dropdown-item">Year</a>
+                      <a id='timeScopeMonth' class="dropdown-item">Month</a>
+                      <a id='timeScopeWeek' class="dropdown-item">Week</a>
                       <div class="dropdown-divider"></div>
-                      <a id='timeScopeFiveDays' class="dropdown-item"
-                        href="./visitor?dataType=temperature&timeScope=5">5 Days</a>
-                      <a id='timeScopeThreeMonths' class="dropdown-item"
-                        href="./visitor?dataType=temperature&timeScope=90">3
-                        months</a>
+                      <a id='timeScopeFiveDays' class="dropdown-item">5 Days</a>
+                      <a id='timeScopeThreeMonths' class="dropdown-item">
+                        3 months</a>
                     </div>
                   </div>
                   <!-- Time selection ends-->
@@ -205,10 +200,9 @@
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                       aria-labelledby="dropdownMenuLink">
                       <div class="dropdown-header">Select Data Type:</div>
-                      <a id='dataTypeTemperature' class="dropdown-item"
-                        href="/visitor?dataType=temperature">Temperature</a>
-                      <a id='dataTypeHumidity' class="dropdown-item" href="/visitor?dataType=humidity">Humidity</a>
-                      <a id='dataTypeVibration' class="dropdown-item" href="/visitor?dataType=vibration">Vibration</a>
+                      <a id='dataTypeTemperature' class="dropdown-item">Temperature</a>
+                      <a id='dataTypeHumidity' class="dropdown-item">Humidity</a>
+                      <a id='dataTypeVibration' class="dropdown-item">Vibration</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Refresh</a>
                     </div>
@@ -418,32 +412,82 @@
   });
 
   pieChart.render();
-
-
   areaChart.render();
-
-
 
   //update number of dataPoints.
   let sum = 0;
   areaChart.data.forEach(element => sum = sum + element.dataPoints.length);
   $("#dataPointCount").html(sum);
-
   $("#activeAgents").html(areaChart.data.length);
-
   activePercentageStr = (areaChart.data.length / 10 * 100).toString() + "%"
   $("#activePercentage").html(activePercentageStr);
   $("#activePercentageBar").attr("style", "width: " + activePercentageStr);
 
-  //update all the links
-  $("#dataTypeTemperature").attr("href", "./visitor?dataType=temperature&timeScope=" + urlParams['timeScope']);
-  $("#dataTypeHumidity").attr("href", "./visitor?dataType=humidity&timeScope=" + urlParams['timeScope']);
-  $("#dataTypeVibration").attr("href", "./visitor?dataType=vibration&timeScope=" + urlParams['timeScope']);
-  $("#timeScopeYear").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=365");
-  $("#timeScopeMonth").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=30");
-  $("#timeScopeWeek").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=7");
-  $("#timeScopeFiveDays").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=5");
-  $("#timeScopeThreeMonths").attr("href", "./visitor?dataType=" + urlParams['dataType'] + "&timeScope=90");
+
+
+
+  let url_1 = "dataType=temperature&";
+  let url_2 = "timeScope=90"
+
+
+  $("#dataTypeTemperature").click(function () {
+    url_1 = "dataType=temperature&"
+    fetchData(url_1 + url_2);
+  });
+  $("#dataTypeHumidity").click(function () {
+    url_1 = "dataType=humidity&";
+    fetchData(url_1 + url_2);
+  });
+  $("#dataTypeVibration").click(function () {
+    url_1 = "dataType=vibration&";
+    fetchData(url_1 + url_2);
+  });
+  $("#timeScopeYear").click(function () {
+    url_2 ="timeScope=365";
+    fetchData(url_1 + url_2);
+  });
+  $("#timeScopeMonth").click(function () {
+    url_2 ="timeScope=30";
+    fetchData(url_1 + url_2);
+  });
+  $("#timeScopeWeek").click(function () {
+    url_2 ="timeScope=7";
+    fetchData(url_1 + url_2);
+  });
+  $("#timeScopeFiveDays").click(function () {
+    url_2 ="timeScope=5";
+    fetchData(url_1 + url_2);
+  });
+  $("#timeScopeThreeMonths").click(function () {
+    url_2 ="timeScope=90";
+    fetchData(url_1 + url_2);
+  });
+
+
+  function fetchData(url) {
+    let completeUrl = "./fetch?" + url;
+    let words = url.split(/=|&/);
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        let newData = jQuery.parseJSON("[" + this.responseText + "]");
+        areaChart = new CanvasJS.Chart("areaChartContainer", {
+          title: {
+            fontFamily: "arial",
+            text: words[1] + " data in the past " + words[3] + " days"
+          },
+          legend: {
+            horizontalAlign: "right", // left, center ,right 
+            verticalAlign: "center", // top, center, 
+          },
+          data: newData
+        });
+        areaChart.render();
+      }
+    };
+    xhttp.open("GET", completeUrl, true);
+    xhttp.send();
+  }
 </script>
 
 </html>
