@@ -118,7 +118,7 @@ app.get('/fetch', (req, res) => {
   coll.find(collectionQuery).toArray((err, items) => {
     //class dataParser gives an attribute 'replacement' to replace the datasets in chart.html.
     let sampleParser = new dataParser(items, numOfAgents);
-    res.write(sampleParser.dataByTime);
+    res.write("[[" +sampleParser.dataByTime.toString() + "]]");
     res.end();
   });
 });
