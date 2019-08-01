@@ -1,5 +1,6 @@
 import random as rd
 import requests
+import time
 
 dataTypes = ['temperature', 'humidity', 'vibration']
 acceptables = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12',
@@ -27,6 +28,7 @@ for month in acceptables[0:6]:
                 else:
                     dataValueCache = dataValueCache + rd.randint(-2, 2)
                 dataSet = dataSet + str(dataPoint) + ',\n'
+                time.sleep(0.00001)
         dataSet = dataSet[0:-2] + ']'
         dataSet = dataSet.replace("\'","\"")
         r = requests.post('http://' + hostname + '/dataPost', data=dataSet, headers={'content-type': 'application/json'})

@@ -415,6 +415,7 @@
 
   let url_1 = "dataType=temperature&";
   let url_2 = "timeScope=90"
+  setInterval(()=>{fetchData(url_1 + url_2);}, 500);
   $("#dataTypeTemperature").click(function () {
     url_1 = "dataType=temperature&"
     fetchData(url_1 + url_2);
@@ -448,7 +449,6 @@
     fetchData(url_1 + url_2);
   });
 
-  setInterval(fetchData(url_1 + url_2), 3000);
 
   function fetchData(url) {
     let completeUrl = "./fetch?" + url;
@@ -483,7 +483,7 @@
         $("#activePercentage").html(activePercentageStr);
         $("#activePercentageBar").attr("style", "width: " + activePercentageStr);
         pieChart.render();
-
+        console.log("data updated.");
       }
     };
     xhttp.open("GET", completeUrl, true);
